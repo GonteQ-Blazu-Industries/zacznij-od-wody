@@ -177,6 +177,11 @@ export default {
                         height: 60px;
                     }
                 }
+                .text{
+                    p{
+                        font-size: 25px;
+                    }
+                }
             }
         }
         @media only screen and (max-width: 768px){
@@ -191,6 +196,11 @@ export default {
                     img{
                         width: 50px;
                         height: 50px;
+                    }
+                }
+                .text{
+                    p{
+                        font-size: 18px;
                     }
                 }
             }
