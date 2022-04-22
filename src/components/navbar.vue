@@ -1,6 +1,6 @@
 <template>
     <nav :class="{'page-scrolled' : pageScrolled}" @scroll="onScroll">
-        <div id="logo-section" @click="navSlide">
+        <div id="logo-section" @click="navUnSlide">
             <router-link to="/">
                 <div id="logo">
                     <img src="@/assets/pabilkropla.png" alt="kropla wody">
@@ -15,10 +15,12 @@
             <div class="line3"></div>
         </div>
         <div class="desktop-menu-section" :class="{'nav-active' : navbarActive}">
-            <router-link to="/water-meaning" @click="navSlide"><h3>Znaczenie wody</h3></router-link>
-            <router-link to="/water-parameters" @click="navSlide"><h3>Parametry wody</h3>
+            <router-link to="/znaczenie-wody" @click="navSlide"><h3>Znaczenie wody</h3>
             </router-link>
-            <router-link to="/water-quality" @click="navSlide"><h3>Jakość wody</h3></router-link>
+            <router-link to="/parametry-wody" @click="navSlide"><h3>Parametry wody</h3>
+            </router-link>
+            <router-link to="/jakosc-wody" @click="navSlide"><h3>Jakość wody</h3>
+            </router-link>
         </div>
         <!-- <router-link to='/about' class='router'>O stronie</router-link> -->
         <!-- <router-link to="/about-me">O mnie</router-link> -->
@@ -37,6 +39,11 @@ export default {
   methods: {
     navSlide() {
       this.navbarActive = !this.navbarActive;
+    },
+    navUnSlide() {
+      if (this.navbarActive === true) {
+        this.navbarActive = !this.navbarActive;
+      }
     },
     onScroll() {
       this.pageScrolled = !this.pageScrolled;

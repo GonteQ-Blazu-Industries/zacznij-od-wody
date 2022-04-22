@@ -29,17 +29,17 @@ const routes = [
     component: AboutMe,
   },
   {
-    path: '/water-meaning',
+    path: '/znaczenie-wody',
     name: 'WaterMeaning',
     component: WaterMeaning,
   },
   {
-    path: '/water-parameters',
+    path: '/parametry-wody',
     name: 'WaterParameters',
     component: WaterParameters,
   },
   {
-    path: '/water-quality',
+    path: '/jakosc-wody',
     name: 'WaterQuality',
     component: WaterQuality,
   },
