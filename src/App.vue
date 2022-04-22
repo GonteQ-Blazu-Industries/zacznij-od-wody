@@ -28,7 +28,7 @@ export default {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   // -ms-overflow-style: none;
   // scrollbar-width: none;
 }
