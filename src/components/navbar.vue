@@ -15,10 +15,11 @@
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
-        <div class="desktop-menu-section">
-            <router-link to="/water-meaning"><h3>Znaczenie wody</h3></router-link>
-            <router-link to="/water-parameters"><h3>Parametry wody</h3></router-link>
-            <router-link to="/water-quality"><h3>Jakość wody</h3></router-link>
+        <div class="desktop-menu-section" :class="{'nav-active' : navbarActive}">
+            <router-link to="/water-meaning" @click="navSlide"><h3>Znaczenie wody</h3></router-link>
+            <router-link to="/water-parameters" @click="navSlide"><h3>Parametry wody</h3>
+            </router-link>
+            <router-link to="/water-quality" @click="navSlide"><h3>Jakość wody</h3></router-link>
         </div>
         <!-- <router-link to='/about' class='router'>O stronie</router-link> -->
         <!-- <router-link to="/about-me">O mnie</router-link> -->
@@ -27,19 +28,12 @@
 
 <script>
 export default {
+  data() {
+    return { navbarActive: false };
+  },
   methods: {
     navSlide() {
-      const burger = document.querySelector('#mobile-menu-section-drawer');
-      const nav = document.querySelector('.desktop-menu-section');
-      //   const navLinks = document.querySelectorAll('.desktop-menu-section a');
-
-      burger.addEventListener('click', () => {
-        nav.classList.toggle('nav-active');
-      });
-
-    //   navLinks.forEach((link, index) => {
-    //     link.style.animation = `navLinkFade 0.5s ease forwards ${index / 5}s`;
-    //   });
+      this.navbarActive = !this.navbarActive;
     },
   },
 };
@@ -106,16 +100,16 @@ export default {
             }
         }
     }
-    @keyframes navLinkFade{
-        from{
-            opacity: 0;
-            transform: translateX(50px);
-        }
-        to{
-            opacity: 1;
-            transform: translateX(0px);
-        }
-    }
+    // @keyframes navLinkFade{
+    //     from{
+    //         opacity: 0;
+    //         transform: translateX(50px);
+    //     }
+    //     to{
+    //         opacity: 1;
+    //         transform: translateX(0px);
+    //     }
+    // }
     @media only screen and (max-width: 1024px){
         nav{
             #logo-section{
@@ -149,9 +143,9 @@ export default {
                 width: 100vw;
                 transform: translateX(100vw);
                 transition: transform 0.5s ease-in;
-                a{
-                    opacity: 0;
-                }
+                // a{
+                //     opacity: 0;
+                // }
             }
             a{
                 #logo{
