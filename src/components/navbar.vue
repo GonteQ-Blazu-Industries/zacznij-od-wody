@@ -8,7 +8,8 @@
                 </div>
             </router-link>
         </div>
-        <div id="mobile-menu-section-drawer" @click="navSlide">
+        <div class="mobile-menu-section-drawer"
+        :class="{'nav-active' : navbarActive}" @click="navSlide">
             <!-- <img src="@/assets/menuicon.svg" alt="menu" id="non-active">
             <img src="@/assets/close-button.svg" alt="close-menu" id="active"> -->
             <div class="line1"></div>
@@ -45,7 +46,7 @@ export default {
         display: flex;
         justify-content: space-between;
         // background-color: #262626;
-        #mobile-menu-section-drawer{
+        .mobile-menu-section-drawer{
             display: none;
             img{
                 filter: invert(61%)
@@ -100,23 +101,24 @@ export default {
             }
         }
     }
-    // @keyframes navLinkFade{
-    //     from{
-    //         opacity: 0;
-    //         transform: translateX(50px);
-    //     }
-    //     to{
-    //         opacity: 1;
-    //         transform: translateX(0px);
-    //     }
-    // }
+
+    @keyframes navLinkFade{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
     @media only screen and (max-width: 1024px){
         nav{
             #logo-section{
                 z-index: 2500;
             }
             justify-content: space-between;
-            #mobile-menu-section-drawer{
+            .mobile-menu-section-drawer{
                 flex-flow: column;
                 z-index: 2500;
                 justify-content: center;
@@ -130,6 +132,7 @@ export default {
                     background-color: #0DB3D9;
                     margin: 5px;
                     border-radius: 50px;
+                    transition: all 0.3s ease;
                 }
             }
             .desktop-menu-section{
@@ -143,9 +146,9 @@ export default {
                 width: 100vw;
                 transform: translateX(100vw);
                 transition: transform 0.5s ease-in;
-                // a{
-                //     opacity: 0;
-                // }
+                a{
+                    opacity: 0;
+                }
             }
             a{
                 #logo{
@@ -156,12 +159,26 @@ export default {
             }
             .nav-active{
                 transform: translateX(0vw);
+                a {
+                    animation: navLinkFade 1s forwards;
+                }
+                .line1{
+                    transform: rotate(-45deg) translate(-10px, 8px);
+                }
+                .line2 {
+                    // display: none;
+                    // visibility: hidden;
+                    opacity: 0;
+                }
+                .line3{
+                    transform: rotate(45deg) translate(-10px, -8px);
+                }
             }
         }
     }
     @media only screen and (max-width: 768px){
         nav{
-            #mobile-menu-section-drawer{
+            .mobile-menu-section-drawer{
                 top: 2vh;
                 right: 4vw;
                 img{
@@ -180,6 +197,14 @@ export default {
                     img{
                         width: 40px;
                     }
+                }
+            }
+            .nav-active{
+                .line1{
+                    transform: rotate(-45deg) translate(-5px, 8px);
+                }
+                .line3{
+                    transform: rotate(45deg) translate(-5px, -8px);
                 }
             }
         }
