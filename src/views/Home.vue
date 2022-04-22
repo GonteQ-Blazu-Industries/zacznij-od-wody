@@ -90,16 +90,17 @@ export default {
 
 <style lang="scss" scoped>
     .home-page-wrapper{
+        padding-top: 10vh;
         text-align: center;
         video{
             position: fixed;
             top: 0;
             left: 0;
-            width: 100%;
+            width: 100vw;
             height: 100%;
             object-fit: cover;
             z-index: -100;
-            opacity: 0.7;
+            opacity: 0.8;
         }
         #overlay{
             position: fixed;
@@ -155,7 +156,7 @@ export default {
             padding: 10vh;
             top: 100vh;
             min-height: 100vh;
-            width: 100vw;
+            width: 100%;
             background-color: #4c4c4c;
             // color: #0DB3D9;
             color: white;
@@ -170,7 +171,7 @@ export default {
             .home-page-wrapper{
                 #home-page-content{
                     h1{
-                        font-size:25px;
+                        font-size: 40px;
                     }
                 }
                 #read-more{
@@ -191,7 +192,7 @@ export default {
             .home-page-wrapper{
                 #home-page-content{
                     h1{
-                        font-size: 40px;
+                        font-size: 30px;
                     }
                 }
                 #read-more{

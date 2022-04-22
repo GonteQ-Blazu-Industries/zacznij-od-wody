@@ -1,6 +1,6 @@
 <template>
-    <nav>
-        <div id="logo-section">
+    <nav :class="{'page-scrolled' : pageScrolled}" @scroll="onScroll">
+        <div id="logo-section" @click="navSlide">
             <router-link to="/">
                 <div id="logo">
                     <img src="@/assets/pabilkropla.png" alt="kropla wody">
@@ -10,8 +10,6 @@
         </div>
         <div class="mobile-menu-section-drawer"
         :class="{'nav-active' : navbarActive}" @click="navSlide">
-            <!-- <img src="@/assets/menuicon.svg" alt="menu" id="non-active">
-            <img src="@/assets/close-button.svg" alt="close-menu" id="active"> -->
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
@@ -31,11 +29,18 @@
 export default {
   name: 'Navbar',
   data() {
-    return { navbarActive: false };
+    return {
+      navbarActive: false,
+      pageScrolled: false,
+    };
   },
   methods: {
     navSlide() {
       this.navbarActive = !this.navbarActive;
+    },
+    onScroll() {
+      this.pageScrolled = !this.pageScrolled;
+      console.log('chuj');
     },
   },
 };
@@ -102,6 +107,9 @@ export default {
             }
         }
     }
+    .page-scrolled{
+            background-color: #4c4c4c;
+        }
 
     @keyframes navLinkFade{
         from{
@@ -125,7 +133,7 @@ export default {
                 justify-content: center;
                 display: flex;
                 position: absolute;
-                top: 1vh;
+                top: 2.5vh;
                 right: 2vw;
                 div {
                     width: 40px;
@@ -140,7 +148,6 @@ export default {
                 position: fixed;
                 top: 0;
                 flex-flow: column;
-                align-items: center;
                 background-color: #4c4c4c;
                 height: 100vh;
                 z-index: 2000;
@@ -149,6 +156,10 @@ export default {
                 transition: transform 0.5s ease-in;
                 a{
                     opacity: 0;
+                    align-items: center;
+                    :last-child{
+                        padding-bottom: 3vh;
+                    }
                 }
             }
             a{
@@ -180,7 +191,7 @@ export default {
     @media only screen and (max-width: 768px){
         nav{
             .mobile-menu-section-drawer{
-                top: 2vh;
+                top: 3vh;
                 right: 4vw;
                 img{
                     width: 100%;

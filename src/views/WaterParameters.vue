@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="water-parameters-wrapper">
 
     </div>
 </template>
@@ -9,3 +9,11 @@ export default {
 
 };
 </script>
+
+<style lang="scss" scoped>
+    .water-parameters-wrapper{
+        height: 100vh;
+        width: 100%;
+        background-color: #4c4c4c;
+    }
+</style>

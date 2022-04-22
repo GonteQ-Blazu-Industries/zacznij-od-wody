@@ -44,11 +44,13 @@ export default {
   // height: 100vh;
 //
 #app-wrapper{
+  // max-width: 100vw;
     #app-nav {
       z-index: 10000;
-      position: sticky;
+      position: fixed;
       top: 0;
       height: 10vh;
+      width: 100%;
       Navbar{
         height: 100%;
       }
