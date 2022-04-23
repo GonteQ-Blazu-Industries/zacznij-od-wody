@@ -121,9 +121,10 @@ export default {
             width: 100%;
             height: 100%;
             z-index: 100;
-            // background: #4c4c4c;
+            background: #4c4c4c;
             // background: #3973ac;
-            background: #4080bf;
+            // background: #4080bf;
+            // background: #8cb3d9;
 
             mix-blend-mode: overlay;
         }
@@ -169,8 +170,10 @@ export default {
             top: 100vh;
             min-height: 100vh;
             width: 100%;
-            background-color: #4c4c4c;
-            // color: #0DB3D9;
+            // z-index: 200;
+            // background-color: #4c4c4c;
+            background-color: #0DB3D9;
+            // background-color: #6699cc;
             color: white;
             p{
                 font-size: 35px;
