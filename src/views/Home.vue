@@ -1,6 +1,7 @@
 <template>
     <div class="home-page-wrapper">
-        <video src="@/assets/waterfallvideo.mp4" muted loop autoplay playsinline></video>
+        <!-- <video src="@/assets/waterfallvideo.mp4" muted loop autoplay playsinline></video> -->
+        <img src="@/assets/waterfall.jpg" alt="wodospad">
         <div id="overlay">
         </div>
         <div id="home-page-content">
@@ -114,6 +115,16 @@ export default {
             z-index: -100;
             opacity: 0.8;
         }
+        img{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100%;
+            z-index: -100;
+            opacity: 0.8;
+            object-fit: cover;
+        }
         #overlay{
             position: fixed;
             top: 0;
@@ -145,17 +156,22 @@ export default {
                     hue-rotate(96deg)
                     brightness(105%)
                     contrast(100%);
+                    height: 75px;
+                    width: 75px;
+                    position: relative;
                 }
             }
         #home-page-content{
             position: relative;
-            min-height: 100vh;
+            // min-height: 100vh;
+            // height: 25vh;
             z-index: 200;
+            // background-color: #4080bf;
             h1{
                 color: white;
                 font-family: 'Barlow', sans-serif;
                 font-weight: 700;
-                padding: 10vw 0;
+                margin: 10vw 0;
                 font-size: 100px;
             }
             #more-text{
@@ -172,8 +188,8 @@ export default {
             width: 100%;
             // z-index: 200;
             // background-color: #4c4c4c;
-            background-color: #0DB3D9;
-            // background-color: #6699cc;
+            // background-color: #0DB3D9;
+            background-color: #6699cc;
             color: white;
             p{
                 font-size: 35px;
