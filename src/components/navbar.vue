@@ -36,6 +36,18 @@ export default {
       pageScrolled: false,
     };
   },
+  mounted() {
+    document.addEventListener('scroll', () => {
+    //   this.pageScrolled = true;
+      //   console.log(window.scrollY);
+      const windowScroll = window.scrollY;
+      if (windowScroll > 10) {
+        this.pageScrolled = true;
+      } else {
+        this.pageScrolled = false;
+      }
+    });
+  },
   methods: {
     navSlide() {
       this.navbarActive = !this.navbarActive;
@@ -44,10 +56,6 @@ export default {
       if (this.navbarActive === true) {
         this.navbarActive = !this.navbarActive;
       }
-    },
-    onScroll() {
-      this.pageScrolled = !this.pageScrolled;
-      console.log('chuj');
     },
   },
 };

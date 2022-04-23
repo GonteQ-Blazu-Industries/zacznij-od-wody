@@ -8,10 +8,11 @@
                 Dlaczego woda jest źródłem życia?
             </h1>
         </div>
-        <div id="read-more">
+        <a id="read-more" @click="scrollToText" href="#text"
+        v-smooth-scroll="{duration: 1000, offset: -20,}">
                 <img src="@/assets/arrowdown.svg" alt="czytaj więcej" height="75" width="75">
-        </div>
-        <div class="text">
+        </a>
+        <div class="text" id="text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia
                 vulputate nisi,
                 fringilla vulputate quam tempor a. Phasellus dignissim luctus elit
@@ -85,6 +86,17 @@
 <script>
 export default {
   name: 'Home',
+  data() {
+    // const element = document.querySelector('#read-more');
+    return {
+      scrollToTextBool: false,
+    };
+  },
+  methods: {
+    scrollToText() {
+      this.element.scrollIntoView(this.scrollToTextBool);
+    },
+  },
 };
 </script>
 
