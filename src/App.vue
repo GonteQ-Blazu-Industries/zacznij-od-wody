@@ -32,6 +32,10 @@ export default {
   // -ms-overflow-style: none;
   // scrollbar-width: none;
 }
+body::before{
+  background-color: #4c4c4c;
+  z-index: -200;
+}
 // ::-webkit-scrollbar{
 //         display: none;
 //       }
