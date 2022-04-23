@@ -121,9 +121,9 @@ export default {
             width: 100%;
             height: 100%;
             z-index: 100;
-            background: #4c4c4c;
+            // background: #4c4c4c;
             // background: #3973ac;
-            // background: #4080bf;
+            background: #4080bf;
             // background: #8cb3d9;
 
             mix-blend-mode: overlay;
