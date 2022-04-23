@@ -1,6 +1,6 @@
 <template>
     <nav :class="{'page-scrolled' : pageScrolled}" @scroll="onScroll">
-        <div id="logo-section" @click="navUnSlide">
+        <div id="logo-section" @click.stop="navUnSlide">
             <router-link to="/">
                 <div id="logo">
                     <img src="@/assets/pabilkropla.png" alt="kropla wody">

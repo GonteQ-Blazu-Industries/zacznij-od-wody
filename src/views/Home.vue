@@ -1,6 +1,6 @@
 <template>
     <div class="home-page-wrapper">
-        <video src="@/assets/waterfallvideo.mp4" muted loop></video>
+        <video src="@/assets/waterfallvideo.mp4" muted loop autoplay></video>
         <div id="overlay">
         </div>
         <div id="home-page-content">
