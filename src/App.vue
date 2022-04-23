@@ -32,7 +32,7 @@ export default {
   // -ms-overflow-style: none;
   // scrollbar-width: none;
 }
-body::before{
+body{
   background-color: #4c4c4c;
   z-index: -200;
 }
