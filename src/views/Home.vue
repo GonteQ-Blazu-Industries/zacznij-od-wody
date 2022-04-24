@@ -198,6 +198,15 @@ export default {
             }
         }
     }
+        @media only screen and (max-width: 1450px){
+            .home-page-wrapper{
+                #home-page-content{
+                    h1{
+                        font-size: 70px;
+                    }
+                }
+            }
+        }
         @media only screen and (max-width: 1024px){
             .home-page-wrapper{
                 #home-page-content{
