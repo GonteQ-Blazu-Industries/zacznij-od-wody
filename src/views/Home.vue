@@ -182,7 +182,7 @@ export default {
         }
         .text{
             position: absolute;
-            padding: 10vh;
+            padding: 10vh 20vw;
             top: 100vh;
             min-height: 100vh;
             width: 100%;
