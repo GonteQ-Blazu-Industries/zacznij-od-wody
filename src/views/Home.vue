@@ -204,6 +204,15 @@ export default {
                     h1{
                         font-size: 70px;
                     }
+                    #read-more{
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+                .text{
+                    p{
+                        font-size: 28px;
+                    }
                 }
             }
         }
