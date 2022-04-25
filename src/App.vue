@@ -5,7 +5,7 @@
     </div>
     <router-view class='router-view'/>
     <footer>
-      <CustomFooter :class="{'page-scrolled': pageScrolledFooter}"/>
+      <CustomFooter :class="{'page-scrolled-footer': pageScrolledFooter}"/>
     </footer>
   </div>
 </template>
@@ -75,8 +75,11 @@ body{
 //
 #app-wrapper{
   .page-scrolled{
-            background-color: #4c4c4c;
-        }
+    background-color: #4c4c4c;
+  }
+  .page-scrolled-footer{
+      background-color: #128ee3;
+  }
   .go-to-top-display{
             display: block;
         }
