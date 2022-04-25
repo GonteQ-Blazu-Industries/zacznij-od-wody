@@ -29,7 +29,7 @@ export default {
     //   this.pageScrolled = true;
       //   console.log(window.scrollY);
       const windowScroll = window.scrollY;
-      if (windowScroll > 10) {
+      if (windowScroll > 100) {
         this.pageScrolled = true;
       } else {
         this.pageScrolled = false;
