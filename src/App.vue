@@ -5,7 +5,7 @@
     </div>
     <router-view class='router-view'/>
     <footer>
-      <CustomFooter :class="{'page-scrolled': pageScrolled}"/>
+      <CustomFooter :class="{'page-scrolled': pageScrolledFooter}"/>
     </footer>
   </div>
 </template>
@@ -21,7 +21,9 @@ export default {
   },
   data() {
     return {
+      goToTopShow: false,
       pageScrolled: false,
+      pageScrolledFooter: false,
     };
   },
   mounted() {
@@ -29,10 +31,16 @@ export default {
     //   this.pageScrolled = true;
       //   console.log(window.scrollY);
       const windowScroll = window.scrollY;
-      if (windowScroll > 100) {
+      if (windowScroll > (window.innerHeight - (window.innerHeight / 5))) {
         this.pageScrolled = true;
+        this.goToTopShow = true;
       } else {
         this.pageScrolled = false;
+      }
+      if (windowScroll > (window.innerHeight - (window.innerHeight - 100))) {
+        this.pageScrolledFooter = true;
+      } else {
+        this.pageScrolledFooter = false;
       }
     });
   },
@@ -68,6 +76,9 @@ body{
 #app-wrapper{
   .page-scrolled{
             background-color: #4c4c4c;
+        }
+  .go-to-top-display{
+            display: block;
         }
   // max-width: 100vw;
     #app-nav {

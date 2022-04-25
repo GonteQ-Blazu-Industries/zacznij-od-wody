@@ -13,6 +13,9 @@
         v-smooth-scroll="{duration: 1000, offset: -20,}">
                 <img src="@/assets/arrowdown.svg" alt="czytaj więcej" height="75" width="75">
         </a>
+        <a id="go-to-top" @click="scrollToTop" :class="{'go-to-top-display': goToTopShow}">
+            <img src="@/assets/arrowup.svg" alt="wróć na górę" height="75" width="75">
+        </a>
         <div class="text" id="text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia
                 vulputate nisi,
@@ -97,6 +100,9 @@ export default {
     scrollToText() {
       this.element.scrollIntoView(this.scrollToTextBool);
     },
+    scrollToTop() {
+      this.goToTopShow = !this.goToTopShow;
+    },
   },
 };
 </script>
@@ -140,17 +146,38 @@ export default {
             mix-blend-mode: overlay;
         }
         #read-more{
-                position: absolute;
-                bottom: 10vh;
-                left: 50%;
-                z-index: 300;
-                margin-left: -37.5px;
-                // margin-top: 25vh;
-                :hover{
-                    cursor: pointer;
-                }
-                img{
-                    filter: invert(99%)
+            position: absolute;
+            bottom: 10vh;
+            left: 50%;
+            z-index: 300;
+            margin-left: -37.5px;
+            // margin-top: 25vh;
+            :hover{
+                cursor: pointer;
+            }
+            img{
+                filter: invert(99%)
+                sepia(1%)
+                saturate(0%)
+                hue-rotate(96deg)
+                brightness(105%)
+                contrast(100%);
+                height: 75px;
+                width: 75px;
+                position: relative;
+            }
+        }
+        #go-to-top{
+            display: none;
+            position: fixed;
+            bottom: 10vh;
+            right: 2vw;
+            z-index: 300;
+            &:hover{
+                cursor: pointer;
+            }
+            img{
+                filter: invert(99%)
                     sepia(1%)
                     saturate(0%)
                     hue-rotate(96deg)
@@ -159,8 +186,11 @@ export default {
                     height: 75px;
                     width: 75px;
                     position: relative;
-                }
             }
+        }
+        .go-to-top-display{
+            display: block;
+        }
         #home-page-content{
             position: relative;
             // min-height: 100vh;
@@ -205,8 +235,16 @@ export default {
                         font-size: 70px;
                     }
                     #read-more{
-                        width: 70px;
-                        height: 70px;
+                        img{
+                            width: 70px;
+                            height: 70px;
+                        }
+                    }
+                    #go-to-top{
+                        img{
+                            width: 70px;
+                            height: 70px;
+                        }
                     }
                 }
                 .text{
@@ -230,6 +268,12 @@ export default {
                         height: 60px;
                     }
                 }
+                #go-to-top{
+                    img{
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
                 .text{
                     p{
                         font-size: 25px;
@@ -246,6 +290,12 @@ export default {
                 }
                 #read-more{
                     margin-left: -25px;
+                    img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                #go-to-top{
                     img{
                         width: 50px;
                         height: 50px;
