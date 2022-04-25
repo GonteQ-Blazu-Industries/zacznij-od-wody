@@ -1,11 +1,11 @@
 <template>
   <div id="app-wrapper">
     <div id='app-nav'>
-        <Navbar />
+        <Navbar :class="{'page-scrolled': pageScrolled}"/>
     </div>
     <router-view class='router-view'/>
     <footer>
-      <CustomFooter />
+      <CustomFooter :class="{'page-scrolled': pageScrolled}"/>
     </footer>
   </div>
 </template>
@@ -19,7 +19,25 @@ export default {
     Navbar,
     CustomFooter,
   },
+  data() {
+    return {
+      pageScrolled: false,
+    };
+  },
+  mounted() {
+    document.addEventListener('scroll', () => {
+    //   this.pageScrolled = true;
+      //   console.log(window.scrollY);
+      const windowScroll = window.scrollY;
+      if (windowScroll > 10) {
+        this.pageScrolled = true;
+      } else {
+        this.pageScrolled = false;
+      }
+    });
+  },
 };
+
 </script>
 
 <style lang="scss">
@@ -48,6 +66,9 @@ body{
   // height: 100vh;
 //
 #app-wrapper{
+  .page-scrolled{
+            background-color: #4c4c4c;
+        }
   // max-width: 100vw;
     #app-nav {
       z-index: 10000;

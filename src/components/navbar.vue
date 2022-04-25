@@ -33,21 +33,21 @@ export default {
   data() {
     return {
       navbarActive: false,
-      pageScrolled: false,
+    //   pageScrolled: false,
     };
   },
-  mounted() {
-    document.addEventListener('scroll', () => {
-    //   this.pageScrolled = true;
-      //   console.log(window.scrollY);
-      const windowScroll = window.scrollY;
-      if (windowScroll > 10) {
-        this.pageScrolled = true;
-      } else {
-        this.pageScrolled = false;
-      }
-    });
-  },
+  //   mounted() {
+  //     document.addEventListener('scroll', () => {
+  //     //   this.pageScrolled = true;
+  //       //   console.log(window.scrollY);
+  //       const windowScroll = window.scrollY;
+  //       if (windowScroll > 10) {
+  //         this.pageScrolled = true;
+  //       } else {
+  //         this.pageScrolled = false;
+  //       }
+  //     });
+  //   },
   methods: {
     navSlide() {
       this.navbarActive = !this.navbarActive;
