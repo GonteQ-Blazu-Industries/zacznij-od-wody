@@ -78,7 +78,7 @@ body{
     background-color: #4c4c4c;
   }
   .page-scrolled-footer{
-      background-color: #26A2F7;
+      background-color: #2eaaff;
   }
   .go-to-top-display{
             display: block;
