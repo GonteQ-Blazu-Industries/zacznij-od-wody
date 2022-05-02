@@ -89,6 +89,10 @@ export default {
                 font-size: 35px;
                 text-align: start;
                 font-family: 'Barlow', sans-serif;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
             }
         }
     }
