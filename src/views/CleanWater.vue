@@ -37,7 +37,8 @@
             <p>
                 <br>
                 Zebrałem dla Ciebie kilka informacji na ten temat,
-                <a href="https://www.youtube.com/watch?v=3DHnUJEVX9c">zobacz nagranie.</a>
+                <a href="https://www.youtube.com/watch?v=3DHnUJEVX9c" target="_blank">
+                    zobacz nagranie.</a>
             </p>
         </div>
     </div>
