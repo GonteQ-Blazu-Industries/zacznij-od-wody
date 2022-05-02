@@ -4,6 +4,8 @@
         <Navbar :class="{'page-scrolled': pageScrolled}"/>
     </div>
     <router-view class='router-view'/>
+    <ScrollDown :class="{'display-none': hideArrowDown}" />
+    <ScrollToTop :class="{'display-none': hideArrowUp}"/>
     <footer>
       <CustomFooter :class="{'page-scrolled-footer': pageScrolledFooter}"/>
     </footer>
@@ -13,17 +15,22 @@
 <script>
 import Navbar from '@/components/navbar.vue';
 import CustomFooter from '@/components/footer.vue';
+import ScrollDown from '@/components/scrollDown.vue';
+import ScrollToTop from '@/components/scrollToTop.vue';
 
 export default {
   components: {
     Navbar,
     CustomFooter,
+    ScrollDown,
+    ScrollToTop,
   },
   data() {
     return {
-      goToTopShow: false,
       pageScrolled: false,
       pageScrolledFooter: false,
+      hideArrowDown: false,
+      hideArrowUp: true,
     };
   },
   mounted() {
@@ -31,11 +38,15 @@ export default {
     //   this.pageScrolled = true;
       //   console.log(window.scrollY);
       const windowScroll = window.scrollY;
-      if (windowScroll > (window.innerHeight - (window.innerHeight / 5))) {
+      // if (windowScroll > (window.innerHeight - (window.innerHeight / 5))) {
+      if (windowScroll) {
         this.pageScrolled = true;
-        this.goToTopShow = true;
+        this.hideArrowDown = true;
+        this.hideArrowUp = false;
       } else {
         this.pageScrolled = false;
+        this.hideArrowDown = false;
+        this.hideArrowUp = true;
       }
       if (windowScroll > (window.innerHeight - (window.innerHeight - 100))) {
         this.pageScrolledFooter = true;
@@ -81,8 +92,11 @@ body{
       background-color: #1399ee;
   }
   .go-to-top-display{
-            display: block;
-        }
+    display: block;
+  }
+  .display-none{
+    display: none;
+  }
   // max-width: 100vw;
     #app-nav {
       z-index: 10000;

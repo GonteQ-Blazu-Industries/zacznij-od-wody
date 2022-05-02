@@ -1,5 +1,5 @@
 <template>
-    <div class="home-page-wrapper">
+    <div class="home-page-wrapper" id="top">
         <!-- <video src="@/assets/waterfallvideo.mp4" muted loop autoplay playsinline></video> -->
         <img src="@/assets/waterfall.jpg" alt="wodospad">
         <div id="overlay">
@@ -9,13 +9,13 @@
                 Dlaczego woda jest źródłem życia?
             </h1>
         </div>
-        <a id="read-more" @click="scrollToText" href="#text"
+        <!-- <a id="read-more" @click="scrollToText" href="#text"
         v-smooth-scroll="{duration: 1000, offset: -20,}">
                 <img src="@/assets/arrowdown.svg" alt="czytaj więcej" height="75" width="75">
         </a>
         <a id="go-to-top" @click="scrollToTop" :class="{'go-to-top-display': goToTopShow}">
             <img src="@/assets/arrowup.svg" alt="wróć na górę" height="75" width="75">
-        </a>
+        </a> -->
         <div class="text" id="text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia
                 vulputate nisi,
@@ -90,6 +90,9 @@
 <script>
 export default {
   name: 'Home',
+  props: {
+    goToTopShow: Boolean,
+  },
   data() {
     // const element = document.querySelector('#read-more');
     return {
@@ -99,9 +102,6 @@ export default {
   methods: {
     scrollToText() {
       this.element.scrollIntoView(this.scrollToTextBool);
-    },
-    scrollToTop() {
-      this.goToTopShow = !this.goToTopShow;
     },
   },
 };
