@@ -7,8 +7,8 @@
         </div>
         <div class="text" id="text">
             <p>
-                Czy to możliwe, że tak powszechna i prosta  substancja
-                (H2O- dwa atomy wodoru i jeden tlenu)
+                Czy to możliwe, że tak powszechna i prosta substancja
+                (H2O - dwa atomy wodoru i jeden tlenu)
                 odgrywała tak znaczącą i kluczową rolę w naszym życiu?
             </p>
             <p>
@@ -29,14 +29,14 @@
                 <br>
                 Gdy w tym chodzącym „akwarium” zaczyna brakować wody,
                 albo jest ono uzupełniane czymś innym niż woda (kawa,
-                herbata, napoje kolorowe, piwo itp) wiele z tych reakcji
+                herbata, napoje kolorowe, piwo itp.) wiele z tych reakcji
                 zaczyna szwankować.
             </p>
             <p>
                 <br>
                 Wtedy nasze zdrowie zaczyna się psuć. Na wskutek tego
-                brakuje nam energii, jesteśmy rozdrażnienie, pojawiają
-                się nieokreślone bule i problemy zdrowotne.
+                brakuje nam energii, jesteśmy rozdrażnieni, pojawiają
+                się nieokreślone bóle i problemy zdrowotne.
             </p>
             <p>
                 <br>
@@ -44,7 +44,7 @@
                 gdy zaniedbujemy picie odpowiedniej ilości wody.
                 <br>
                 <a href="https://www.youtube.com/watch?v=oiDxgkWI_ws" target="_blank">
-                    <br> https://www.youtube.com/watch?v=oiDxgkWI_ws</a>
+                    <br> Kliknij aby zobaczyć filmik</a>
             </p>
         </div>
     </div>

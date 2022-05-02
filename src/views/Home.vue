@@ -64,7 +64,7 @@
                 <br>
                 Woda, wielka tajemnica:
                 <a href="https://www.youtube.com/watch?v=IrCIpNOVxCY&t" target="_blank">
-                    www.youtube.com/watch?v=IrCIpNOVxCY&t</a>
+                    Kliknij aby zobaczyć filmik</a>
             </p>
         </div>
     </div>
