@@ -125,9 +125,9 @@ body{
     }
   }
 }
-@media only screen and(min-width: 1024px){
-  .page-scrolled-footer{
-    background-color: #128ee3;
-  }
-}
+// @media only screen and(min-width: 1024px){
+//   .page-scrolled-footer{
+//     background-color: #128ee3;
+//   }
+// }
 </style>

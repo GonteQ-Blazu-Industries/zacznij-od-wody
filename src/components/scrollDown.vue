@@ -25,9 +25,10 @@ export default {
 
 <style lang="scss" scoped>
     .scroll-down-wrapper{
+        // width: 100vw;
         position: absolute;
         bottom: 10vh;
-        left: 50%;
+        left: 50vw;
         z-index: 300;
         margin-left: -37.5px;
         // margin-top: 25vh;
@@ -70,7 +71,7 @@ export default {
     @media only screen and (max-width: 768px){
         .scroll-down-wrapper{
             #read-more{
-                margin-left: -25px;
+                margin-left: calc((37.5px) /2);
                 img{
                     width: 50px;
                     height: 50px;

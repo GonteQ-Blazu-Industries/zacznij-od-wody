@@ -9,13 +9,6 @@
                 Dlaczego woda jest źródłem życia?
             </h1>
         </div>
-        <!-- <a id="read-more" @click="scrollToText" href="#text"
-        v-smooth-scroll="{duration: 1000, offset: -20,}">
-                <img src="@/assets/arrowdown.svg" alt="czytaj więcej" height="75" width="75">
-        </a>
-        <a id="go-to-top" @click="scrollToTop" :class="{'go-to-top-display': goToTopShow}">
-            <img src="@/assets/arrowup.svg" alt="wróć na górę" height="75" width="75">
-        </a> -->
         <div class="text" id="text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia
                 vulputate nisi,
@@ -90,20 +83,6 @@
 <script>
 export default {
   name: 'Home',
-  props: {
-    goToTopShow: Boolean,
-  },
-  data() {
-    // const element = document.querySelector('#read-more');
-    return {
-      scrollToTextBool: false,
-    };
-  },
-  methods: {
-    scrollToText() {
-      this.element.scrollIntoView(this.scrollToTextBool);
-    },
-  },
 };
 </script>
 
@@ -111,16 +90,6 @@ export default {
     .home-page-wrapper{
         padding-top: 10vh;
         text-align: center;
-        video{
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100%;
-            object-fit: cover;
-            z-index: -100;
-            opacity: 0.8;
-        }
         img{
             position: fixed;
             top: 0;
@@ -132,7 +101,7 @@ export default {
             object-fit: cover;
         }
         #overlay{
-            position: fixed;
+            position: absolute;
             top: 0;
             left: 0;
             width: 100%;
@@ -145,52 +114,7 @@ export default {
 
             mix-blend-mode: overlay;
         }
-        #read-more{
-            position: absolute;
-            bottom: 10vh;
-            left: 50%;
-            z-index: 300;
-            margin-left: -37.5px;
-            // margin-top: 25vh;
-            :hover{
-                cursor: pointer;
-            }
-            img{
-                filter: invert(99%)
-                sepia(1%)
-                saturate(0%)
-                hue-rotate(96deg)
-                brightness(105%)
-                contrast(100%);
-                height: 75px;
-                width: 75px;
-                position: relative;
-            }
-        }
-        #go-to-top{
-            display: none;
-            position: fixed;
-            bottom: 10vh;
-            right: 2vw;
-            z-index: 300;
-            &:hover{
-                cursor: pointer;
-            }
-            img{
-                filter: invert(99%)
-                    sepia(1%)
-                    saturate(0%)
-                    hue-rotate(96deg)
-                    brightness(105%)
-                    contrast(100%);
-                    height: 75px;
-                    width: 75px;
-                    position: relative;
-            }
-        }
-        .go-to-top-display{
-            display: block;
-        }
+
         #home-page-content{
             position: relative;
             // min-height: 100vh;
@@ -204,11 +128,6 @@ export default {
                 margin: 10vw 0;
                 font-size: 100px;
             }
-            #more-text{
-                display: none;
-                color: white;
-                font-family: 'Barlow', sans-serif;
-            }
         }
         .text{
             position: absolute;
@@ -219,7 +138,7 @@ export default {
             // z-index: 200;
             // background-color: #4c4c4c;
             // background-color: #0DB3D9;
-            background-color: #6699cc;
+            background-color: #1399ee;
             color: white;
             p{
                 font-size: 35px;
@@ -233,18 +152,6 @@ export default {
                 #home-page-content{
                     h1{
                         font-size: 70px;
-                    }
-                    #read-more{
-                        img{
-                            width: 70px;
-                            height: 70px;
-                        }
-                    }
-                    #go-to-top{
-                        img{
-                            width: 70px;
-                            height: 70px;
-                        }
                     }
                 }
                 .text{
@@ -261,19 +168,6 @@ export default {
                         font-size: 40px;
                     }
                 }
-                #read-more{
-                    margin-left: -30px;
-                    img{
-                        width: 60px;
-                        height: 60px;
-                    }
-                }
-                #go-to-top{
-                    img{
-                        width: 60px;
-                        height: 60px;
-                    }
-                }
                 .text{
                     p{
                         font-size: 25px;
@@ -286,19 +180,6 @@ export default {
                 #home-page-content{
                     h1{
                         font-size: 30px;
-                    }
-                }
-                #read-more{
-                    margin-left: -25px;
-                    img{
-                        width: 50px;
-                        height: 50px;
-                    }
-                }
-                #go-to-top{
-                    img{
-                        width: 50px;
-                        height: 50px;
                     }
                 }
                 .text{

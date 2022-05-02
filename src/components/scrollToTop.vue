@@ -67,10 +67,12 @@ export default {
     }
     @media only screen and (max-width: 768px){
       .scroll-up-wrapper{
-        margin-left: -25px;
+        a{
+          margin-left: -25px;
         img{
           width: 50px;
           height: 50px;
+        }
         }
       }
     }
