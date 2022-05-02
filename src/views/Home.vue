@@ -14,47 +14,54 @@
                 W naszym układzie słonecznym jest tylko jedna planeta, na której
                 istnieje życie. Mamy szczęście mieszkać na tej błękitnej planecie.
             </p>
-
             <p>
+                <br>
                 Wiesz dlaczego jest tu życie i dlaczego jest błękitna?
                 Bo około 70% jej powierzchni pokryte jest wodą.
             </p>
-
             <p>
+                <br>
                 To właśnie dzięki wodzie istnieje życie na ziemi.
             </p>
 
             <p>
+                <br>
                 Ale nawet tu na ziemi są miejsca, gdzie życia jest niewiele
                 i wygląda jakby ono zanikało, a są też miejsca, gdzie
                 jest go wielka obfitość.
             </p>
-
             <p>
+                <br>
                 Od czego to zależy? Od dostępności, obfitości i jakości wody.
             </p>
             <p>
+                <br>
                 Można te informacje krótko podsumować: „Gdzie jest woda, tam jest życie”
             </p>
             <p>
+                <br>
                 Z informacji na tej stronie dowiesz się dlaczego woda jest tak ważna
                 dla Ciebie i Twoich bliskich.
             </p>
             <p>
+                <br>
                 Jaką odgrywa ona rolę w Twoim zdrowiu,  samopoczuciu,
                 regulacji wagi, kondycji fizycznej i psychicznej, oraz
                 jakiej wody potrzebuje Twój organizm, by codziennie tryskał
                  energią.
             </p>
             <p>
+                <br>
                 Zapraszam Cię do zgłębiania najprostszej, a zarazem
                 najbardziej tajemniczej substancji na świecie.
             </p>
             <p>
+                <br>
                 Jeżeli nie wierzysz że tą najbardziej tajemniczą substancją
                 jest woda, koniecznie zobacz ten film.
             </p>
             <p>
+                <br>
                 Woda, wielka tajemnica: www.youtube.com/watch?v=IrCIpNOVxCY&t
             </p>
         </div>
