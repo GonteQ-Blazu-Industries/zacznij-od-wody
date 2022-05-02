@@ -70,7 +70,7 @@ export default {
   // scrollbar-width: none;
 }
 body{
-  background-color: #4c4c4c;
+  background-color: #1399ee;
   z-index: -200;
 }
 // ::-webkit-scrollbar{
