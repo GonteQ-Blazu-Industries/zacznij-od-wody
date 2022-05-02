@@ -2,8 +2,8 @@
     <div class="home-page-wrapper" id="top">
         <!-- <video src="@/assets/waterfallvideo.mp4" muted loop autoplay playsinline></video> -->
         <img src="@/assets/waterfall.jpg" alt="wodospad">
-        <div id="overlay">
-        </div>
+        <!-- <div id="overlay">
+        </div> -->
         <div id="home-page-content">
             <h1>
                 Dlaczego woda jest źródłem życia?
@@ -107,7 +107,7 @@ export default {
             width: 100%;
             height: 100%;
             z-index: 100;
-            background-color: #4080bf;
+            background: #4080bf;
             // background: #1399ee;
             mix-blend-mode: overlay;
         }
