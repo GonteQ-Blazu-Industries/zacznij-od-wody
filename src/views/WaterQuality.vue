@@ -85,9 +85,9 @@ export default {
 
 <style lang="scss" scoped>
     .water-quality-wrapper{
-        height: 100vh;
-        width: 100%;
-        background-color: #4c4c4c;
+        // height: 100vh;
+        // width: 100%;
+        // background-color: #4c4c4c;
         padding-top: 10vh;
         text-align: center;
         img{

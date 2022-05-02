@@ -61,9 +61,9 @@ export default {
     .water-meaning-wrapper{
         padding-top: 10vh;
         text-align: center;
-        height: 100vh;
-        width: 100%;
-        background-color: #4c4c4c;
+        // height: 100vh;
+        // width: 100%;
+        // background-color: #4c4c4c;
         img{
             position: fixed;
             top: 0;
