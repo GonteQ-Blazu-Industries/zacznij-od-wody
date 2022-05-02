@@ -10,72 +10,53 @@
             </h1>
         </div>
         <div class="text" id="text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia
-                vulputate nisi,
-                fringilla vulputate quam tempor a. Phasellus dignissim luctus elit
-                eu dictum. Mauris
-                metus dolor, feugiat ut orci at, tincidunt hendrerit ante. In sed
-                porttitor nisi.
-                Fusce elementum sed nunc id malesuada. Suspendisse felis sem, dictum
-                sit amet quam
-                sed, luctus tincidunt ex. Nam vel mauris dolor. Nam eget ante id
-                tellus vulputate
-                laoreet. Duis mollis vestibulum elementum. Cras non tellus lacus.
-                Cras mattis posuere
-                ante varius tincidunt. Vestibulum egestas a diam eu lobortis.</p>
+           <p>
+                W naszym układzie słonecznym jest tylko jedna planeta, na której
+                istnieje życie. Mamy szczęście mieszkać na tej błękitnej planecie.
+            </p>
 
-            <p>Cras eu elementum magna, quis rutrum nibh. Vestibulum ante ipsum
-                primis in faucibus
-                orci luctus et ultrices posuere cubilia curae; Maecenas dolor
-                nulla, aliquam sed
-                porttitor at, dictum eu tortor. Nunc fermentum est vitae vehicula
-                ullamcorper. In
-                pulvinar tempor enim, et placerat justo varius ac. Phasellus cursus
-                commodo blandit.
-                Nullam vitae dolor at est scelerisque tincidunt et non magna. Quisque
-                 ullamcorper justo
-                eget augue fermentum, sed ornare neque egestas. Sed at diam ac magna
-                 ultricies luctus eu
-                sit amet sapien.</p>
+            <p>
+                Wiesz dlaczego jest tu życie i dlaczego jest błękitna?
+                Bo około 70% jej powierzchni pokryte jest wodą.
+            </p>
 
-            <p>Aliquam quis lorem lectus. Vestibulum ac sapien fringilla, hendrerit
-                nisl et, posuere dui.
-                Nulla semper nulla sit amet convallis viverra. Sed a facilisis justo,
-                 nec sodales odio.
-                Praesent tempus a nibh sit amet mattis. Donec sit amet sapien vehicula,
-                pellentesque orci a,
-                 cursus eros. Cras vitae egestas nunc, dignissim scelerisque lectus.
-                 Donec sapien diam,
-                 pulvinar vel augue vel, congue tincidunt turpis. Nulla mattis nibh
-                  ligula, fringilla feugiat
-                 dolor dictum id. Fusce sit amet porta purus, et varius quam. Sed
-                 imperdiet, tortor eget egestas
-                  rhoncus, nulla eros aliquam massa, sit amet iaculis dolor urna vel
-                   arcu. Curabitur id vulputate
-                  orci, sit amet sodales felis. Vivamus et egestas nisi. Curabitur
-                  interdum dui vitae ipsum pulvinar
-                   maximus. Suspendisse fringilla accumsan libero sed vestibulum. Nam
-                   ultrices eleifend ex id
-                   convallis.</p>
+            <p>
+                To właśnie dzięki wodzie istnieje życie na ziemi.
+            </p>
 
-            <p>Donec ullamcorper porta ante sit amet fermentum. Nam volutpat condimentum
-                auctor. Interdum et malesuada
-                fames ac ante ipsum primis in faucibus. Pellentesque vestibulum enim ut
-                egestas pharetra. Vestibulum
-                sollicitudin augue massa, vitae bibendum mauris aliquet ut. Donec et mauris
-                mauris. Donec dictum metus
-                 mauris, cursus faucibus sem sagittis nec. Aenean ut blandit sapien.</p>
+            <p>
+                Ale nawet tu na ziemi są miejsca, gdzie życia jest niewiele
+                i wygląda jakby ono zanikało, a są też miejsca, gdzie
+                jest go wielka obfitość.
+            </p>
 
-            <p>Quisque sodales felis vel sem porttitor sodales. In faucibus iaculis placerat.
-                Mauris iaculis pulvinar
-                 ex eget vehicula. Ut ante sapien, pellentesque vitae volutpat quis, varius sed
-                 leo. Mauris elementum
-                 dapibus convallis. Vivamus sit amet arcu urna. Pellentesque vestibulum, mauris
-                 a tincidunt mattis,
-                 orci velit rutrum elit, aliquet interdum lorem elit facilisis sem. Nam sed quam
-                 massa. Maecenas
-                 vestibulum tellus augue, sit amet dignissim magna faucibus blandit. Proin et velit
-                 lorem.</p>
+            <p>
+                Od czego to zależy? Od dostępności, obfitości i jakości wody.
+            </p>
+            <p>
+                Można te informacje krótko podsumować: „Gdzie jest woda, tam jest życie”
+            </p>
+            <p>
+                Z informacji na tej stronie dowiesz się dlaczego woda jest tak ważna
+                dla Ciebie i Twoich bliskich.
+            </p>
+            <p>
+                Jaką odgrywa ona rolę w Twoim zdrowiu,  samopoczuciu,
+                regulacji wagi, kondycji fizycznej i psychicznej, oraz
+                jakiej wody potrzebuje Twój organizm, by codziennie tryskał
+                 energią.
+            </p>
+            <p>
+                Zapraszam Cię do zgłębiania najprostszej, a zarazem
+                najbardziej tajemniczej substancji na świecie.
+            </p>
+            <p>
+                Jeżeli nie wierzysz że tą najbardziej tajemniczą substancją
+                jest woda, koniecznie zobacz ten film.
+            </p>
+            <p>
+                Woda, wielka tajemnica: www.youtube.com/watch?v=IrCIpNOVxCY&t
+            </p>
         </div>
     </div>
 </template>

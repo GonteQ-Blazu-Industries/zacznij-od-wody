@@ -85,7 +85,6 @@ export default {
         }
         .desktop-menu-section{
             display: flex;
-            // justify-content: flex-end;
         }
         a{
             font-weight: bold;
@@ -145,7 +144,6 @@ export default {
             .mobile-menu-section-drawer{
                 flex-flow: column;
                 z-index: 2500;
-                justify-content: center;
                 display: flex;
                 position: absolute;
                 top: 2.5vh;
@@ -163,6 +161,8 @@ export default {
                 position: fixed;
                 top: 0;
                 flex-flow: column;
+                justify-content: center;
+                align-items: center;
                 background-color: #4c4c4c;
                 height: 100vh;
                 z-index: 2000;
@@ -171,7 +171,6 @@ export default {
                 transition: transform 0.5s ease-in;
                 a{
                     opacity: 0;
-                    align-items: center;
                     :last-child{
                         padding-bottom: 3vh;
                     }
