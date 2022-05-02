@@ -5,7 +5,7 @@ import About from '../views/About.vue';
 import AboutMe from '../views/AboutMe.vue';
 import WaterMeaning from '../views/WaterMeaning.vue';
 import WaterParameters from '../views/WaterParameters.vue';
-import WaterQuality from '../views/WaterQuality.vue';
+import CleanWater from '../views/CleanWater.vue';
 
 const routes = [
   {
@@ -39,9 +39,9 @@ const routes = [
     component: WaterParameters,
   },
   {
-    path: '/jakosc-wody',
-    name: 'WaterQuality',
-    component: WaterQuality,
+    path: '/czysta-woda',
+    name: 'CleanWater',
+    component: CleanWater,
   },
 ];
 

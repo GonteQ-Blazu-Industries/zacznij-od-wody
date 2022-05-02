@@ -19,7 +19,7 @@
             </router-link>
             <router-link to="/parametry-wody" @click="navSlide"><h3>Parametry wody</h3>
             </router-link>
-            <router-link to="/jakosc-wody" @click="navSlide"><h3>Jakość wody</h3>
+            <router-link to="/czysta-woda" @click="navSlide"><h3>Czysta woda</h3>
             </router-link>
         </div>
         <!-- <router-link to='/about' class='router'>O stronie</router-link> -->
