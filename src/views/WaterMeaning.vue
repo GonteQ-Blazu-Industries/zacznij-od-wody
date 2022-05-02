@@ -2,76 +2,50 @@
     <div class="water-meaning-wrapper" id="top">
         <div class="content">
             <h1>
-                Jakie znaczenie ma woda?
+                Dlaczego woda jest najważniejszą substancją w Twoim życiu?
             </h1>
         </div>
         <div class="text" id="text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia
-                vulputate nisi,
-                fringilla vulputate quam tempor a. Phasellus dignissim luctus elit
-                eu dictum. Mauris
-                metus dolor, feugiat ut orci at, tincidunt hendrerit ante. In sed
-                porttitor nisi.
-                Fusce elementum sed nunc id malesuada. Suspendisse felis sem, dictum
-                sit amet quam
-                sed, luctus tincidunt ex. Nam vel mauris dolor. Nam eget ante id
-                tellus vulputate
-                laoreet. Duis mollis vestibulum elementum. Cras non tellus lacus.
-                Cras mattis posuere
-                ante varius tincidunt. Vestibulum egestas a diam eu lobortis.</p>
-
-            <p>Cras eu elementum magna, quis rutrum nibh. Vestibulum ante ipsum
-                primis in faucibus
-                orci luctus et ultrices posuere cubilia curae; Maecenas dolor
-                nulla, aliquam sed
-                porttitor at, dictum eu tortor. Nunc fermentum est vitae vehicula
-                ullamcorper. In
-                pulvinar tempor enim, et placerat justo varius ac. Phasellus cursus
-                commodo blandit.
-                Nullam vitae dolor at est scelerisque tincidunt et non magna. Quisque
-                 ullamcorper justo
-                eget augue fermentum, sed ornare neque egestas. Sed at diam ac magna
-                 ultricies luctus eu
-                sit amet sapien.</p>
-
-            <p>Aliquam quis lorem lectus. Vestibulum ac sapien fringilla, hendrerit
-                nisl et, posuere dui.
-                Nulla semper nulla sit amet convallis viverra. Sed a facilisis justo,
-                 nec sodales odio.
-                Praesent tempus a nibh sit amet mattis. Donec sit amet sapien vehicula,
-                pellentesque orci a,
-                 cursus eros. Cras vitae egestas nunc, dignissim scelerisque lectus.
-                 Donec sapien diam,
-                 pulvinar vel augue vel, congue tincidunt turpis. Nulla mattis nibh
-                  ligula, fringilla feugiat
-                 dolor dictum id. Fusce sit amet porta purus, et varius quam. Sed
-                 imperdiet, tortor eget egestas
-                  rhoncus, nulla eros aliquam massa, sit amet iaculis dolor urna vel
-                   arcu. Curabitur id vulputate
-                  orci, sit amet sodales felis. Vivamus et egestas nisi. Curabitur
-                  interdum dui vitae ipsum pulvinar
-                   maximus. Suspendisse fringilla accumsan libero sed vestibulum. Nam
-                   ultrices eleifend ex id
-                   convallis.</p>
-
-            <p>Donec ullamcorper porta ante sit amet fermentum. Nam volutpat condimentum
-                auctor. Interdum et malesuada
-                fames ac ante ipsum primis in faucibus. Pellentesque vestibulum enim ut
-                egestas pharetra. Vestibulum
-                sollicitudin augue massa, vitae bibendum mauris aliquet ut. Donec et mauris
-                mauris. Donec dictum metus
-                 mauris, cursus faucibus sem sagittis nec. Aenean ut blandit sapien.</p>
-
-            <p>Quisque sodales felis vel sem porttitor sodales. In faucibus iaculis placerat.
-                Mauris iaculis pulvinar
-                 ex eget vehicula. Ut ante sapien, pellentesque vitae volutpat quis, varius sed
-                 leo. Mauris elementum
-                 dapibus convallis. Vivamus sit amet arcu urna. Pellentesque vestibulum, mauris
-                 a tincidunt mattis,
-                 orci velit rutrum elit, aliquet interdum lorem elit facilisis sem. Nam sed quam
-                 massa. Maecenas
-                 vestibulum tellus augue, sit amet dignissim magna faucibus blandit. Proin et velit
-                 lorem.</p>
+            <p>
+                Czy to możliwe, że tak powszechna i prosta  substancja
+                (H2O- dwa atomy wodoru i jeden tlenu)
+                odgrywała tak znaczącą i kluczową rolę w naszym życiu?
+            </p>
+            <p>
+                <br>
+                Organizm ludzki składa się w około 70-ciu % z wody.
+            </p>
+            <p>
+                <br>
+                Humorystycznie możemy powiedzieć że jesteśmy chodzącym
+                akwarium w którym jak rybki w akwarium, pływają nasze komórki.
+            </p>
+            <p>
+                <br>
+                Wszystkie zachodzące w naszym organizmie reakcje,
+                bilologicznochemicznoelektryczne zachodzą w wodzie.
+            </p>
+            <p>
+                <br>
+                Gdy w tym chodzącym „akwarium” zaczyna brakować wody,
+                albo jest ono uzupełniane czymś innym niż woda (kawa,
+                herbata, napoje kolorowe, piwo itp) wiele z tych reakcji
+                zaczyna szwankować.
+            </p>
+            <p>
+                <br>
+                Wtedy nasze zdrowie zaczyna się psuć. Na wskutek tego
+                brakuje nam energii, jesteśmy rozdrażnienie, pojawiają
+                się nieokreślone bule i problemy zdrowotne.
+            </p>
+            <p>
+                <br>
+                Posłuchaj i zobacz, jakie problemy zdrowotne powstają,
+                gdy zaniedbujemy picie odpowiedniej ilości wody.
+                <br>
+                <a href="https://www.youtube.com/watch?v=oiDxgkWI_ws" target="_blank">
+                    https://www.youtube.com/watch?v=oiDxgkWI_ws</a>
+            </p>
         </div>
     </div>
 </template>
@@ -112,6 +86,10 @@ export default {
                 font-size: 35px;
                 text-align: start;
                 font-family: 'Barlow', sans-serif;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
             }
         }
     }
