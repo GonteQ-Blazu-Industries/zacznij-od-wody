@@ -129,7 +129,7 @@ export default {
             }
         }
     }
-    @media only screen and (max-width: 1024){
+    @media only screen and (max-width: 1024px){
         .water-meaning-wrapper{
             .content{
                 h1{
