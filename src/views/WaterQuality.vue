@@ -1,5 +1,6 @@
 <template>
     <div class="water-quality-wrapper" id="top">
+        <img src="@/assets/waterfall.jpg" alt="wodospad">
         <div class="content">
             <h1>
                 Czy jakość wody ma znaczenie?
@@ -89,6 +90,16 @@ export default {
         background-color: #4c4c4c;
         padding-top: 10vh;
         text-align: center;
+        img{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -100;
+            opacity: 0.8;
+            object-fit: cover;
+        }
         .content{
             position: relative;
             z-index: 200;

@@ -1,5 +1,6 @@
 <template>
     <div class="water-meaning-wrapper" id="top">
+        <img src="@/assets/waterfall.jpg" alt="wodospad">
         <div class="content">
             <h1>
                 Dlaczego woda jest najważniejszą substancją w Twoim życiu?
@@ -63,6 +64,16 @@ export default {
         height: 100vh;
         width: 100%;
         background-color: #4c4c4c;
+        img{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -100;
+            opacity: 0.8;
+            object-fit: cover;
+        }
         .content{
             position: relative;
             z-index: 200;
