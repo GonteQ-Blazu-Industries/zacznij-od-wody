@@ -62,7 +62,9 @@
             </p>
             <p>
                 <br>
-                Woda, wielka tajemnica: www.youtube.com/watch?v=IrCIpNOVxCY&t
+                Woda, wielka tajemnica:
+                <a href="https://www.youtube.com/watch?v=IrCIpNOVxCY&t" target="_blank">
+                    www.youtube.com/watch?v=IrCIpNOVxCY&t</a>
             </p>
         </div>
     </div>
@@ -129,6 +131,10 @@ export default {
                 font-size: 35px;
                 text-align: start;
                 font-family: 'Barlow', sans-serif;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
             }
         }
     }
