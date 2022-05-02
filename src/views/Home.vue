@@ -107,7 +107,6 @@ export default {
             width: 100%;
             height: 100%;
             z-index: 100;
-            opacity: 0.2;
             background: #4080bf;
             mix-blend-mode: overlay;
         }
