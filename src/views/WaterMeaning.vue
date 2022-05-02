@@ -16,14 +16,14 @@
                 Organizm ludzki składa się w około 70-ciu % z wody.
             </p>
             <p>
-                <br>
+               <br>
                 Humorystycznie możemy powiedzieć że jesteśmy chodzącym
                 akwarium w którym jak rybki w akwarium, pływają nasze komórki.
             </p>
             <p>
                 <br>
                 Wszystkie zachodzące w naszym organizmie reakcje,
-                bilologicznochemicznoelektryczne zachodzą w wodzie.
+                biologiczno-chemiczno-elektryczne zachodzą w wodzie.
             </p>
             <p>
                 <br>
@@ -44,7 +44,7 @@
                 gdy zaniedbujemy picie odpowiedniej ilości wody.
                 <br>
                 <a href="https://www.youtube.com/watch?v=oiDxgkWI_ws" target="_blank">
-                    https://www.youtube.com/watch?v=oiDxgkWI_ws</a>
+                    <br> https://www.youtube.com/watch?v=oiDxgkWI_ws</a>
             </p>
         </div>
     </div>
