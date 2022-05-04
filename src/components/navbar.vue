@@ -116,7 +116,8 @@ export default {
                 font-weight: 400;
             }
             &.router-link-active{
-                color: #3E77B6;
+                // color: #3E77B6;
+                color: #0DB3D9;
                 text-decoration: none;
             }
         }
