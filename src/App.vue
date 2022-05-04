@@ -1,9 +1,10 @@
 <template>
-  <div id="app-wrapper">
+  <div id="app-wrapper" >
     <div id='app-nav'>
         <Navbar :class="{'page-scrolled': pageScrolled}"/>
     </div>
     <router-view class='router-view'/>
+    <EmailForm :class="{'display-form': hideEmailForm}" @showemailform="emailClicked"/>
     <ScrollDown :class="{'display-none': hideArrowDown}" />
     <ScrollToTop :class="{'display-none': hideArrowUp}"/>
     <footer>
@@ -17,6 +18,7 @@ import Navbar from '@/components/navbar.vue';
 import CustomFooter from '@/components/footer.vue';
 import ScrollDown from '@/components/scrollDown.vue';
 import ScrollToTop from '@/components/scrollToTop.vue';
+import EmailForm from '@/components/emailForm.vue';
 
 export default {
   components: {
@@ -24,6 +26,7 @@ export default {
     CustomFooter,
     ScrollDown,
     ScrollToTop,
+    EmailForm,
   },
   data() {
     return {
@@ -31,6 +34,8 @@ export default {
       pageScrolledFooter: false,
       hideArrowDown: false,
       hideArrowUp: true,
+      hideEmailForm: true,
+      footerEmailClicked: false,
     };
   },
   mounted() {
@@ -54,6 +59,13 @@ export default {
         this.pageScrolledFooter = false;
       }
     });
+  },
+  methods: {
+    emailClicked(event) {
+      console.log(event);
+      console.log('jest prawie git');
+      this.hideEmailForm = false;
+    },
   },
 };
 
@@ -95,6 +107,9 @@ body{
     display: block;
   }
   .display-none{
+    display: none;
+  }
+  .display-form{
     display: none;
   }
   // max-width: 100vw;

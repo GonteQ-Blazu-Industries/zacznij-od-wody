@@ -18,8 +18,11 @@
             width='50'
             height='50'>
         </a>
-        <a href="mailto:pabil@interia.pl" target="_blank">
+        <a
+        target="_blank"
+        @click="emailclicked">
             <img src="@/assets/email.svg"
+            id="email"
             alt="email icon"
             class='icons'
             loading='lazy'
@@ -42,6 +45,15 @@
 <script>
 export default {
   name: 'CustomFooter',
+  emits: ['showemailform'],
+  methods: {
+    emailclicked() {
+      console.log(navigator.userAgentData.mobile);
+      //   if (!navigator.userAgentData.mobile) {
+
+    //   }
+    },
+  },
 };
 </script>
 

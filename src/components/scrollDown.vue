@@ -1,6 +1,7 @@
 <template>
     <div class="scroll-down-wrapper">
-        <a id="read-more" @click="scrollToText" href="#text"
+        <a id="read-more" @click="scrollToText"
+        href="#text"
         v-smooth-scroll="{duration: 1000, offset: -20,}">
                 <img src="@/assets/arrowdown.svg" alt="czytaj więcej">
         </a>
@@ -8,6 +9,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'scrollDown',
   data() {
@@ -31,6 +33,10 @@ export default {
         left: 50vw;
         z-index: 300;
         margin-left: -37.5px;
+        animation-name: bounceArrow;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
         // margin-top: 25vh;
         :hover{
             cursor: pointer;
@@ -77,6 +83,17 @@ export default {
                     height: 50px;
                 }
             }
+        }
+    }
+    @keyframes bounceArrow{
+        0%{
+            bottom: 10vh;
+        }
+        50%{
+            bottom: 12vh;
+        }
+        100%{
+            bottom: 10vh;
         }
     }
 </style>
