@@ -9,7 +9,7 @@
         <div class="text" id="text">
             <p>
                 Czy to możliwe, że tak powszechna i prosta substancja
-                (H2O - dwa atomy wodoru i jeden tlenu)
+                (H<sub>2</sub>O - dwa atomy wodoru i jeden tlenu)
                 odgrywała tak znaczącą i kluczową rolę w naszym życiu?
             </p>
             <p>
@@ -19,7 +19,7 @@
             <p>
                <br>
                 Humorystycznie możemy powiedzieć że jesteśmy chodzącym
-                akwarium w którym jak rybki w akwarium, pływają nasze komórki.
+                akwarium w którym jak rybki, pływają nasze komórki.
             </p>
             <p>
                 <br>
@@ -35,7 +35,7 @@
             </p>
             <p>
                 <br>
-                Wtedy nasze zdrowie zaczyna się psuć. Na wskutek tego
+                Wtedy nasze zdrowie zaczyna się psuć. Na wskutek tego,
                 brakuje nam energii, jesteśmy rozdrażnieni, pojawiają
                 się nieokreślone bóle i problemy zdrowotne.
             </p>

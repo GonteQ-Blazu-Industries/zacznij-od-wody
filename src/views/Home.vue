@@ -27,28 +27,27 @@
             <p>
                 <br>
                 Ale nawet tu na ziemi są miejsca, gdzie życia jest niewiele
-                i wygląda jakby ono zanikało, a są też miejsca, gdzie
-                jest go wielka obfitość.
+                i wygląda jakby ono zanikało. Ale są też miejsca tętniące życiem.
             </p>
             <p>
                 <br>
-                Od czego to zależy? Od dostępności, obfitości i jakości wody.
+                Od czego to zależy? <br> Od dostępności, obfitości i jakości wody.
             </p>
             <p>
                 <br>
-                Można te informacje krótko podsumować: „Gdzie jest woda, tam jest życie”
+                Te informacje można krótko podsumować
+                stwierdzeniem: „Gdzie jest woda, tam jest życie”
             </p>
             <p>
                 <br>
-                Z informacji na tej stronie dowiesz się dlaczego woda jest tak ważna
+                Na tej stronie dowiesz się dlaczego woda jest tak ważna
                 dla Ciebie i Twoich bliskich.
             </p>
             <p>
                 <br>
                 Jaką odgrywa ona rolę w Twoim zdrowiu,  samopoczuciu,
                 regulacji wagi, kondycji fizycznej i psychicznej, oraz
-                jakiej wody potrzebuje Twój organizm, by codziennie tryskał
-                 energią.
+                jakiej wody potrzebuje Twój organizm, by codziennie tryskał energią.
             </p>
             <p>
                 <br>

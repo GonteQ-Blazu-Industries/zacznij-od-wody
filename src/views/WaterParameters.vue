@@ -19,11 +19,11 @@
             <p>
                 <br>
                 Woda „żywa” to taka w której żyją Twoje komórki. Ma ona kilka
-                bardzo ważnych parametrów, dzięki którym one żyją, i dobrze się mają.
+                bardzo ważnych parametrów, które są niezbędne dla ich prawidłowego funckjonowania.
             </p>
             <p>
                 <br>
-                Za zdrowych komórek tworzą się tkanki. Z tkanek tworzą się organy.
+                -> ze zdrowych komórek tworzą się tkanki <br> -> z tkanek tworzą się organy <br> ->
                 Organy wchodzą w skład różnych układów a odpowiednio współpracujące
                 ze sobą układy stanowią człowieka.
             </p>

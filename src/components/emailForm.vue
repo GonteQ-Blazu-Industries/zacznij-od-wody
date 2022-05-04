@@ -32,12 +32,10 @@ export default {
   name: 'EmailForm',
   data() {
     return {
-      hideForm: false,
     };
   },
   methods: {
     hideFormMethod() {
-      this.hideForm = true;
       console.log('clicked');
     },
   },

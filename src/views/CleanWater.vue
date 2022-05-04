@@ -8,7 +8,7 @@
         </div>
         <div class="text" id="text">
             <p>
-                Wiesz już jaka potrzebna Ci jest odpowiednia ilość wody.
+                Wiesz już jaką ilość wody potrzebujesz aby żyć w zdrowiu.
             </p>
             <p>
                 <br>
@@ -16,7 +16,7 @@
             </p>
             <p>
                 <br>
-                Wiesz też zapewne, że powinna być ona czysta.
+                Wiesz też zapewne, że powinna być czysta.
             </p>
             <p>
                 <br>
@@ -24,11 +24,12 @@
             </p>
             <p>
                 <br>
-                Wiesz że w przyrodzie nie ma już czystej wody i za naszego życia nie będzie?
+                Wiesz, że w przyrodzie nie ma już czystej wody i
+                za naszego życia już takiej nie będzie?
             </p>
             <p>
                 <br>
-                Może rodzi Ci się teraz pytanie DLACZEGO i skąd takie przypuszczenia?
+                Może rodzi Ci się teraz pytanie <b>DLACZEGO?</b> Skąd takie przypuszczenia?
             </p>
             <p>
                 <br>
