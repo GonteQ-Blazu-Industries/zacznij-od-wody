@@ -29,6 +29,10 @@ export default {
       bottom: 10vh;
       right: 5vw;
       z-index: 300;
+      animation-name: bounceArrow;
+      animation-duration: 2s;
+      // animation-delay: 1s;
+      animation-iteration-count: infinite;
       :hover{
         cursor: pointer;
       }
@@ -74,6 +78,17 @@ export default {
           height: 50px;
         }
         }
+      }
+    }
+    @keyframes bounceArrow{
+      0%{
+        bottom: 10vh;
+      }
+      50%{
+        bottom: 12vh;
+      }
+      100%{
+        bottom: 10vh;
       }
     }
 </style>

@@ -35,7 +35,7 @@ export default {
         margin-left: -37.5px;
         animation-name: bounceArrow;
         animation-duration: 2s;
-        animation-delay: 1s;
+        // animation-delay: 1s;
         animation-iteration-count: infinite;
         // margin-top: 25vh;
         :hover{
