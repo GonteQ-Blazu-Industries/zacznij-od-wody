@@ -116,7 +116,7 @@ export default {
                 font-weight: 400;
             }
             &.router-link-active{
-                color: #0DB3D9;
+                color: #3E77B6;
                 text-decoration: none;
             }
         }
@@ -163,7 +163,11 @@ export default {
                 flex-flow: column;
                 justify-content: center;
                 align-items: center;
+                // background-color: #4c4c4c;
+                background-image: url('@/assets/water.jpg');
                 background-color: #4c4c4c;
+                background-blend-mode: multiply;
+                background-size: cover;
                 height: 100vh;
                 z-index: 2000;
                 width: 100vw;

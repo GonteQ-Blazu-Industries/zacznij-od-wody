@@ -27,7 +27,7 @@
             width='50'
             height='50'>
         </a>
-        <a href="https://www.messenger.com/t/106717008363438/" target="_blank">
+        <a href="https://www.messenger.com/t/100000518911924" target="_blank">
         <img src="@/assets/messenger.svg"
             alt="messenger icon"
             class='icons'

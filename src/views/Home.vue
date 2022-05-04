@@ -134,6 +134,8 @@ export default {
                 a{
                     text-decoration: none;
                     color: white;
+                    text-transform: uppercase;
+                    font-weight: 700;
                 }
             }
         }
