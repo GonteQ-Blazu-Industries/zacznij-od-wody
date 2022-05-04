@@ -73,6 +73,7 @@ export default {
                     border-radius: 5px;
                     width: 100%;
                     // height: 10%;
+                    height: 3vh;
                     font-size: 2vh;
                 }
                 label{
