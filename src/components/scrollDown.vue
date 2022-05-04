@@ -89,7 +89,7 @@ export default {
             bottom: 10vh;
         }
         50%{
-            bottom: 12vh;
+            bottom: 8vh;
         }
         100%{
             bottom: 10vh;

@@ -22,6 +22,8 @@
                 placeholder="Tutaj wpisz treść wiadomości"
                 required />
                 <!-- <br> -->
+                <br>
+                <br>
                 <button type="submit">Wyślij E-mail</button>
             </form>
         </div>
@@ -43,16 +45,16 @@ export default {
 </script>
 <style lang="scss" scoped>
     .email-wrapper{
-        position: fixed;
-        z-index: 20000;
+        // position: absolute;
+        z-index: 5000;
         background-color: rgba(26,26,26, 0.85);
-        height: 100vh;
-        width: 100vw;
-        top: 0;
-        left: 0;
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+        // top: 10vh;
+        // left: 0;
         .email-content{
             position: relative;
-            z-index: 30000;
             top: 10vh;
             left: 10vw;
             display: flex;
@@ -68,8 +70,10 @@ export default {
                 width: 75%;
                 height: 85%;
                 input{
+                    border-radius: 5px;
                     width: 100%;
-                    height: 10%;
+                    // height: 10%;
+                    font-size: 2vh;
                 }
                 label{
                     color: white;
@@ -79,12 +83,13 @@ export default {
                     width: 100%;
                     resize: none;
                     font-family: inherit;
+                    border-radius: 5px;
                 }
                 button{
                     font-family: inherit;
                     height: 5%;
                     width: 50%;
-                    margin-left: 25%;
+                    // margin-left: 25%;
                     color: white;
                     background-color: #1399ee;
                     border-radius: 50px;

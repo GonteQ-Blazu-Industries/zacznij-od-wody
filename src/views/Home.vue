@@ -66,12 +66,18 @@
                     Kliknij aby zobaczyć filmik</a>
             </p>
         </div>
+        <EmailForm/>
     </div>
 </template>
 
 <script>
+import EmailForm from '@/components/emailForm.vue';
+
 export default {
   name: 'Home',
+  components: {
+    EmailForm,
+  },
 };
 </script>
 
@@ -103,7 +109,7 @@ export default {
 
         #home-page-content{
             position: relative;
-            // min-height: 100vh;
+            min-height: 82vh;
             // height: 25vh;
             z-index: 200;
             // background-color: #4080bf;
@@ -116,7 +122,7 @@ export default {
             }
         }
         .text{
-            position: absolute;
+            // position: absolute;
             padding: 10vh 20vw;
             top: 100vh;
             min-height: 100vh;

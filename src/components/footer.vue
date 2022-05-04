@@ -9,7 +9,9 @@
             width='50'
             height='50'>
         </a>
-        <a href="tel:+48509714295" target="_blank">
+        <a
+        href='tel:+48509714295'
+        target="_blank">
             <img src="@/assets/phone.svg"
             alt="phone icon"
             class='icons'
@@ -20,7 +22,7 @@
         </a>
         <a
         target="_blank"
-        @click="emailclicked">
+        href="mailto:pabil@interia.pl">
             <img src="@/assets/email.svg"
             id="email"
             alt="email icon"
@@ -45,15 +47,6 @@
 <script>
 export default {
   name: 'CustomFooter',
-  emits: ['showemailform'],
-  methods: {
-    emailclicked() {
-      console.log(navigator.userAgentData.mobile);
-      //   if (!navigator.userAgentData.mobile) {
-
-    //   }
-    },
-  },
 };
 </script>
 

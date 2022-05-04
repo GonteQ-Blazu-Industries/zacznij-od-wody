@@ -15,11 +15,14 @@
             <div class="line3"></div>
         </div>
         <div class="desktop-menu-section" :class="{'nav-active' : navbarActive}">
-            <router-link to="/znaczenie-wody" @click="navSlide"><h3>Znaczenie wody</h3>
+            <router-link to="/znaczenie-wody" @click="navSlide" class="menu-items">
+            <h3>Znaczenie wody</h3>
             </router-link>
-            <router-link to="/parametry-wody" @click="navSlide"><h3>Parametry wody</h3>
+            <router-link to="/parametry-wody" @click="navSlide" class="menu-items">
+            <h3>Parametry wody</h3>
             </router-link>
-            <router-link to="/czysta-woda" @click="navSlide"><h3>Czysta woda</h3>
+            <router-link to="/czysta-woda" @click="navSlide" class="menu-items">
+            <h3>Czysta woda</h3>
             </router-link>
         </div>
         <!-- <router-link to='/about' class='router'>O stronie</router-link> -->
