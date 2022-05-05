@@ -48,6 +48,11 @@ const routes = [
     path: '/dziekuje-za-email',
     name: 'EmailThanks',
     component: EmailThanks,
+    meta: {
+      hideArrowDown: true,
+      hideNavbar: true,
+      hideFooter: true,
+    },
   },
 ];
 

@@ -1,13 +1,15 @@
 <template>
   <div id="app-wrapper" >
     <div id='app-nav'>
-        <Navbar :class="{'page-scrolled': pageScrolled}"/>
+        <Navbar :class="{'page-scrolled': pageScrolled}" v-if="!$route.meta.hideNavbar"/>
     </div>
     <router-view class='router-view'/>
-    <ScrollDown :class="{'display-none': hideArrowDown}" />
+    <ScrollDown :class="{'display-none': hideArrowDown}"
+    v-if="!$route.meta.hideArrowDown"/>
     <ScrollToTop :class="{'display-none': hideArrowUp}"/>
     <footer>
-      <CustomFooter :class="{'page-scrolled-footer': pageScrolledFooter}"/>
+      <CustomFooter :class="{'page-scrolled-footer': pageScrolledFooter}"
+      v-if="!$route.meta.hideFooter" />
     </footer>
   </div>
 </template>
