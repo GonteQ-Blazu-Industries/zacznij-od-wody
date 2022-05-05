@@ -139,6 +139,17 @@ export default {
             transform: translateX(0px);
         }
     }
+    @media only screen and (max-width: 1450px){
+        nav{
+            #logo-section{
+                #logo{
+                    img{
+                        width: 35px;
+                    }
+                }
+            }
+        }
+    }
     @media only screen and (max-width: 1024px){
         nav{
             #logo-section{
