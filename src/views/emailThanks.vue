@@ -11,8 +11,12 @@ export default {
 </script>
 <style lang="scss" scoped>
     .wrapper{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         background-color: #1399ee;
         font-size: 'Barlow', sans-serif;
         color: white;
