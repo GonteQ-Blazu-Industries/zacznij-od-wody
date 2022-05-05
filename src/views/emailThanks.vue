@@ -5,6 +5,9 @@
     </div>
 </template>
 <script>
+export default {
+  name: 'EmailThanks',
+};
 </script>
 <style lang="scss" scoped>
     .wrapper{
