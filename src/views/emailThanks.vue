@@ -2,7 +2,7 @@
     <div class="wrapper">
         <h1>Dziękuje za wiadomość</h1>
         <p>Postaram się jak najszybciej na nią odpowiedzieć</p>
-        <router-view to="/">Wróć na stronę główną</router-view>
+        <router-view to="/" class="link">Wróć na stronę główną</router-view>
     </div>
 </template>
 <script>
@@ -28,6 +28,11 @@ export default {
         }
         p{
             font-size: 35px;
+        }
+        .link{
+            text-transform: uppercase;
+            font-weight: 700;
+            text-decoration: none;
         }
     }
     @media only screen and (max-width: 1450px){
