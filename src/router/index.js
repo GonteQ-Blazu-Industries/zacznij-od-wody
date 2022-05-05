@@ -6,6 +6,7 @@ import AboutMe from '../views/AboutMe.vue';
 import WaterMeaning from '../views/WaterMeaning.vue';
 import WaterParameters from '../views/WaterParameters.vue';
 import CleanWater from '../views/CleanWater.vue';
+import EmailThanks from '../views/emailThanks.vue';
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: '/czysta-woda',
     name: 'CleanWater',
     component: CleanWater,
+  },
+  {
+    path: '/dziekuje-za-email',
+    name: 'EmailThanks',
+    component: EmailThanks,
   },
 ];
 
