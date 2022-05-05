@@ -18,7 +18,7 @@
                 <input type="hidden"
                 name="_next"
                 value="https://zacznijodwody.pl/dziekuje-za-email">
-                <label for="message">Napisz wiadomość:</label>
+                <label for="message">Masz pytanie? Napisz wiadomość:</label>
                 <!-- <br> -->
                 <textarea type="text"
                 name="message"
@@ -81,6 +81,7 @@ export default {
                 }
                 label{
                     color: white;
+                    font-size: 2vh;
                 }
                 textarea{
                     height: 80%;
