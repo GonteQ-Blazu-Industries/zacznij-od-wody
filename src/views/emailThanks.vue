@@ -2,6 +2,7 @@
     <div class="wrapper">
         <h1>Dziękuje za wiadomość</h1>
         <p>Postaram się jak najszybciej na nią odpowiedzieć</p>
+        <router-view to="/">Wróć na stronę główną</router-view>
     </div>
 </template>
 <script>
@@ -12,6 +13,7 @@ export default {
 <style lang="scss" scoped>
     .wrapper{
         display: flex;
+        z-index: 100000;
         flex-flow: column;
         justify-content: center;
         text-align: center;
