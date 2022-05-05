@@ -17,7 +17,7 @@
                 style="display:none">
                 <input type="hidden"
                 name="_next"
-                value="https://zacznijodwody.netlify.app/">
+                value="https://zacznijodwody.netlify.app/dziekuje-za-email">
                 <label for="message">Napisz wiadomość:</label>
                 <!-- <br> -->
                 <textarea type="text"
