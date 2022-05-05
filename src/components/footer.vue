@@ -22,8 +22,8 @@
         </a>
         <a
         target="_blank"
-        href="mailto:pabil@interia.pl">
-            <img src="@/assets/email.svg"
+        href="https://www.facebook.com/Zacznij-od-wody-Pawe%C5%82-Bilski-106717008363438">
+            <img src="@/assets/facebook.svg"
             id="email"
             alt="email icon"
             class='icons'
