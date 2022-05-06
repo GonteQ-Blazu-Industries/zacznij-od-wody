@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import FacebookPosts from '../views/FacebookPosts.vue';
 import About from '../views/About.vue';
@@ -57,7 +57,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createHashHistory(),
   routes,
   default: Home,
 });
