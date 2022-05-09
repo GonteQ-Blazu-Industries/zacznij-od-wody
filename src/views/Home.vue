@@ -56,14 +56,13 @@
             </p>
             <p>
                 <br>
-                Jeżeli nie wierzysz że tą najbardziej tajemniczą substancją
-                jest woda, koniecznie zobacz ten film.
+                Jeżeli trudno Ci uwierzyć, że woda jest jedną z
+                najbardziej tajemniczych substancji na świecie,
             </p>
             <p>
-                <br>
-                Woda, wielka tajemnica:
+                <!-- <br> -->
                 <a href="https://www.youtube.com/watch?v=IrCIpNOVxCY&t" target="_blank">
-                    Kliknij aby zobaczyć filmik</a>
+                    zobacz ten film</a>
             </p>
         </div>
         <EmailForm/>

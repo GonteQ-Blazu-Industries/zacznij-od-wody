@@ -2,7 +2,7 @@
     <div class="scroll-down-wrapper">
         <a id="read-more" @click="scrollToText"
         href="#text"
-        v-smooth-scroll="{duration: 1000, offset: -20,}">
+        v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">
                 <img src="@/assets/arrowdown.svg" alt="czytaj więcej">
         </a>
     </div>

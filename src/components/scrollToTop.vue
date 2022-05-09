@@ -1,7 +1,7 @@
 <template>
     <div class="scroll-up-wrapper">
         <a href="#top" @click="scrollToTopView"
-        v-smooth-scroll="{duration: 1000, offset: -20,}">
+        v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">
                 <img src="@/assets/arrowup.svg" alt="wróć na górę">
         </a>
     </div>
