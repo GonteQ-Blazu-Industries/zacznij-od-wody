@@ -44,9 +44,22 @@
                 Posłuchaj i zobacz, jakie problemy zdrowotne powstają,
                 gdy zaniedbujemy picie odpowiedniej ilości wody.
                 <br>
-                <a href="https://www.youtube.com/watch?v=oiDxgkWI_ws" target="_blank">
-                    <br> Kliknij aby zobaczyć filmik</a>
+                <!-- <a href="https://www.youtube.com/watch?v=oiDxgkWI_ws" target="_blank">
+                    <br> Kliknij aby zobaczyć filmik</a> -->
             </p>
+            <p>
+                <br>
+            </p>
+            <div class="iframe-wrapper">
+                <iframe
+                src="https://www.youtube.com/embed/oiDxgkWI_ws"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay;
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+                </iframe>
+            </div>
         </div>
     </div>
 </template>
@@ -86,7 +99,7 @@ export default {
             }
         }
         .text{
-            position: absolute;
+            // position: absolute;
             padding: 10vh 20vw;
             top: 100vh;
             min-height: 100vh;
@@ -104,6 +117,14 @@ export default {
                     font-weight: 700;
                 }
             }
+            .iframe-wrapper{
+                // height: 100%;
+                // width: 100%;
+                iframe{
+                    width: 560px;
+                    height: 315px;
+                }
+            }
         }
     }
     @media only screen and (max-width: 1450px){
@@ -117,6 +138,14 @@ export default {
                 p{
                     font-size: 28px;
                 }
+                .iframe-wrapper{
+                        // height: 100%;
+                        // width: 100%;
+                        iframe{
+                            width: 440px;
+                            height: 248px;
+                        }
+                    }
             }
         }
     }
@@ -131,6 +160,14 @@ export default {
                 p{
                     font-size: 25px;
                 }
+                .iframe-wrapper{
+                    // height: 100%;
+                    // width: 100%;
+                    iframe{
+                        width: 350px;
+                        height: 197px;
+                    }
+                }
             }
         }
     }
@@ -141,10 +178,18 @@ export default {
                     font-size: 30px;
                 }
             }
-        }
-        .text{
-            p{
-                font-size: 18px;
+            .text{
+                p{
+                    font-size: 18px;
+                }
+                .iframe-wrapper{
+                    // height: 100%;
+                    // width: 100%;
+                    iframe{
+                        width: 220px;
+                        height: 124px;
+                    }
+                }
             }
         }
     }

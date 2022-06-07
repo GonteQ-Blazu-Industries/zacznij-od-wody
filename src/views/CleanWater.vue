@@ -38,9 +38,21 @@
             <p>
                 <br>
                 Zebrałem dla Ciebie kilka informacji na ten temat,
-                <a href="https://www.youtube.com/watch?v=3DHnUJEVX9c" target="_blank">
-                    zobacz nagranie.</a>
+                <!-- <a href="https://www.youtube.com/watch?v=3DHnUJEVX9c" target="_blank">
+                    zobacz nagranie.</a> -->
+                    <br>
+                    <br>
             </p>
+            <div class="iframe-wrapper">
+                <iframe
+                src="https://www.youtube.com/embed/3DHnUJEVX9c"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+                </iframe>
+            </div>
         </div>
     </div>
 </template>
@@ -98,6 +110,14 @@ export default {
                     font-weight: 700;
                 }
             }
+            .iframe-wrapper{
+                // height: 100%;
+                // width: 100%;
+                iframe{
+                    width: 560px;
+                    height: 315px;
+                }
+            }
         }
     }
     @media only screen and (max-width: 1450px){
@@ -111,6 +131,14 @@ export default {
                 p{
                     font-size: 28px;
                 }
+                .iframe-wrapper{
+                        // height: 100%;
+                        // width: 100%;
+                        iframe{
+                            width: 440px;
+                            height: 248px;
+                        }
+                    }
             }
         }
     }
@@ -125,6 +153,14 @@ export default {
                 p{
                     font-size: 25px;
                 }
+                .iframe-wrapper{
+                        // height: 100%;
+                        // width: 100%;
+                        iframe{
+                            width: 350px;
+                            height: 197px;
+                        }
+                    }
             }
         }
     }
@@ -135,10 +171,19 @@ export default {
                     font-size: 30px;
                 }
             }
-        }
+
         .text{
             p{
                 font-size: 18px;
+            }
+                .iframe-wrapper{
+                    // height: 100%;
+                    // width: 100%;
+                    iframe{
+                        width: 220px;
+                        height: 124px;
+                    }
+                }
             }
         }
     }

@@ -58,12 +58,24 @@
                 <br>
                 Jeżeli trudno Ci uwierzyć, że woda jest jedną z
                 najbardziej tajemniczych substancji na świecie,
+                &nbsp; <b>ZOBACZ TEN FILM.</b>
             </p>
             <p>
+                <br>
                 <!-- <br> -->
-                <a href="https://www.youtube.com/watch?v=IrCIpNOVxCY&t" target="_blank">
-                    zobacz ten film</a>
+                <!-- <a href="https://www.youtube.com/watch?v=IrCIpNOVxCY&t" target="_blank">
+                    zobacz ten film</a> -->
+
             </p>
+            <div class="iframe-wrapper">
+                        <iframe
+                        src="https://www.youtube.com/embed/IrCIpNOVxCY"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay;
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
         </div>
         <EmailForm/>
     </div>
@@ -142,6 +154,14 @@ export default {
                     font-weight: 700;
                 }
             }
+            .iframe-wrapper{
+                // height: 100%;
+                // width: 100%;
+                iframe{
+                    width: 560px;
+                    height: 315px;
+                }
+            }
         }
     }
         @media only screen and (max-width: 1450px){
@@ -154,6 +174,14 @@ export default {
                 .text{
                     p{
                         font-size: 28px;
+                    }
+                    .iframe-wrapper{
+                        // height: 100%;
+                        // width: 100%;
+                        iframe{
+                            width: 440px;
+                            height: 248px;
+                        }
                     }
                 }
             }
@@ -169,6 +197,14 @@ export default {
                     p{
                         font-size: 25px;
                     }
+                    .iframe-wrapper{
+                        // height: 100%;
+                        // width: 100%;
+                        iframe{
+                            width: 350px;
+                            height: 197px;
+                        }
+                    }
                 }
             }
         }
@@ -182,6 +218,14 @@ export default {
                 .text{
                     p{
                         font-size: 18px;
+                    }
+                    .iframe-wrapper{
+                        // height: 100%;
+                        // width: 100%;
+                        iframe{
+                            width: 220px;
+                            height: 124px;
+                        }
                     }
                 }
             }

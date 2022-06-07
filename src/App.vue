@@ -122,7 +122,7 @@ body{
       position: fixed;
       bottom: 0;
       height: 10vh;
-      width: 100%;
+      width: 100vw;
       z-index: 1500;
     }
   }
