@@ -8,7 +8,7 @@
         </div>
         <div class="text" id="text">
             <p>
-                Wiesz już jaką ilość wody potrzebujesz aby żyć w zdrowiu.
+                Wiesz już jaką ilość wody potrzebujesz aby żyć w&nbsp;zdrowiu.
             </p>
             <p>
                 <br>
@@ -16,16 +16,15 @@
             </p>
             <p>
                 <br>
-                Wiesz też zapewne, że powinna być czysta.
+                Wiesz też zapewne, że&nbsp;powinna być czysta.
             </p>
             <p>
                 <br>
-                I tu muszę powiedzieć, że nie mam dla Ciebie dobrych wiadomości.
+                I&nbsp;tu muszę powiedzieć, że nie mam dla Ciebie dobrych wiadomości.
             </p>
             <p>
                 <br>
-                W przyrodzie nie ma już czystej wody i
-                za naszego życia już takiej nie będzie?
+                W przyrodzie nie ma już czystej wody i&nbsp;za naszego życia już takiej nie będzie?
             </p>
             <p>
                 <br>
@@ -33,7 +32,7 @@
             </p>
             <p>
                 <br>
-                Wystarczy przeanalizować pewne fakty a wszystko stanie się jasne.
+                Wystarczy przeanalizować pewne fakty a&nbsp;wszystko stanie się jasne.
             </p>
             <p>
                 <br>

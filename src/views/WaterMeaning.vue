@@ -8,40 +8,40 @@
         </div>
         <div class="text" id="text">
             <p>
-                Czy to możliwe, że tak powszechna i prosta substancja
-                (H<sub>2</sub>O - dwa atomy wodoru i jeden tlenu)
-                odgrywała tak znaczącą i kluczową rolę w naszym życiu?
+                Czy to możliwe, że tak powszechna i&nbsp;prosta substancja
+                (H<sub>2</sub>O -&nbsp;dwa atomy wodoru i&nbsp;jeden tlenu)
+                odgrywała tak znaczącą i&nbsp;kluczową rolę w&nbsp;naszym życiu?
             </p>
             <p>
                 <br>
-                Organizm ludzki składa się w około 70-ciu % z wody.
+                Organizm ludzki składa się w&nbsp;około 70-ciu % z&nbsp;wody.
             </p>
             <p>
                <br>
-                Humorystycznie możemy powiedzieć że nasze komórki pływają w wodach naszego
-                organizmu jak rybki w akwarium.
+                Humorystycznie możemy powiedzieć że nasze komórki pływają w&nbsp;wodach naszego
+                organizmu jak rybki w&nbsp;akwarium.
             </p>
             <p>
                 <br>
-                Wszystkie zachodzące w naszym organizmie reakcje,
-                biologiczno-chemiczno-elektryczne zachodzą w wodzie.
+                Wszystkie zachodzące w&nbsp;naszym organizmie reakcje,
+                biologiczno-chemiczno-elektryczne zachodzą w&nbsp;wodzie.
             </p>
             <p>
                 <br>
-                Gdy w tym chodzącym „akwarium” zaczyna brakować wody,
+                Gdy w&nbsp;tym chodzącym „akwarium” zaczyna brakować wody,
                 albo jest ono uzupełniane czymś innym niż woda (kawa,
-                herbata, napoje kolorowe, piwo itp.) wiele z tych reakcji
+                herbata, napoje kolorowe, piwo itp.) wiele z&nbsp;tych reakcji
                 zaczyna szwankować.
             </p>
             <p>
                 <br>
                 Wtedy nasze zdrowie zaczyna się psuć. Na wskutek tego,
                 brakuje nam energii, jesteśmy rozdrażnieni, pojawiają
-                się nieokreślone bóle i problemy zdrowotne.
+                się nieokreślone bóle i&nbsp;problemy zdrowotne.
             </p>
             <p>
                 <br>
-                Posłuchaj i zobacz, jakie problemy zdrowotne powstają,
+                Posłuchaj i&nbsp;zobacz, jakie problemy zdrowotne powstają,
                 gdy zaniedbujemy picie odpowiedniej ilości wody.
                 <br>
                 <!-- <a href="https://www.youtube.com/watch?v=oiDxgkWI_ws" target="_blank">

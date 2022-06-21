@@ -11,27 +11,27 @@
         </div>
         <div class="text" id="text">
            <p>
-                W naszym układzie słonecznym jest tylko jedna planeta, na której
+                W naszym układzie słonecznym jest tylko jedna planeta, na&nbsp;której
                 istnieje życie. Mamy szczęście mieszkać na tej błękitnej planecie.
             </p>
             <p>
                 <br>
-                Wiesz dlaczego jest tu życie i dlaczego jest błękitna?
+                Wiesz dlaczego jest tu życie i&nbsp;dlaczego jest błękitna?
                 Bo około 70% jej powierzchni pokryte jest wodą.
             </p>
             <p>
                 <br>
-                To właśnie dzięki wodzie istnieje życie na ziemi.
+                To właśnie dzięki wodzie istnieje życie na&nbsp;ziemi.
             </p>
 
             <p>
                 <br>
                 Ale nawet tu na ziemi są miejsca, gdzie życia jest niewiele
-                i wygląda jakby ono zanikało. Ale są też miejsca tętniące życiem.
+                i&nbsp;wygląda jakby ono zanikało. Ale są też miejsca tętniące życiem.
             </p>
             <p>
                 <br>
-                Od czego to zależy? <br> Od dostępności, obfitości i jakości wody.
+                Od czego to zależy? <br> Od dostępności, obfitości i&nbsp;jakości wody.
             </p>
             <p>
                 <br>
@@ -41,24 +41,24 @@
             <p>
                 <br>
                 Na tej stronie dowiesz się dlaczego woda jest tak ważna
-                dla Ciebie i Twoich bliskich.
+                dla Ciebie i&nbsp;Twoich bliskich.
             </p>
             <p>
                 <br>
                 Jaką odgrywa ona rolę w Twoim zdrowiu,  samopoczuciu,
-                regulacji wagi, kondycji fizycznej i psychicznej, oraz
+                regulacji&nbsp;wagi, kondycji fizycznej i&nbsp;psychicznej, oraz
                 jakiej wody potrzebuje Twój organizm, by codziennie tryskał energią.
             </p>
             <p>
                 <br>
-                Zapraszam Cię do zgłębiania najprostszej, a zarazem
+                Zapraszam Cię do zgłębiania najprostszej, a&nbsp;zarazem
                 najbardziej tajemniczej substancji na świecie.
             </p>
             <p>
                 <br>
-                Jeżeli trudno Ci uwierzyć, że woda jest jedną z
-                najbardziej tajemniczych substancji na świecie,
-                &nbsp; <b>ZOBACZ TEN FILM.</b>
+                Jeżeli trudno Ci uwierzyć, że woda jest jedną z&nbsp;najbardziej
+                tajemniczych substancji na&nbsp;świecie,
+                <b>ZOBACZ TEN FILM.</b>
             </p>
             <p>
                 <br>

@@ -7,25 +7,26 @@
             </h1>
         </div>
         <div class="text" id="text">
-            <p>Oprócz tego że woda powinna być czysta i pozbawiona szkodliwych
-                substancji chemicznych i organicznych, powinna posiadać też
+            <p>Oprócz tego że&nbsp;woda powinna być czysta i&nbsp;pozbawiona szkodliwych
+                substancji chemicznych i&nbsp;organicznych, powinna posiadać też
                 odpowiednie parametry.
             </p>
             <p>
                 <br>
-                Woda w Twoim organizmie jest inna niż ta którą kupujesz w sklepie,
-                czy ta która leci z Twojego kranu.
+                Woda w&nbsp;Twoim organizmie jest inna niż ta którą kupujesz w sklepie,
+                czy ta która leci z&nbsp;Twojego kranu.
             </p>
             <p>
                 <br>
-                Woda „żywa” to taka w której żyją Twoje komórki. Ma ona kilka
+                Woda „żywa” to taka w&nbsp;której żyją Twoje komórki. Ma ona kilka
                 bardzo ważnych parametrów, które są niezbędne dla ich prawidłowego funckjonowania.
             </p>
             <p>
                 <br>
-                -> człowiek zbudowany jest z 12 układów <br>
-                -> układy zbudowane są z organów <br> -> organy zbudowane są z tkanek <br> ->
-                a tkanka to skupisko komórek otoczonych wodą
+                -> człowiek zbudowany jest z&nbsp;12 układów <br>
+                -> układy zbudowane są z&nbsp;organów <br> -> organy zbudowane są z&nbsp;tkanek
+                <br> ->
+                a&nbsp;tkanka to skupisko komórek otoczonych wodą
             </p>
             <p>
                 <br>
@@ -33,8 +34,8 @@
             </p>
             <p>
                 <br>
-                Zobacz film który mówi o parametrach potrzebnych
-                do zdrowego życia komórki. &nbsp;
+                Zobacz film który mówi o&nbsp;parametrach potrzebnych
+                do zdrowego życia komórki.
                 <br>
                 <br>
                 <!-- <a href="https://www.youtube.com/watch?v=Et0z6usZidw&t" target="_blank">
