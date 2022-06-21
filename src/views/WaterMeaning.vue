@@ -18,8 +18,8 @@
             </p>
             <p>
                <br>
-                Humorystycznie możemy powiedzieć że jesteśmy chodzącym
-                akwarium w którym jak rybki, pływają nasze komórki.
+                Humorystycznie możemy powiedzieć że nasze komórki pływają w wodach naszego
+                organizmu jak rybki w akwarium.
             </p>
             <p>
                 <br>

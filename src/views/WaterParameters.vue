@@ -23,14 +23,13 @@
             </p>
             <p>
                 <br>
-                -> ze zdrowych komórek tworzą się tkanki <br> -> z tkanek tworzą się organy <br> ->
-                Organy wchodzą w skład różnych układów a odpowiednio współpracujące
-                ze sobą układy stanowią człowieka.
+                -> człowiek zbudowany jest z 12 układów <br>
+                -> układy zbudowane są z organów <br> -> organy zbudowane są z tkanek <br> ->
+                a tkanka to skupisko komórek otoczonych wodą
             </p>
             <p>
                 <br>
-                Jak widzisz jakość Twojego życia w głównej mierze zależy od ilości i
-                jakości wody którą pijesz.
+                Dlatego od jakości wody zależy jakość naszego życia.
             </p>
             <p>
                 <br>

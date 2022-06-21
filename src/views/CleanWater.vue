@@ -24,12 +24,12 @@
             </p>
             <p>
                 <br>
-                Wiesz, że w przyrodzie nie ma już czystej wody i
+                W przyrodzie nie ma już czystej wody i
                 za naszego życia już takiej nie będzie?
             </p>
             <p>
                 <br>
-                Może rodzi Ci się teraz pytanie <b>DLACZEGO?</b> Skąd takie przypuszczenia?
+                Może rodzi Ci się teraz pytanie <b>DLACZEGO?</b>
             </p>
             <p>
                 <br>
@@ -37,7 +37,7 @@
             </p>
             <p>
                 <br>
-                Zebrałem dla Ciebie kilka informacji na ten temat,
+                W tym nagraniu znajdziesz kilka informacji na ten temat.
                 <!-- <a href="https://www.youtube.com/watch?v=3DHnUJEVX9c" target="_blank">
                     zobacz nagranie.</a> -->
                     <br>

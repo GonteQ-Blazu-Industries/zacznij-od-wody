@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import { createApp } from 'vue';
 import VueSmoothScroll from 'vue3-smooth-scroll';
 import App from './App.vue';
