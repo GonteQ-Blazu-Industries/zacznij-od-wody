@@ -9,7 +9,7 @@
         <div class="text" id="text">
             <p>
                 Czy to możliwe, że tak powszechna i&nbsp;prosta substancja
-                (H<sub>2</sub>O -&nbsp;dwa atomy wodoru i&nbsp;jeden tlenu)
+                (H<sub>2</sub>O&nbsp;-&nbsp;dwa atomy wodoru i&nbsp;jeden tlenu)
                 odgrywała tak znaczącą i&nbsp;kluczową rolę w&nbsp;naszym życiu?
             </p>
             <p>

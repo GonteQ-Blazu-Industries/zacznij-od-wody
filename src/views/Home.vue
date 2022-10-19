@@ -1,3 +1,4 @@
+<!-- eslint-disable max-len -->
 <template>
     <div class="home-page-wrapper" id="top">
         <!-- <video src="@/assets/waterfallvideo.mp4" muted loop autoplay playsinline></video> -->
@@ -10,7 +11,7 @@
             </h1>
         </div>
         <div class="text" id="text">
-           <p>
+           <!-- <p>
                 W naszym układzie słonecznym jest tylko jedna planeta, na&nbsp;której
                 istnieje życie. Mamy szczęście mieszkać na tej błękitnej planecie.
             </p>
@@ -59,15 +60,15 @@
                 Jeżeli trudno Ci uwierzyć, że woda jest jedną z&nbsp;najbardziej
                 tajemniczych substancji na&nbsp;świecie,
                 <b>ZOBACZ TEN FILM.</b>
-            </p>
-            <p>
-                <br>
+            </p> -->
+            <!-- <p> -->
+                <!-- <br> -->
                 <!-- <br> -->
                 <!-- <a href="https://www.youtube.com/watch?v=IrCIpNOVxCY&t" target="_blank">
                     zobacz ten film</a> -->
 
-            </p>
-            <div class="iframe-wrapper">
+            <!-- </p> -->
+            <!-- <div class="iframe-wrapper">
                         <iframe
                         src="https://www.youtube.com/embed/IrCIpNOVxCY"
                         title="YouTube video player"
@@ -75,6 +76,41 @@
                         allow="accelerometer; autoplay;
                         clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
+            </div> -->
+            <p>
+                Kolokwialnie można powiedzieć że "<strong>Bez wody nie ma życia</strong>".
+            </p>
+            <p>
+                <br>
+                To właśnie dzięki tej substancji istnieje ono na ziemii.
+            </p>
+            <p>
+                <br>
+                Co się dzieje w miejscach w których brakuje wody? (pustynie) Zanika tam życie.
+            </p>
+            <p>
+                <br>
+                Jeżeli bez wody brakuje życia, to czy utrzymamy swoje zdrowie bez niej?
+            </p>
+            <p>
+                <br>
+                Jeżeli nasze ciało składa się z niej w około 70% to w takim stopniu
+                zdrowie od niej zależy.
+            </p>
+            <p>
+                <br>
+                <strong>Zobacz</strong> z czego to wynika.
+                <br>
+                <br>
+            </p>
+            <div class="iframe-wrapper">
+                <iframe
+                src="https://www.youtube.com/embed/oiDxgkWI_ws"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
             </div>
         </div>
         <EmailForm/>
@@ -82,6 +118,7 @@
 </template>
 
 <script>
+// eslint-disable-next-line import/no-extraneous-dependencies
 import EmailForm from '@/components/emailForm.vue';
 
 export default {
@@ -142,6 +179,7 @@ export default {
             // background-color: #4c4c4c;
             // background-color: #0DB3D9;
             background-color: #1399ee;
+            opacity: 85%;
             color: white;
             p{
                 font-size: 35px;
@@ -155,6 +193,7 @@ export default {
                 }
             }
             .iframe-wrapper{
+                margin-top: 30px;
                 // height: 100%;
                 // width: 100%;
                 iframe{

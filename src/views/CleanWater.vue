@@ -97,6 +97,7 @@ export default {
             min-height: 100vh;
             width: 100%;
             background-color: #1399ee;
+            opacity: 85%;
             color: white;
             p{
                 font-size: 35px;

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import FacebookPosts from '../views/FacebookPosts.vue';

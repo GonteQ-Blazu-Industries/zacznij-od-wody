@@ -30,11 +30,11 @@
             </p>
             <p>
                 <br>
-                Dlatego od jakości wody zależy jakość naszego życia.
+                Dlatego od jakości wody w jakiej żyją nasze komórki, zależy jakość naszego życia.
             </p>
             <p>
                 <br>
-                Zobacz film który mówi o&nbsp;parametrach potrzebnych
+                Zobacz film który mówi o&nbsp;parametrach wody potrzebnych
                 do zdrowego życia komórki.
                 <br>
                 <br>
@@ -74,6 +74,22 @@
                 <br>
                 A wszystko to dzieje się w wodzie.
             </p>
+            <p>
+                <br>
+                Jednym z parametrów jest struktura wody, zobacz jak ważną rolę odgrywa ona
+                 w naszym życiu.
+                 <br>
+                 <br>
+            </p>
+            <div class="iframe-wrapper">
+                        <iframe
+                        src="https://www.youtube.com/embed/IrCIpNOVxCY"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay;
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 </template>
@@ -119,6 +135,7 @@ export default {
             min-height: 100vh;
             width: 100%;
             background-color: #1399ee;
+            opacity: 85%;
             color: white;
             p{
                 font-size: 35px;
