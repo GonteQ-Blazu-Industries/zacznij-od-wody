@@ -1,6 +1,6 @@
 <!-- eslint-disable max-len -->
 <template>
-    <div class="home-page-wrapper" id="top">
+    <div class="home-page-wrapper" id="top" ref="firstElement">
         <!-- <video src="@/assets/waterfallvideo.mp4" muted loop autoplay playsinline></video> -->
         <img src="@/assets/waterfall.jpg" alt="wodospad">
         <!-- <div id="overlay">
@@ -112,6 +112,29 @@
                 allowfullscreen>
             </iframe>
             </div>
+            <p>
+                <br>
+                PS. Zobacz animowany filmik o funkcjonowaniu naszych
+                komórek: &nbsp;
+                <br>
+                <br>
+                <!-- <a href="https://www.youtube.com/watch?v=8NThJgYO0gs&t" target="_blank">
+                    Kliknij tutaj</a> -->
+            </p>
+            <div class="iframe-wrapper">
+                <iframe
+                src="https://www.youtube.com/embed/8NThJgYO0gs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+                </iframe>
+            </div>
+            <p>
+                <br>
+                A wszystko to dzieje się w wodzie.
+            </p>
         </div>
         <EmailForm/>
     </div>
@@ -120,11 +143,23 @@
 <script>
 // eslint-disable-next-line import/no-extraneous-dependencies
 import EmailForm from '@/components/emailForm.vue';
+import { onMounted, ref } from 'vue';
 
 export default {
   name: 'Home',
   components: {
     EmailForm,
+  },
+  setup() {
+    const firstElement = ref(null);
+
+    onMounted(() => {
+      firstElement.value.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    return {
+      firstElement,
+    };
   },
 };
 </script>

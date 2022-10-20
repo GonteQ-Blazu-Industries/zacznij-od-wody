@@ -1,5 +1,5 @@
 <template>
-    <div class="water-parameters-wrapper" id="top">
+    <div class="water-parameters-wrapper" id="top" ref="firstElement">
         <img src="@/assets/waterfall.jpg" alt="wodospad">
         <div class="content">
             <h1>
@@ -53,29 +53,6 @@
             </div>
             <p>
                 <br>
-                PS. Zobacz animowany filmik o funkcjonowaniu naszych
-                komórek: &nbsp;
-                <br>
-                <br>
-                <!-- <a href="https://www.youtube.com/watch?v=8NThJgYO0gs&t" target="_blank">
-                    Kliknij tutaj</a> -->
-            </p>
-            <div class="iframe-wrapper">
-                <iframe
-                src="https://www.youtube.com/embed/8NThJgYO0gs"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write;
-                encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-                </iframe>
-            </div>
-            <p>
-                <br>
-                A wszystko to dzieje się w wodzie.
-            </p>
-            <p>
-                <br>
                 Jednym z parametrów jest struktura wody, zobacz jak ważną rolę odgrywa ona
                  w naszym życiu.
                  <br>
@@ -95,8 +72,21 @@
 </template>
 
 <script>
+import { onMounted, ref } from 'vue';
+
 export default {
   name: 'WaterParameters',
+  setup() {
+    const firstElement = ref(null);
+
+    onMounted(() => {
+      firstElement.value.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    return {
+      firstElement,
+    };
+  },
 };
 </script>
 

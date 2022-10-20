@@ -1,5 +1,5 @@
 <template>
-    <div class="clean-water-wrapper" id="top">
+    <div class="clean-water-wrapper" id="top" ref="firstElement">
         <img src="@/assets/waterfall.jpg" alt="wodospad">
         <div class="content">
             <h1>
@@ -57,8 +57,21 @@
 </template>
 
 <script>
+import { onMounted, ref } from 'vue';
+
 export default {
   name: 'CleanWater',
+  setup() {
+    const firstElement = ref(null);
+
+    onMounted(() => {
+      firstElement.value.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    return {
+      firstElement,
+    };
+  },
 };
 </script>
 
