@@ -1,3 +1,5 @@
+<!-- eslint-disable max-len -->
+/* eslint-disable */
 <template>
     <div class="email-wrapper" @click="hideFormMethod" :class="{'hideForm': hideForm}">
         <div class="email-content">
