@@ -1,3 +1,4 @@
+<!-- eslint-disable import/no-unresolved -->
 <!-- eslint-disable max-len -->
 <template>
     <div class="home-page-wrapper" id="top" ref="firstElement">
@@ -11,7 +12,7 @@
             </h1>
         </div>
         <div class="text" id="text">
-           <!-- <p>
+            <!-- <p>
                 W naszym układzie słonecznym jest tylko jedna planeta, na&nbsp;której
                 istnieje życie. Mamy szczęście mieszkać na tej błękitnej planecie.
             </p>
@@ -62,9 +63,9 @@
                 <b>ZOBACZ TEN FILM.</b>
             </p> -->
             <!-- <p> -->
-                <!-- <br> -->
-                <!-- <br> -->
-                <!-- <a href="https://www.youtube.com/watch?v=IrCIpNOVxCY&t" target="_blank">
+            <!-- <br> -->
+            <!-- <br> -->
+            <!-- <a href="https://www.youtube.com/watch?v=IrCIpNOVxCY&t" target="_blank">
                     zobacz ten film</a> -->
 
             <!-- </p> -->
@@ -104,13 +105,10 @@
                 <br>
             </p>
             <div class="iframe-wrapper">
-                <iframe
-                src="https://www.youtube.com/embed/oiDxgkWI_ws"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
+                <iframe src="https://www.youtube.com/embed/oiDxgkWI_ws" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </div>
             <p>
                 <br>
@@ -122,13 +120,9 @@
                     Kliknij tutaj</a> -->
             </p>
             <div class="iframe-wrapper">
-                <iframe
-                src="https://www.youtube.com/embed/8NThJgYO0gs"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write;
-                encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
+                <iframe src="https://www.youtube.com/embed/8NThJgYO0gs" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
             <p>
@@ -136,173 +130,197 @@
                 A wszystko to dzieje się w wodzie.
             </p>
         </div>
-        <EmailForm/>
+        <EmailForm class="email-form" />
     </div>
 </template>
 
 <script>
 // eslint-disable-next-line import/no-extraneous-dependencies
-import EmailForm from '@/components/emailForm.vue';
 import { onMounted, ref } from 'vue';
+import EmailForm from '@/components/emailForm.vue';
 
 export default {
-  name: 'Home',
-  components: {
-    EmailForm,
-  },
-  setup() {
-    const firstElement = ref(null);
+    name: 'Home',
+    components: {
+        EmailForm,
+    },
+    setup() {
+        const firstElement = ref(null);
 
-    onMounted(() => {
-      firstElement.value.scrollIntoView({ behavior: 'smooth' });
-    });
+        onMounted(() => {
+            firstElement.value.scrollIntoView({ behavior: 'smooth' });
+        });
 
-    return {
-      firstElement,
-    };
-  },
+        return {
+            firstElement,
+        };
+    },
 };
 </script>
 
 <style lang="scss" scoped>
-    .home-page-wrapper{
-        padding-top: 10vh;
-        text-align: center;
-        img{
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -100;
-            opacity: 0.8;
-            object-fit: cover;
+.home-page-wrapper {
+    padding-top: 10vh;
+    text-align: center;
+
+    img {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -100;
+        opacity: 0.8;
+        object-fit: cover;
+    }
+
+    #overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: #4080bf;
+        // background: #1399ee;
+        mix-blend-mode: overlay;
+    }
+
+    #home-page-content {
+        position: relative;
+        min-height: 86vh;
+        // height: 25vh;
+        z-index: 200;
+
+        // background-color: #4080bf;
+        h1 {
+            color: white;
+            font-family: 'Barlow', sans-serif;
+            font-weight: 700;
+            margin: 10vw 0;
+            font-size: 100px;
         }
-        #overlay{
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 100;
-            background: #4080bf;
-            // background: #1399ee;
-            mix-blend-mode: overlay;
+    }
+
+    .text {
+        // position: absolute;
+        padding: 10vh 20vw;
+        top: 100vh;
+        min-height: 100vh;
+        width: 100%;
+        // z-index: 200;
+        // background-color: #4c4c4c;
+        // background-color: #0DB3D9;
+        background-color: #1399ee;
+        opacity: 85%;
+        color: white;
+
+        p {
+            font-size: 35px;
+            text-align: start;
+            font-family: 'Barlow', sans-serif;
+
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
         }
 
-        #home-page-content{
-            position: relative;
-            min-height: 82vh;
-            // height: 25vh;
-            z-index: 200;
-            // background-color: #4080bf;
-            h1{
-                color: white;
-                font-family: 'Barlow', sans-serif;
-                font-weight: 700;
-                margin: 10vw 0;
-                font-size: 100px;
+        .iframe-wrapper {
+            margin-top: 30px;
+
+            // height: 100%;
+            // width: 100%;
+            iframe {
+                width: 560px;
+                height: 315px;
             }
         }
-        .text{
-            // position: absolute;
-            padding: 10vh 20vw;
-            top: 100vh;
-            min-height: 100vh;
-            width: 100%;
-            // z-index: 200;
-            // background-color: #4c4c4c;
-            // background-color: #0DB3D9;
-            background-color: #1399ee;
-            opacity: 85%;
-            color: white;
-            p{
-                font-size: 35px;
-                text-align: start;
-                font-family: 'Barlow', sans-serif;
-                a{
-                    text-decoration: none;
-                    color: white;
-                    text-transform: uppercase;
-                    font-weight: 700;
-                }
+
+        .email-form {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .home-page-wrapper {
+        #home-page-content {
+            h1 {
+                font-size: 70px;
             }
-            .iframe-wrapper{
-                margin-top: 30px;
+        }
+
+        .text {
+            p {
+                font-size: 28px;
+            }
+
+            .iframe-wrapper {
+
                 // height: 100%;
                 // width: 100%;
-                iframe{
-                    width: 560px;
-                    height: 315px;
+                iframe {
+                    width: 440px;
+                    height: 248px;
                 }
             }
         }
     }
-        @media only screen and (max-width: 1450px){
-            .home-page-wrapper{
-                #home-page-content{
-                    h1{
-                        font-size: 70px;
-                    }
-                }
-                .text{
-                    p{
-                        font-size: 28px;
-                    }
-                    .iframe-wrapper{
-                        // height: 100%;
-                        // width: 100%;
-                        iframe{
-                            width: 440px;
-                            height: 248px;
-                        }
-                    }
-                }
-            }
-        }
-        @media only screen and (max-width: 1024px){
-            .home-page-wrapper{
-                #home-page-content{
-                    h1{
-                        font-size: 40px;
-                    }
-                }
-                .text{
-                    p{
-                        font-size: 25px;
-                    }
-                    .iframe-wrapper{
-                        // height: 100%;
-                        // width: 100%;
-                        iframe{
-                            width: 350px;
-                            height: 197px;
-                        }
-                    }
-                }
-            }
-        }
-        @media only screen and (max-width: 768px){
-            .home-page-wrapper{
-                #home-page-content{
-                    h1{
-                        font-size: 30px;
-                    }
-                }
-                .text{
-                    p{
-                        font-size: 18px;
-                    }
-                    .iframe-wrapper{
-                        // height: 100%;
-                        // width: 100%;
-                        iframe{
-                            width: 220px;
-                            height: 124px;
-                        }
-                    }
-                }
+}
+
+@media only screen and (max-width: 1024px) {
+    .home-page-wrapper {
+        #home-page-content {
+            h1 {
+                font-size: 40px;
             }
         }
 
+        .text {
+            p {
+                font-size: 25px;
+            }
+
+            .iframe-wrapper {
+
+                // height: 100%;
+                // width: 100%;
+                iframe {
+                    width: 350px;
+                    height: 197px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-page-wrapper {
+        #home-page-content {
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        .text {
+            p {
+                font-size: 18px;
+            }
+
+            .iframe-wrapper {
+
+                // height: 100%;
+                // width: 100%;
+                iframe {
+                    width: 220px;
+                    height: 124px;
+                }
+            }
+        }
+    }
+}
 </style>
