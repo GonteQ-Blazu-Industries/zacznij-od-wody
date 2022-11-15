@@ -1,5 +1,3 @@
-<!-- eslint-disable indent -->
-<!-- eslint-disable max-len -->
 <template>
     <div class="water-parameters-wrapper" id="top" ref="firstElement">
         <img src="@/assets/waterfall.jpg" alt="wodospad">
@@ -14,34 +12,35 @@
                 odpowiednie parametry.
             </p>
             <p>
-                <br>
                 Woda w&nbsp;Twoim organizmie jest inna niż ta którą kupujesz w sklepie,
                 czy ta która płynie z&nbsp;Twojego kranu.
             </p>
             <p>
-                <br>
                 Woda „żywa” to taka w&nbsp;której żyją Twoje komórki. Ma ona kilka
                 bardzo ważnych parametrów, które są niezbędne dla ich prawidłowego funckjonowania.
             </p>
             <p>
-                <br>
-                -> człowiek zbudowany jest z&nbsp;12 układów <br>
-                -> układy zbudowane są z&nbsp;organów <br> -> organy zbudowane są z&nbsp;tkanek
-                <br> ->
-                a&nbsp;tkanka to skupisko komórek otoczonych wodą
+            <ul>
+                <li>
+                    -> człowiek zbudowany jest z&nbsp;12 układów
+                </li>
+                <li>
+                    -> układy zbudowane są z&nbsp;organów
+                </li>
+                <li>
+                    -> organy zbudowane są z&nbsp;tkanek
+                </li>
+                <li>
+                    -> a&nbsp;tkanka to skupisko komórek otoczonych wodą
+                </li>
+            </ul>
             </p>
             <p>
-                <br>
                 Dlatego od jakości wody w jakiej żyją nasze komórki, zależy jakość naszego życia.
             </p>
             <p>
-                <br>
                 Zobacz film który mówi o&nbsp;parametrach wody potrzebnych
                 do zdrowego życia komórki.
-                <br>
-                <br>
-                <!-- <a href="https://www.youtube.com/watch?v=Et0z6usZidw&t" target="_blank">
-                    Kliknij tutaj</a> -->
             </p>
             <div class="iframe-wrapper">
                 <iframe src="https://www.youtube.com/embed/Et0z6usZidw" title="YouTube video player" frameborder="0"
@@ -50,22 +49,21 @@
                 </iframe>
             </div>
             <p>
-                <br>
                 Jednym z parametrów jest struktura wody, zobacz jak ważną rolę odgrywa ona
                 w naszym życiu.
-                <br>
-                <br>
             </p>
             <div class="iframe-wrapper">
                 <iframe src="https://www.youtube.com/embed/IrCIpNOVxCY" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay;
-                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        clipboard-write; encrypted-media;
+                        gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+// eslint-disable-next-line import/no-unresolved
 import { onMounted, ref } from 'vue';
 
 export default {
@@ -86,9 +84,6 @@ export default {
 
 <style lang="scss" scoped>
 .water-parameters-wrapper {
-    // height: 100vh;
-    // width: 100%;
-    // background-color: #4c4c4c;
     padding-top: 10vh;
     text-align: center;
 
@@ -117,6 +112,9 @@ export default {
     }
 
     .text {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
         position: absolute;
         padding: 10vh 20vw;
         top: 100vh;
@@ -125,6 +123,10 @@ export default {
         background-color: #1399ee;
         opacity: 85%;
         color: white;
+
+        ul {
+            list-style: none;
+        }
 
         p {
             font-size: 35px;
@@ -140,9 +142,6 @@ export default {
         }
 
         .iframe-wrapper {
-
-            // height: 100%;
-            // width: 100%;
             iframe {
                 width: 560px;
                 height: 315px;

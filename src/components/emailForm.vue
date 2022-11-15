@@ -3,7 +3,7 @@
 <template>
     <div class="email-wrapper" @click="hideFormMethod" :class="{'hideForm': hideForm}">
         <div class="email-content">
-            <form action="https://formsubmit.co/pabil@interia.pl" method="post" name="emailForm">
+            <form action="https://formsubmit.co/pabil@interia.pl" method="POST" name="emailForm">
                 <label for="email">Podaj swój E-mail:</label>
                 <!-- <br> -->
                 <input type="email" name="email" placeholder="E-mail">

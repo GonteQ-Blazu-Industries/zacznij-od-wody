@@ -1,108 +1,34 @@
+<!-- eslint-disable import/no-extraneous-dependencies -->
 <!-- eslint-disable import/no-unresolved -->
 <!-- eslint-disable max-len -->
 <template>
     <div class="home-page-wrapper" id="top" ref="firstElement">
         <!-- <video src="@/assets/waterfallvideo.mp4" muted loop autoplay playsinline></video> -->
         <img src="@/assets/waterfall.jpg" alt="wodospad">
-        <!-- <div id="overlay">
-        </div> -->
         <div id="home-page-content">
             <h1>
                 Dlaczego woda jest źródłem życia?
             </h1>
         </div>
         <div class="text" id="text">
-            <!-- <p>
-                W naszym układzie słonecznym jest tylko jedna planeta, na&nbsp;której
-                istnieje życie. Mamy szczęście mieszkać na tej błękitnej planecie.
-            </p>
-            <p>
-                <br>
-                Wiesz dlaczego jest tu życie i&nbsp;dlaczego jest błękitna?
-                Bo około 70% jej powierzchni pokryte jest wodą.
-            </p>
-            <p>
-                <br>
-                To właśnie dzięki wodzie istnieje życie na&nbsp;ziemi.
-            </p>
-
-            <p>
-                <br>
-                Ale nawet tu na ziemi są miejsca, gdzie życia jest niewiele
-                i&nbsp;wygląda jakby ono zanikało. Ale są też miejsca tętniące życiem.
-            </p>
-            <p>
-                <br>
-                Od czego to zależy? <br> Od dostępności, obfitości i&nbsp;jakości wody.
-            </p>
-            <p>
-                <br>
-                Te informacje można krótko podsumować
-                stwierdzeniem: „Gdzie jest woda, tam jest życie”
-            </p>
-            <p>
-                <br>
-                Na tej stronie dowiesz się dlaczego woda jest tak ważna
-                dla Ciebie i&nbsp;Twoich bliskich.
-            </p>
-            <p>
-                <br>
-                Jaką odgrywa ona rolę w Twoim zdrowiu,  samopoczuciu,
-                regulacji&nbsp;wagi, kondycji fizycznej i&nbsp;psychicznej, oraz
-                jakiej wody potrzebuje Twój organizm, by codziennie tryskał energią.
-            </p>
-            <p>
-                <br>
-                Zapraszam Cię do zgłębiania najprostszej, a&nbsp;zarazem
-                najbardziej tajemniczej substancji na świecie.
-            </p>
-            <p>
-                <br>
-                Jeżeli trudno Ci uwierzyć, że woda jest jedną z&nbsp;najbardziej
-                tajemniczych substancji na&nbsp;świecie,
-                <b>ZOBACZ TEN FILM.</b>
-            </p> -->
-            <!-- <p> -->
-            <!-- <br> -->
-            <!-- <br> -->
-            <!-- <a href="https://www.youtube.com/watch?v=IrCIpNOVxCY&t" target="_blank">
-                    zobacz ten film</a> -->
-
-            <!-- </p> -->
-            <!-- <div class="iframe-wrapper">
-                        <iframe
-                        src="https://www.youtube.com/embed/IrCIpNOVxCY"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay;
-                        clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-            </div> -->
             <p>
                 Kolokwialnie można powiedzieć że "<strong>Bez wody nie ma życia</strong>".
             </p>
             <p>
-                <br>
                 To właśnie dzięki tej substancji istnieje ono na ziemii.
             </p>
             <p>
-                <br>
                 Co się dzieje w miejscach w których brakuje wody? (pustynie) Zanika tam życie.
             </p>
             <p>
-                <br>
                 Jeżeli bez wody brakuje życia, to czy utrzymamy swoje zdrowie bez niej?
             </p>
             <p>
-                <br>
                 Jeżeli nasze ciało składa się z niej w około 70% to w takim stopniu
                 zdrowie od niej zależy.
             </p>
             <p>
-                <br>
                 <strong>Zobacz</strong> z czego to wynika.
-                <br>
-                <br>
             </p>
             <div class="iframe-wrapper">
                 <iframe src="https://www.youtube.com/embed/oiDxgkWI_ws" title="YouTube video player" frameborder="0"
@@ -111,13 +37,8 @@
                 </iframe>
             </div>
             <p>
-                <br>
                 PS. Zobacz animowany filmik o funkcjonowaniu naszych
                 komórek: &nbsp;
-                <br>
-                <br>
-                <!-- <a href="https://www.youtube.com/watch?v=8NThJgYO0gs&t" target="_blank">
-                    Kliknij tutaj</a> -->
             </p>
             <div class="iframe-wrapper">
                 <iframe src="https://www.youtube.com/embed/8NThJgYO0gs" title="YouTube video player" frameborder="0"
@@ -126,7 +47,6 @@
                 </iframe>
             </div>
             <p>
-                <br>
                 A wszystko to dzieje się w wodzie.
             </p>
         </div>
@@ -135,7 +55,6 @@
 </template>
 
 <script>
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { onMounted, ref } from 'vue';
 import EmailForm from '@/components/emailForm.vue';
 
@@ -203,14 +122,13 @@ export default {
     }
 
     .text {
-        // position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
         padding: 10vh 20vw;
         top: 100vh;
         min-height: 100vh;
         width: 100%;
-        // z-index: 200;
-        // background-color: #4c4c4c;
-        // background-color: #0DB3D9;
         background-color: #1399ee;
         opacity: 85%;
         color: white;
