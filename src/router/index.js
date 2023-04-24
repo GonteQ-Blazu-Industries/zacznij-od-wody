@@ -8,6 +8,7 @@ import WaterMeaning from '../views/WaterMeaning.vue';
 import WaterParameters from '../views/WaterParameters.vue';
 import CleanWater from '../views/CleanWater.vue';
 import EmailThanks from '../views/emailThanks.vue';
+import PrivacyPolicy from '../views/PrivacyPolicyView.vue';
 
 const routes = [
   {
@@ -54,6 +55,11 @@ const routes = [
       hideNavbar: true,
       hideFooter: true,
     },
+  },
+  {
+    path: '/polityka-prywatnosci',
+    name: 'PrivacyPolicy',
+    component: PrivacyPolicy,
   },
 ];
 
