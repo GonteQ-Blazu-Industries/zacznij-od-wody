@@ -9,6 +9,7 @@ import WaterParameters from '../views/WaterParameters.vue';
 import CleanWater from '../views/CleanWater.vue';
 import EmailThanks from '../views/emailThanks.vue';
 import PrivacyPolicy from '../views/PrivacyPolicyView.vue';
+// import NewsletterView from '../views/NewsletterView.vue';
 
 const routes = [
   {
@@ -61,6 +62,11 @@ const routes = [
     name: 'PrivacyPolicy',
     component: PrivacyPolicy,
   },
+  // {
+  //   path: '/kurs',
+  //   name: 'Kurs',
+  //   component: NewsletterView,
+  // },
 ];
 
 const router = createRouter({
