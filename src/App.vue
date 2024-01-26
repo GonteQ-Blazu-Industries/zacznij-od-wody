@@ -1,7 +1,7 @@
 <template>
   <div id="app-wrapper" >
-    <div id='app-nav'>
-        <Navbar :class="{'page-scrolled': pageScrolled}" v-if="!$route.meta.hideNavbar"/>
+    <div id='app-nav' v-if="!$route.meta.hideNavbar">
+        <Navbar :class="{'page-scrolled': pageScrolled}" />
     </div>
     <router-view class='router-view'/>
     <ScrollDown :class="{'display-none': hideArrowDown}"
@@ -72,8 +72,10 @@ export default {
   // scrollbar-width: none;
 }
 body{
-  background-color: #4c4c4c;
+  // background-color: #4c4c4c;
+  background-color: white;
   z-index: -200;
+  overflow-x: hidden;
 }
 // ::-webkit-scrollbar{
 //         display: none;

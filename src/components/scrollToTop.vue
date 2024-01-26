@@ -2,14 +2,31 @@
     <div class="scroll-up-wrapper">
         <a href="#top" @click="scrollToTopView"
         v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">
-                <img src="@/assets/arrowup.svg" alt="wróć na górę">
+                <img src="@/assets/arrowup.svg" alt="wróć na górę" :class="{'colored': route.name === 'RzemienMeeting'}">
         </a>
     </div>
 </template>
 
 <script>
+import { useRoute } from 'vue-router';
+import { computed, ref, onMounted } from 'vue';
+
 export default {
   name: 'scrollToTop',
+  setup() {
+    const route = useRoute();
+    const currentRouteName = computed(() => route.name);
+    const colored = ref(currentRouteName.value === 'RzemienMeeting');
+
+    onMounted(() => {
+      colored.value = route.name === 'RzemienMeeting';
+    });
+
+    return {
+      colored,
+      route,
+    };
+  },
   data() {
     return {
       scrollToTop: false,
@@ -17,7 +34,11 @@ export default {
   },
   methods: {
     scrollToTopView() {
-      this.element.scrollIntoView(this.scrollToTextBool);
+      // this.element.scrollIntoView(this.scrollToTop);
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
     },
   },
 };
@@ -45,6 +66,11 @@ export default {
             height: 75px;
             width: 75px;
             position: relative;
+      }
+      .colored{
+        filter: invert(15%) sepia(7%) saturate(6226%) hue-rotate(193deg) brightness(92%) contrast(91%);
+        height: 30px;
+        width: 30px;
       }
     }
     @media only screen and (max-width: 1450px){

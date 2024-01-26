@@ -9,6 +9,7 @@ import WaterParameters from '../views/WaterParameters.vue';
 import CleanWater from '../views/CleanWater.vue';
 import EmailThanks from '../views/emailThanks.vue';
 import PrivacyPolicy from '../views/PrivacyPolicyView.vue';
+import RzemienMeeting from '../views/RzemienMeeting.vue';
 // import NewsletterView from '../views/NewsletterView.vue';
 
 const routes = [
@@ -61,6 +62,16 @@ const routes = [
     path: '/polityka-prywatnosci',
     name: 'PrivacyPolicy',
     component: PrivacyPolicy,
+  },
+  {
+    path: '/rzemien-spotkanie-zapisy',
+    name: 'RzemienMeeting',
+    component: RzemienMeeting,
+    meta: {
+      hideArrowDown: true,
+      hideNavbar: true,
+      hideFooter: true,
+    },
   },
   // {
   //   path: '/kurs',
