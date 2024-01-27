@@ -3,7 +3,7 @@
         <router-link to="/">
             <img src="../assets/pabilkropla.png" alt="Strona główna" height="50"></router-link>
         <ul class="the-meeting-navbar">
-            <li class="the-meeting-navbar-item">O wydarzeniu</li>
+            <a class="the-meeting-navbar-item" href="#about-meeting"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">O wydarzeniu</a>
             <li class="the-meeting-navbar-item">Prelegenci</li>
             <li class="the-meeting-navbar-item">Program</li>
             <li class="the-meeting-navbar-item">Data i miejsce</li>

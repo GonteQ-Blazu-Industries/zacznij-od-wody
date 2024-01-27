@@ -4,7 +4,7 @@
             <TheMeetingNavbar />
         </nav>
         <Countdown />
-        <div class="date-and-place-wrapper">
+        <div class="date-and-place-wrapper"  id="about-meeting">
             <p>Rzemień</p>
             <p>17.02.2024</p>
         </div>
@@ -184,7 +184,14 @@ export default {
     }
 
     .more-info-wrapper{
-
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p{
+            color: #0B3954;
+        }
     }
     .footer{
         height: 10rem;
