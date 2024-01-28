@@ -17,20 +17,20 @@
 <style lang="scss" scoped>
 .the-meeting-footer-wrapper{
     height: 100%;
-    background-color: #0B3954;
+    background-color: #E0E1DD;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+    color: #0B3954;
     .footer-contact-info{
         display: flex;
         flex-direction: column;
         gap: 0.6rem;
         a{
             text-decoration: none;
-            color: #ffffff;
+            color: #0B3954;
             font-family: 'Poppins', sans-serif;
         }
     }

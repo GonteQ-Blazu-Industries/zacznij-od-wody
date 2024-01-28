@@ -1,12 +1,13 @@
 <template>
-    <div class="time-title-card-wrapper">
-        <h3>{{ time }} | {{ title }} {{ leader ? '~ ' + leader : '' }}</h3>
+    <div class="time-title-card-wrapper" :class="{'reversed': reversed}">
+        <h3>{{ time }} | {{ title }}</h3>
+        <h4 v-if="leader">{{ leader }}</h4>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['time', 'title', 'leader'],
+    props: ['time', 'title', 'leader', 'reversed'],
 };
 </script>
 
@@ -18,11 +19,30 @@ export default {
     border-radius: 15px;
     width: 60rem;
     text-align: left;
-
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
     h3{
         color: #0B3954;
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
+    }
+    h4{
+        color: #0B3954;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+}
+
+.reversed{
+    background-color: #0B3954;
+    color: #FFFFFF;
+    border: none;
+    h3{
+        color: #FFFFFF;
+    }
+    h4{
+        color: #FFFFFF;
     }
 }
 </style>

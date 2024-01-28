@@ -27,6 +27,9 @@
       <a href="https://pawelbilski.pl/kurs/" target="_blank" @click="navSlide" class="menu-itmes">
         <h3>Kurs</h3>
       </a>
+      <router-link to="/konferencja" @click="navSlide" class="menu-items">
+        <h3>Konferencja</h3>
+      </router-link>
     </div>
     <!-- <router-link to='/about' class='router'>O stronie</router-link> -->
     <!-- <router-link to="/about-me">O mnie</router-link> -->

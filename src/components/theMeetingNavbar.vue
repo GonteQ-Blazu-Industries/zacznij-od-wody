@@ -4,23 +4,16 @@
             <img src="../assets/pabilkropla.png" alt="Strona główna" height="50"></router-link>
         <ul class="the-meeting-navbar">
             <a class="the-meeting-navbar-item" href="#about-meeting"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">O wydarzeniu</a>
-            <li class="the-meeting-navbar-item">Prelegenci</li>
-            <li class="the-meeting-navbar-item">Program</li>
-            <li class="the-meeting-navbar-item">Data i miejsce</li>
-            <li class="the-meeting-navbar-item">Kontakt</li>
-            <li class="the-meeting-navbar-item buy-ticket" @click="handleBuyTicket">Kup bilet</li>
+            <a class="the-meeting-navbar-item" href="#leaders-description"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Prelegenci</a>
+            <a class="the-meeting-navbar-item" href="#program-info"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Program</a>
+            <a class="the-meeting-navbar-item" href="#date-and-place"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Data i miejsce</a>
+            <a class="the-meeting-navbar-item" href="#contact"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Kontakt</a>
+            <li class="the-meeting-navbar-item buy-ticket" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet</li>
         </ul>
     </div>
 </template>
 
 <script>
-export default {
-    methods: {
-        handleBuyTicket() {
-            console.log('You clicked me!');
-        },
-    },
-};
 </script>
 
 <style lang="scss" scoped>
@@ -38,6 +31,10 @@ export default {
         font-family: 'Poppins', sans-serif;
         font-size: 1.2rem;
         align-items: center;
+        a{
+            text-decoration: none;
+            color: #0B3954;
+        }
         .the-meeting-navbar-item{
             padding: .5rem 1rem;
             &:hover{
