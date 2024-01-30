@@ -22,15 +22,28 @@ export default {
     display: flex;
     flex-direction: column;
     gap: .7rem;
+    @media only screen and (max-width: 720px) {
+        padding: .2rem .4rem;
+        width: 250px;
+        gap: .3rem;
+        border: 1px solid #0B3954;
+    }
     h3{
         color: #0B3954;
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
+        @media only screen and (max-width: 720px) {
+            font-size: 1rem;
+        }
     }
     h4{
         color: #0B3954;
+        display: inline-block;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
+        @media only screen and (max-width: 720px) {
+            font-size: .9rem;
+        }
     }
 }
 

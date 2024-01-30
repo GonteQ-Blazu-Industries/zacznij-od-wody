@@ -24,6 +24,9 @@
     align-items: center;
     justify-content: center;
     color: #0B3954;
+    @media only screen and (max-width: 720px) {
+        gap: .5rem;
+    }
     .footer-contact-info{
         display: flex;
         flex-direction: column;
@@ -34,6 +37,16 @@
             text-decoration: none;
             color: #0B3954;
             font-family: 'Poppins', sans-serif;
+            @media only screen and (max-width: 720px) {
+                font-size: .7rem;
+            }
+        }
+    }
+    .footer-copyright-info{
+        p{
+            @media only screen and (max-width: 720px) {
+                font-size: .7rem;
+            }
         }
     }
 }

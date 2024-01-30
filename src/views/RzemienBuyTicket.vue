@@ -58,7 +58,7 @@ export default {
         const firstName = ref('');
         const lastName = ref('');
         const email = ref('');
-        const phone = ref('');
+        const phone = ref('+48');
         const message = ref('');
         const firstNameMessage = ref(null);
         const lastNameMessage = ref(null);
@@ -215,12 +215,20 @@ export default {
         top: 0;
         left: 0;
         width: 100%;
+        @media only screen and (max-width: 720px) {
+            display: none;
+        }
     }
     form{
         display: flex;
         flex-direction: column;
         gap: 1rem;
         min-width: 500px;
+        @media only screen and (max-width: 720px) {
+            min-width: 100px;
+            width: 320px;
+            max-width: 320px;
+        }
         .input-wrapper{
             display: flex;
             flex-direction: column;

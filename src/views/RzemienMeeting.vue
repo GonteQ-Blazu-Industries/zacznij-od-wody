@@ -30,17 +30,17 @@
         <div class="leaders-description-wrapper" id="leaders-description">
             <h3>Nasi prelegenci</h3>
             <div class="prelegents-wrapper">
-                <PrelegentDescription image="Justyna-Mucha.jpg" name="Justyna Mucha" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą. Ma 3-letnią córeczkę, której uśmiech i zdrowie jest dla niej najcenniejszym skarbem." />
+                <PrelegentDescription image="Malgorzata-Rakowska.webp" name=" dr Małgorzta Rakowska" description='Fizjoterapeutka i terapeutka manualna. Od 20 lat wspiera pacjentów w pozbywaniu się bólu. Łączy pracę ciała i emocji. Jej misją jest poszerzanie świadomości ciała, tak aby każdy potrafił dbać o mięśnie, emocje i myśli. Autorka książki "Codzienność bez bólu". Prowadzi Instytut na Polance.' />
                 <PrelegentDescription image="Tatiana-Kozuszna.webp" name="Tatiana Kożuszna" description="Od kilkunastu lat lekarz z misją edukacji dla utrzymania zdrowia. Wspiera tysiące osób w Polsce i na całym świecie. Systematycznie prowadzi spotkania Akademii Zdrowia w różnych miastach Polski. Współpracuje z lekarzami na całym świecie i prowadzi własne badania naukowe." />
-                <PrelegentDescription image="Joanna-Marszalek.jpg" name="Joanna Marszałek" description="Żona i mama trójki dzieci (czwarte w drodze). Z zawodu pielegniarka. Jej najwiekszą wartoscią jest rodzina i zdrowie. Pasjonuje się naturalnymi metodami leczenia oraz medycyną chinską. Uwielbia pracę z ludzmi, zdrowe jedzenie oraz podróże." />
-                <PrelegentDescription image="Bozena-Rzasa.jpg" name="Bożena Rząsa" description="Promotor zdrowia, od ponad 30 lat krzewi kulturę zdrowego odżywiania. Miłośniczka naturalnego stylu życia. Promotor zdrowia, od ponad 30 lat krzewi kulturę zdrowego odżywiania. Miłośniczka naturalnego stylu życia. " />
-                <PrelegentDescription image="Irena-Prochon-Dziewonska.jpg" name="Irena Prochoń-Dziewońska" description="Ponad 15 lat temu zapoczątkował działalność Coral Club w Polsce, zakładając pierwsze biuro regionalne. Odniósł spektakularny sukces. Obecnie dzieli się swoim doświadczeniem i angażuje w rozwój partnerów biznesowych." />
-                <PrelegentDescription image="Ewelina-Szymanska.jpg" name="Ewelina Szymańska" description="Ponad 15 lat temu zapoczątkował działalność Coral Club w Polsce, zakładając pierwsze biuro regionalne. Odniósł spektakularny sukces. Obecnie dzieli się swoim doświadczeniem i angażuje w rozwój partnerów biznesowych." />
-                <PrelegentDescription image="Malgorzata-Rakowska.webp" name=" dr Małgorzta Rakowska" description='Fizjoterapeutka i terapeutka manualna. Od 20 lat wspiera pacjentów w pozbywaniu się bólu. Ekspertka od świadomości ciała. Łączy pracę ciała i emocji. Autorka książki "Codzienność bez bólu".' />
+                <PrelegentDescription image="Joanna-Marszalek.jpg" name="Joanna Marszałek" description="Żona i mama trójki dzieci (czwarte w drodze). Z zawodu pielegniarka. Jej największą wartością jest rodzina i zdrowie. Pasjonuje się naturalnymi metodami leczenia oraz medycyną chinską. Uwielbia pracę z ludzmi, zdrowe jedzenie oraz podróże." />
+                <PrelegentDescription image="Bozena-Rzasa.jpg" name="Bożena Rząsa" description="Promotor zdrowia, od ponad 30 lat krzewi kulturę zdrowego odżywiania. Miłośniczka naturalnego stylu życia. Dzięki wiedzy makrobiotycznej pomaga ludziom przywracać dobry stan zdrowia." />
+                <PrelegentDescription image="Irena-Prochon-Dziewonska.jpg" name="Irena Prochoń-Dziewońska" description="Z domu wyniosła umiłowanie do natury. Chętnie dzieli się wiedzą, jaką zdobywała od najmłodszych lat od ojca zielarza i którą zdobywa nadal dzięki wspaniałym znawcom tego tematu w CoralClub." />
+                <PrelegentDescription image="Ewelina-Szymanska.jpg" name="Ewelina Szymańska" description="" />
+                <PrelegentDescription image="Justyna-Mucha.jpg" name="Justyna Mucha" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
                 <PrelegentDescription image="Rafal-Wozniak.webp" name="Rafał Woźniak" description="Od 7 lat kieruje polskim Coral Club. Ekspert od nowoczesnej przedsiębiorczości i współpracy z partnerami biznesowymi. Na co dzień wspomaga procesy biznesowe na rynku polskim i europejskim." />
-                <PrelegentDescription image="Lidia-Starzyk-Hudyka.jpg" name="Lidia Starzyk-Hudyka" description='Mama, przedsiębiorczyni kochająca życie i pozytywnych ludzi, otwarta na rozwój, uznaje zasadę że "W życiu masz tyle, na ile się odważysz". "W życiu masz tyle, na ile się odważysz".' />
-                <PrelegentDescription image="Janina-Machniak-Rozborska.jpg" name="Janina Machniak-Rozborska" description="Ponad 15 lat temu zapoczątkował działalność Coral Club w Polsce, zakładając pierwsze biuro regionalne. Odniósł spektakularny sukces. Obecnie dzieli się swoim doświadczeniem i angażuje w rozwój partnerów biznesowych." />
-                <PrelegentDescription image="Pawel-Bilski.webp" name="Paweł Bilski" description="Przedsiębiorca, ekspert od nawadniania organizmu. Pasjonat zdrowego stylu życia, a także producent organicznej żywności. Otwarty na rozwój. Dzieli się wiedzą, tak by każdy mógł wziąć odpowiedzialność za zdrowie w swoje ręce. " />
+                <PrelegentDescription image="Lidia-Starzyk-Hudyka.jpg" name="Lidia Starzyk-Hudyka" description='Mama, przedsiębiorczyni kochająca życie i pozytywnych ludzi. Od 30 lat działa w branży beauty. Otwarta na rozwój, uznaje zasadę że "W życiu masz tyle, na ile się odważysz". ' />
+                <PrelegentDescription image="Janina-Machniak-Rozborska.jpg" name="Janina Machniak-Rozborska" description="Mama, kobieta z ogromną radością i pokojem serca, wytrwała i nieustępliwa. Dzięki łatwości nawiązywania kontaktów dociera do wielu osób, którym przekazuje cenne informacje dotyczące poprawy zdrowia i jakości życia." />
+                <PrelegentDescription image="Pawel-Bilski.webp" name="Paweł Bilski" description="Przedsiębiorca, rolnik, ekspert od nawadniania organizmu. Pasjonat zdrowego stylu życia. Otwarty na rozwój. Lubi inspirować ludzi i dzielić się z nimi wiedzą, tak by każdy mógł wziąć odpowiedzialność za zdrowie w swoje ręce. " />
                 <PrelegentDescription image="Andrzej-Kozuszny.webp" name="Andrzej Kożuszny" description="Ponad 15 lat temu zapoczątkował działalność Coral Club w Polsce, zakładając pierwsze biuro regionalne. Odniósł spektakularny sukces. Obecnie dzieli się swoim doświadczeniem i angażuje w rozwój partnerów biznesowych." />
             </div>
         </div>
@@ -65,9 +65,12 @@
         <div class="video-wrapper">
             <div class="video-text">
                 <h4>Zapraszamy!</h4>
-                <p>Obejrzyj video</p>
+                <p>Kilku z naszych prelegentów miało możliwość nagrać dla Was zaproszenie na naszą konferencję</p>
+                <p>Zobacz co mają ci do przekazania</p>
             </div>
-            <img src="../assets/Pawel-Bilski.webp" alt="">
+            <div class="youtube-video">
+                <iframe width="170" height="320" src="https://www.youtube.com/embed/vrg2qGPalms?si=g1iwRHA9oQtWrhR6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
         <div class="date-and-place-info-wrapper" id="date-and-place">
             <h3>Konferencja odbędzie się:</h3>
@@ -94,6 +97,21 @@
                 <img src="../assets/Nocleg.jpg" alt="zdjęcie poglądowe" height="350" width="500">
             </div>
         </div> -->
+        <div class="contact-info-wrapper">
+            <h3>Dane do kontaktu</h3>
+            <div class="contact-info-cards-wrapper">
+                <div class="contact-info">
+                    <h4>Paweł Bilski</h4>
+                    <a href="tel:+48509714295"><span class="material-icons">call</span> +48 509 714 295</a>
+                    <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> pabil@interia.pl</a>
+                </div>
+                <div class="contact-info">
+                    <h4>Tatiana Kożuszna</h4>
+                    <a href="tel:+48509714295"><span class="material-icons">call</span> +48 509 714 295</a>
+                    <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> pabil@interia.pl</a>
+                </div>
+            </div>
+        </div>
         <div class="tickets-wrapper" id="buy-ticket">
             <div class="ticket-heading">
                 <h2>Wybierz swój bilet</h2>
@@ -116,8 +134,8 @@
                     <p><span class="material-icons">restaurant</span>obiad</p>
                     <p><span class="material-icons">coffee</span>kawa i herbata</p>
                     <p><span class="material-icons">local_parking</span>bezpłatny parking</p>
-                    <h3>Cena: 700 zł</h3>
-                    <h4>140zł za osobę</h4>
+                    <h3 style="text-align: end;">Cena:</h3>
+                    <h3><s style="font-size: .9rem;">750zł</s> 700zł</h3>
                     <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
                 </div>
             </div>
@@ -155,12 +173,19 @@ export default {
     justify-content: center;
     gap: 2rem;
     width: 100vw;
+    @media only screen and (max-width: 720px) {
+        padding: 0;
+        max-width: 320px;
+    }
 
     nav{
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100vw;
+        @media only screen and (max-width: 720px) {
+            display: none;
+        }
     }
 
     .counter{
@@ -173,16 +198,37 @@ export default {
         display: flex;
         gap: 2rem;
         padding-top: 5rem;
+        @media only screen and (max-width: 720px) {
+            flex-direction: column;
+            gap: .5rem;
+            padding: 0 .4rem;
+            padding-top: .7rem;
+        }
         .meeting-image-wrapper{
             padding-top: 3.5rem;
+            @media only screen and (max-width: 720px) {
+                padding-top: .3rem;
+                img {
+                    aspect-ratio: 1/1;
+                    width: 100%;
+                    height: 8rem;
+                    object-fit: cover;
+                }
+            }
         }
 
         .date-and-place-description-wrapper{
             display: flex;
             flex-direction: column;
             gap: 3rem;
+            @media only screen and (max-width: 720px) {
+                gap: .5rem;
+            }
             h1{
                 font-size: 2.1rem;
+                @media only screen and (max-width: 720px) {
+                    font-size: 1.2rem;
+                }
             }
             .date-and-place-wrapper{
                 display: flex;
@@ -192,6 +238,11 @@ export default {
                 color: #0B3954;
                 font-family: 'Poppins', sans-serif;
                 font-size: 1.5rem;
+                @media only screen and (max-width: 720px) {
+                    flex-direction: column;
+                    gap: .5rem;
+                    font-size: 0.8rem;
+                }
                 p{
                     display: flex;
                     align-items: center;
@@ -212,6 +263,11 @@ export default {
                     max-width: 50rem;
                     text-align: left;
                     gap: 1rem;
+                    @media only screen and (max-width: 720px) {
+                        font-size: 0.9rem;
+                        max-width: 80vw;
+                        gap: .5rem;
+                    }
                 }
 
                 .description-buttons{
@@ -219,6 +275,11 @@ export default {
                     align-items: center;
                     justify-content: center;
                     gap: 2rem;
+
+                    @media only screen and (max-width: 720px) {
+                        flex-direction: column;
+                        gap: .5rem;
+                    }
 
                     .more-info-button{
                         background-color: #ffffff;
@@ -237,6 +298,9 @@ export default {
         font-weight: 600;
         font-size: 2rem;
         text-align: left;
+        @media only screen and (max-width: 720px) {
+            font-size: 1.2rem;
+        }
     }
 
     .leaders-description-wrapper{
@@ -247,10 +311,20 @@ export default {
         justify-content: center;
         padding-bottom: 5rem;
 
+        @media only screen and (max-width: 720px) {
+            gap: .3rem;
+            padding-bottom: .5rem;
+        }
+
         .prelegents-wrapper{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 5rem;
+            @media only screen and (max-width: 720px) {
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+            }
         }
     }
 
@@ -260,6 +334,10 @@ export default {
         font-size: 2rem;
         font-weight: 600;
         padding: 4rem 0 2rem 0;
+        @media only screen and (max-width: 720px) {
+            font-size: 1rem;
+            padding: 0;
+        }
     }
 
     .program-info-wrapper{
@@ -271,6 +349,11 @@ export default {
         align-items: center;
         justify-content: center;
         padding-bottom: 5rem;
+        @media only screen and (max-width: 720px) {
+            gap: .3rem;
+            padding-bottom: .5rem;
+            padding-top: .5rem;
+        }
         h3{
             padding-bottom: 0;
         }
@@ -282,6 +365,9 @@ export default {
             align-items: center;
             justify-content: center;
             gap: .5rem;
+            @media only screen and (max-width: 720px) {
+                font-size: .7rem;
+            }
         }
     }
     .video-wrapper{
@@ -290,14 +376,18 @@ export default {
         justify-content: center;
         width: 100%;
         padding: 2rem;
-        img{
-            aspect-ratio: 1/1;
-            height: 320px;
-            object-fit: cover;
+        @media only screen and (max-width: 720px) {
+            flex-direction: column;
+            padding: 0;
         }
 
         .video-text{
             padding: 5rem;
+            display: flex;
+            flex-direction: column;
+            @media only screen and (max-width: 720px) {
+                padding: .2rem;
+            }
             h4{
                 font-family: 'Poppins', sans-serif;
                 font-size: 2rem;
@@ -305,6 +395,9 @@ export default {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                @media only screen and (max-width: 720px) {
+                    font-size: .9rem;
+                }
             }
             p{
                 font-family: 'Poppins', sans-serif;
@@ -313,6 +406,9 @@ export default {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                @media only screen and (max-width: 720px) {
+                    font-size: .7rem;
+                }
             }
         }
     }
@@ -325,25 +421,49 @@ export default {
         justify-content: center;
         width: 100%;
         padding-bottom: 2rem;
-        width: 100%;
+        @media only screen and (max-width: 720px) {
+            padding-bottom: .5rem;
+            padding-top: .5rem;
+        }
         h3{
-            color: #ffffff;
+            color: #FFFFFF;
             font-size: 2.5rem;
+            @media only screen and (max-width: 720px) {
+                font-size: 1rem;
+            }
         }
         .conference-info{
             display: flex;
             gap: 10rem;
+            @media only screen and (max-width: 720px) {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: .5rem;
+            }
+            .map{
+                @media only screen and (max-width: 720px) {
+                    display: none;
+                }
+            }
             .conference-info-text{
                 display: flex;
                 flex-direction: column;
                 gap: 1rem;
                 align-items: flex-start;
                 justify-content: center;
+                @media only screen and (max-width: 720px) {
+                    align-items: center;
+                    gap: .5rem;
+                }
                 h2{
                     font-family: 'Poppins', sans-serif;
                     font-size: 3rem;
                     font-weight: 400;
-                    color: #ffffff;
+                    color: #FFFFFF;
+                    @media only screen and (max-width: 720px) {
+                        font-size: 1rem;
+                    }
                 }
                 .location-wrapper{
                     display: flex;
@@ -354,27 +474,68 @@ export default {
                     border: 2px solid #FFFFFF;
                     border-radius: 8px;
                     padding: .5rem .7rem;
+                    @media only screen and (max-width: 720px) {
+                        gap: .5rem;
+                        padding: .2rem .3rem;
+                        align-items: center;
+                    }
                     p{
                         font-family: 'Poppins', sans-serif;
                         font-size: 1rem;
-                        color: #ffffff;
+                        color: #FFFFFF;
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         gap: .5rem;
+                        @media only screen and (max-width: 720px) {
+                            font-size: .7rem;
+                        }
                     }
                 }
             }
         }
     }
+    .contact-info-wrapper{
+        padding: 2rem 0;
+        .contact-info-cards-wrapper{
+            display: flex;
+            gap: 3rem;
+        }
+            .contact-info{
+                color: #0B3954;
+                font-family: 'Poppins', sans-serif;
+                font-size: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: .7rem;
+                h4{
+                    padding-bottom: .5rem;
+                }
+                a{
+                    text-decoration: none;
+                    color: #0B3954;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: .5rem;
+                }
+            }
+    }
     .tickets-wrapper{
         padding: 2rem 0;
+        @media only screen and (max-width: 720px) {
+            padding: .5rem;
+        }
         .ticket-heading{
             h2{
                 color: #0B3954;
                 font-family: 'Poppins', sans-serif;
                 font-size: 2rem;
                 padding-bottom: 3rem;
+                @media only screen and (max-width: 720px) {
+                    font-size: 1rem;
+                    padding-bottom: .5rem;
+                }
             }
         }
         .ticket-choice{
@@ -382,6 +543,10 @@ export default {
             align-items: center;
             justify-content: center;
             gap: 5rem;
+            @media only screen and (max-width: 720px) {
+                flex-direction: column;
+                gap: .5rem;
+            }
             .single-ticket{
                 display: flex;
                 flex-direction: column;
@@ -390,6 +555,17 @@ export default {
                 padding: 3rem;
                 border: 1px solid #0B3954;
                 border-radius: 8px;
+                @media only screen and (max-width: 720px) {
+                    padding: .5rem;
+                }
+                h2{
+                    color: #0B3954;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 1.5rem;
+                    @media only screen and (max-width: 720px) {
+                        font-size: 1rem;
+                    }
+                }
                 p{
                     font-family: 'Poppins', sans-serif;
                     font-size: 1.2rem;
@@ -398,10 +574,17 @@ export default {
                     align-items: center;
                     justify-content: center;
                     gap: .5rem;
+                    @media only screen and (max-width: 720px) {
+                        font-size: .7rem;
+                    }
                 }
                 h3{
                     padding: 2rem 0;
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
+                    @media only screen and (max-width: 720px) {
+                        font-size: .9rem;
+                        padding: .5rem 0;
+                    }
                 }
             }
             .ticket-package{
@@ -412,19 +595,50 @@ export default {
                 padding: 3rem;
                 border: 1px solid #0B3954;
                 border-radius: 8px;
+                background-color: #0B3954;
+                gap: 1rem;
+                @media only screen and (max-width: 720px) {
+                    padding: .5rem;
+                }
+                h2{
+                    color: #FFFFFF;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 1.5rem;
+                    @media only screen and (max-width: 720px) {
+                        font-size: 1rem;
+                    }
+                }
                 p{
                     font-family: 'Poppins', sans-serif;
                     font-size: 1rem;
-                    color: #0B3954;
+                    color: #FFFFFF;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     gap: .5rem;
+                    @media only screen and (max-width: 720px) {
+                        font-size: .7rem;
+                    }
                 }
                 h3{
-                    padding: 2rem 0;
-                    font-size: 1.5rem;
+                    padding: 0rem 0;
+                    font-size: 1.2rem;
+                    color: #FFFFFF;
+                    @media only screen and (max-width: 720px) {
+                        padding: .5rem 0;
+                        font-size: .9rem;
+                    }
+                }
+                .buy-ticket-button{
+                    background-color: #FFFFFF;
                     color: #0B3954;
+                    border: 2px solid #FFFFFF;
+                    &:hover{
+                        background-color: #FFFFFF;
+                        box-shadow: 5px 5px 15px #FFFFFF;
+                        border-radius: 5px;
+                        color: #0B3954;
+                    }
                 }
             }
         }
@@ -450,6 +664,9 @@ export default {
     .footer{
         height: 10rem;
         width: 100vw;
+        @media only screen and (max-width: 720px) {
+            height: 5rem;
+        }
     }
 }
 
@@ -465,17 +682,24 @@ button{
     &:hover{
         cursor: pointer;
     }
+    @media only screen and (max-width: 720px) {
+        font-size: .9rem;
+        padding: .1rem .15rem;
+        min-width: none;
+        max-width: 60vw;
+        gap: .2rem;
+    }
 }
 .buy-ticket-button{
     background-color: #0B3954;
-    color: #ffffff;
+    color: #FFFFFF;
     border: 2px solid #0B3954;
     border-radius: 8px;
     &:hover{
         background-color: #0B3954;
         box-shadow: 5px 5px 15px #0B3954 ;
         border-radius: 5px;
-        color: white;
+        color: #FFFFFF;
     }
 }
 </style>

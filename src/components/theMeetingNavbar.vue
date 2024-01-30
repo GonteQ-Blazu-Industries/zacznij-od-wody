@@ -11,6 +11,9 @@
             <a class="the-meeting-navbar-item-buy" href="#buy-ticket"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Kup bilet</a>
             <!-- <li class="the-meeting-navbar-item buy-ticket" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet</li> -->
         </ul>
+        <div class="mobile-menu-icon-wrapper" @click="mobileMenuActive = !mobileMenuActive">
+            <a class="the-meeting-navbar-item-buy" href="#buy-ticket"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Kup bilet</a>
+        </div>
     </div>
 </template>
 
@@ -25,6 +28,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 2vh 5vw;
+    img{
+        @media only screen and (max-width: 720px) {
+            height: 30px;
+        }
+    }
     .the-meeting-navbar{
         list-style-type: none;
         display: flex;
@@ -57,6 +65,17 @@
                 color: white;
                 cursor: pointer;
             }
+        }
+
+        @media only screen and (max-width: 720px){
+            display: none;
+        }
+    }
+    .mobile-menu-icon-wrapper{
+        display: none;
+
+        @media only screen and (max-width: 720px) {
+            display: block;
         }
     }
 }

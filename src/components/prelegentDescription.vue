@@ -48,6 +48,10 @@ export default {
     align-items: center;
     gap: 2rem;
     width: 320px;
+    @media only screen and (max-width: 720px) {
+        width: 300px;
+        gap: .5rem;
+    }
     img{
         aspect-ratio: 1/1;
         height: 320px;
@@ -66,12 +70,20 @@ export default {
         h3 {
             font-weight: 700;
             font-size: 1.2rem;
+            @media only screen and (max-width: 720px) {
+                font-size: 1.2rem;
+            }
         }
 
         p {
             text-align: left;
             font-size: 1rem;
             font-weight: 200;
+            @media only screen and (max-width: 720px) {
+                font-size: 0.9rem;
+                color: #000000;
+                font-weight: 500;
+            }
         }
     }
 }

@@ -87,16 +87,27 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @media only screen and (max-width: 720px) {
+        height: 100%;
+        padding-bottom: 1rem;
+    }
     .countdown-text{
         color: #0B3954;
         font-family: 'Poppins', sans-serif;
         font-size: 3rem;
         padding-top: 2rem;
+        @media only screen and (max-width: 720px) {
+            font-size: 1.4rem;
+            padding-top: 1rem;
+        }
     }
     .counter-wrapper{
         .countdown{
         display: flex;
         gap: 3rem;
+        @media only screen and (max-width: 720px) {
+            gap: .5rem;
+        }
         .countdown-item{
             padding: 2rem 5rem;
             display: flex;
@@ -104,6 +115,9 @@ export default {
             align-items: center;
             justify-content: center;
             text-align: center;
+            @media only screen and (max-width: 720px) {
+                padding: .4rem .7rem;
+            }
             p{
                 font-family: 'Poppins', sans-serif;
                 font-weight: 400;
@@ -112,9 +126,15 @@ export default {
             }
             .counter-item{
                 font-size: 12rem;
+                @media only screen and (max-width: 720px) {
+                    font-size: 1.5rem;
+                }
             }
             .counter-description{
                 font-size: 3rem;
+                @media only screen and (max-width: 720px) {
+                    font-size: 0.8rem;
+                }
             }
         }
     }

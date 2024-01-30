@@ -73,11 +73,21 @@ export default {
     gap: 3rem;
     color: #0B3954;
     font-family: 'Poppins', sans-serif;
+    h1{
+        @media only screen and (max-width: 720px) {
+            font-size: 1.4rem;
+        }
+    }
     .transfer-info-wrapper{
         display: flex;
         flex-direction: column;
         gap: 1rem;
         justify-content: center;
+        h2{
+            @media only screen and (max-width: 720px) {
+                font-size: 1.2rem;
+            }
+        }
     }
     button {
         padding: .7rem .9rem;
