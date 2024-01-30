@@ -11,11 +11,11 @@
                 <p><span class="material-icons">calendar_month</span>17.02.2024</p>
             </div>
             <h1>
-                WPŁYW EMOCJI NA NASZE CIAŁO
+                POZYTYWNE MYŚLENIE I PRAWIDŁOWE ŻYWIENIE JAKO ELEMENTY NIEZBĘDNE DO SZCZĘŚLIWEGO ŻYCIA
             </h1>
             <div class="meeting-description-wrapper">
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus esse dolor maiores quidem aliquam quasi ducimus, veniam optio aliquid nobis molestiae hic tempore magni delectus aperiam, enim corrupti molestias quisquam!
+                    Zapraszamy na inspirującą konferencję, która połączy dwie kluczowe sfery życia - pozytywne myślenie i prawidłowe odżywianie. Odkryj, w jaki sposób te dwa elementy mogą wspólnie tworzyć fundamenty zdrowego i szczęśliwego życia. Czekamy na Ciebie!
                 </p>
                 <div class="description-buttons">
                     <button class="more-info-button" href="#leaders-description"  v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">Dowiedz się więcej<span class="material-icons">expand_more</span></button>
@@ -24,28 +24,29 @@
             </div>
            </div>
            <div class="meeting-image-wrapper">
-            <img src="@/assets/pabilkropla.png" alt="zdjęcie poglądowe" height="450" width="800">
+            <img src="@/assets/zdrowe-jedzenie.jpg" alt="zdjęcie poglądowe" height="350" width="500">
            </div>
         </div>
         <div class="leaders-description-wrapper" id="leaders-description">
             <h3>Nasi prelegenci</h3>
             <div class="prelegents-wrapper">
-                <PrelegentDescription image="" name="Justyna Mucha" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
-                <PrelegentDescription image="" name="Tatiana Kożuszna" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
-                <PrelegentDescription image="" name="Joanna Marszałek" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
-                <PrelegentDescription image="" name="Bożena Rząsa" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
-                <PrelegentDescription image="" name="Irena Prochoń-Dziewońska" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
-                <PrelegentDescription image="" name="Ewelina Szymańska" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
-                <PrelegentDescription image="" name="Małgorzta Rakowska" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
-                <PrelegentDescription image="" name="Rafał Woźniak" description="Od 7 lat kieruje polskim Coral Club. Ekspert od nowoczesnej przedsiębiorczości i współpracy z partnerami biznesowymi. Na co dzień wspomaga procesy biznesowe na rynku polskim i europejskim." />
-                <PrelegentDescription image="" name="" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
-                <PrelegentDescription image="" name="Janina Machniak-Rozborska" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
-                <PrelegentDescription image="" name="Paweł Bilski" description="Przedsiębiorca, Producent organicznej żywności. Ekspert od nawadniania organizmu. Pasjonat zdrowego stylu życia. Wspiera tysiące osób w Polsce i na całym świecie w utrzymaniu zdrowia." />
-                <PrelegentDescription image="" name="Andrzej Kożuszny" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
+                <PrelegentDescription image="Justyna-Mucha.jpg" name="Justyna Mucha" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą. Ma 3-letnią córeczkę, której uśmiech i zdrowie jest dla niej najcenniejszym skarbem." />
+                <PrelegentDescription image="Tatiana-Kozuszna.webp" name="Tatiana Kożuszna" description="Od kilkunastu lat lekarz z misją edukacji dla utrzymania zdrowia. Wspiera tysiące osób w Polsce i na całym świecie. Systematycznie prowadzi spotkania Akademii Zdrowia w różnych miastach Polski. Współpracuje z lekarzami na całym świecie i prowadzi własne badania naukowe." />
+                <PrelegentDescription image="Joanna-Marszalek.jpg" name="Joanna Marszałek" description="Żona i mama trójki dzieci (czwarte w drodze). Z zawodu pielegniarka. Jej najwiekszą wartoscią jest rodzina i zdrowie. Pasjonuje się naturalnymi metodami leczenia oraz medycyną chinską. Uwielbia pracę z ludzmi, zdrowe jedzenie oraz podróże." />
+                <PrelegentDescription image="Bozena-Rzasa.jpg" name="Bożena Rząsa" description="Promotor zdrowia, od ponad 30 lat krzewi kulturę zdrowego odżywiania. Miłośniczka naturalnego stylu życia. Promotor zdrowia, od ponad 30 lat krzewi kulturę zdrowego odżywiania. Miłośniczka naturalnego stylu życia. " />
+                <PrelegentDescription image="Irena-Prochon-Dziewonska.jpg" name="Irena Prochoń-Dziewońska" description="Ponad 15 lat temu zapoczątkował działalność Coral Club w Polsce, zakładając pierwsze biuro regionalne. Odniósł spektakularny sukces. Obecnie dzieli się swoim doświadczeniem i angażuje w rozwój partnerów biznesowych." />
+                <PrelegentDescription image="Ewelina-Szymanska.jpg" name="Ewelina Szymańska" description="Ponad 15 lat temu zapoczątkował działalność Coral Club w Polsce, zakładając pierwsze biuro regionalne. Odniósł spektakularny sukces. Obecnie dzieli się swoim doświadczeniem i angażuje w rozwój partnerów biznesowych." />
+                <PrelegentDescription image="Malgorzata-Rakowska.webp" name=" dr Małgorzta Rakowska" description='Fizjoterapeutka i terapeutka manualna. Od 20 lat wspiera pacjentów w pozbywaniu się bólu. Ekspertka od świadomości ciała. Łączy pracę ciała i emocji. Autorka książki "Codzienność bez bólu".' />
+                <PrelegentDescription image="Rafal-Wozniak.webp" name="Rafał Woźniak" description="Od 7 lat kieruje polskim Coral Club. Ekspert od nowoczesnej przedsiębiorczości i współpracy z partnerami biznesowymi. Na co dzień wspomaga procesy biznesowe na rynku polskim i europejskim." />
+                <PrelegentDescription image="Lidia-Starzyk-Hudyka.jpg" name="Lidia Starzyk-Hudyka" description='Mama, przedsiębiorczyni kochająca życie i pozytywnych ludzi, otwarta na rozwój, uznaje zasadę że "W życiu masz tyle, na ile się odważysz". "W życiu masz tyle, na ile się odważysz".' />
+                <PrelegentDescription image="Janina-Machniak-Rozborska.jpg" name="Janina Machniak-Rozborska" description="Ponad 15 lat temu zapoczątkował działalność Coral Club w Polsce, zakładając pierwsze biuro regionalne. Odniósł spektakularny sukces. Obecnie dzieli się swoim doświadczeniem i angażuje w rozwój partnerów biznesowych." />
+                <PrelegentDescription image="Pawel-Bilski.webp" name="Paweł Bilski" description="Przedsiębiorca, ekspert od nawadniania organizmu. Pasjonat zdrowego stylu życia, a także producent organicznej żywności. Otwarty na rozwój. Dzieli się wiedzą, tak by każdy mógł wziąć odpowiedzialność za zdrowie w swoje ręce. " />
+                <PrelegentDescription image="Andrzej-Kozuszny.webp" name="Andrzej Kożuszny" description="Ponad 15 lat temu zapoczątkował działalność Coral Club w Polsce, zakładając pierwsze biuro regionalne. Odniósł spektakularny sukces. Obecnie dzieli się swoim doświadczeniem i angażuje w rozwój partnerów biznesowych." />
             </div>
         </div>
         <div class="program-info-wrapper">
             <h3 id="program-info">Program konferencji</h3>
+            <p><span class="material-icons">schedule</span>11:00-18:00</p>
             <TimeTitleCard time="11:00" title="Rozpoczęcie i powitanie" leader="Justyna Mucha" reversed="true"/>
             <TimeTitleCard time="11:15" title="4 Kroki do zdrowia" leader="Tatiana Kożuszna"/>
             <TimeTitleCard time="11:45" title="Dieta zgodna z porami roku" leader="Joanna Marszałek"/>
@@ -53,39 +54,73 @@
             <TimeTitleCard time="12:45" title="Odżywcze produkty Coral Club" leader="Irena Prochoń-Dziewońska"/>
             <TimeTitleCard time="13:15" title="Efekty zdrowotne" leader="prowadzi Ewelina Szymańska"/>
             <TimeTitleCard time="13:45" title="Obiad" reversed="true"/>
-            <TimeTitleCard time="15:00" title="Emocje i ich wpływ na nasze ciało" leader="Małgorzata Rakowska"/>
+            <TimeTitleCard time="15:00" title="Emocje i ich wpływ na nasze ciało" leader="dr Małgorzata Rakowska"/>
             <TimeTitleCard time="16:00" title="Dlaczego Coral Club" leader="Rafał Woźniak"/>
-            <TimeTitleCard time="16:20" title="Edyfikacja - mocne wejście" leader="" reversed="true"/>
+            <TimeTitleCard time="16:20" title="Edyfikacja - mocne wejście" leader="Lidia Starzyk-Hudyka"/>
             <TimeTitleCard time="16:40" title="Wyróznienia i historie sukcesu" leader="prowadzi Janina Machniak-Rozborska"/>
             <TimeTitleCard time="17:10" title="Produkty za darmo? Jest na to sposób" leader="Paweł Bilski"/>
             <TimeTitleCard time="17:30" title="Perspektywy na przyszłość" leader="Andrzej Kożuszny"/>
+            <TimeTitleCard time="18:00" title="Zakończenie" reversed="true"/>
         </div>
-        <div class="ticket-content-wrapper">
-            <h3>Co zawiera bilet:</h3>
-            <p><span class="material-icons">groups</span>udział w konferencji</p>
-            <p><span class="material-icons">restaurant</span>obiad</p>
-            <p><span class="material-icons">coffee</span>kawa i herbata</p>
-            <p><span class="material-icons">local_parking</span>bezpłatny parking</p>
-            <h3>Cena: 150 zł</h3>
-            <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
+        <div class="video-wrapper">
+            <div class="video-text">
+                <h4>Zapraszamy!</h4>
+                <p>Obejrzyj video</p>
+            </div>
+            <img src="../assets/Pawel-Bilski.webp" alt="">
         </div>
         <div class="date-and-place-info-wrapper" id="date-and-place">
             <h3>Konferencja odbędzie się:</h3>
             <div class="conference-info">
                <div class="conference-info-text">
                 <h2>17.02.2024</h2>
-                <p><span class="material-icons">location_on</span>Ośrodek wypoczynkowy JAWJA</p>
-                <p>Rzemień 312</p>
-                <p>39-322 Rzemień</p>
+                <div class="location-wrapper">
+                    <p><span class="material-icons">location_on</span>Ośrodek wypoczynkowy JAWJA</p>
+                    <p>Rzemień 312</p>
+                    <p>39-322 Rzemień</p>
+                </div>
                </div>
                <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.8448469429445!2d21.51582317582303!3d50.238803402581254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d136f0df8ab05%3A0x91e0641fa79b2906!2sO%C5%9Brodek%20Wypoczynkowy%20-%20JAWJA%20Sp%C3%B3%C5%82ka%20z%20o.o.!5e0!3m2!1spl!2spl!4v1706463791667!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                </div>
             </div>
         </div>
-        <div class="additional-info-wrapper">
+        <!-- <div class="additional-info-wrapper">
             <h3>Dodatkowe informacje</h3>
-            <p>Jest możliwość noclegu</p>
+            <div class="additional-info-text">
+                <p>W ośrodku jest możliwość noclegu</p>
+            </div>
+            <div class="acommodation-photo">
+                <img src="../assets/Nocleg.jpg" alt="zdjęcie poglądowe" height="350" width="500">
+            </div>
+        </div> -->
+        <div class="tickets-wrapper" id="buy-ticket">
+            <div class="ticket-heading">
+                <h2>Wybierz swój bilet</h2>
+            </div>
+            <div class="ticket-choice">
+                <div class="single-ticket">
+                    <h2>Jeden bilet</h2>
+                    <h3>Co zawiera bilet:</h3>
+                    <p><span class="material-icons">groups</span>udział w konferencji</p>
+                    <p><span class="material-icons">restaurant</span>obiad</p>
+                    <p><span class="material-icons">coffee</span>kawa i herbata</p>
+                    <p><span class="material-icons">local_parking</span>bezpłatny parking</p>
+                    <h3>Cena: 150 zł</h3>
+                    <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
+                </div>
+                <div class="ticket-package">
+                    <h2>Pakiet 5 biletów</h2>
+                    <h3>Co zawiera bilet:</h3>
+                    <p><span class="material-icons">groups</span>udział w konferencji</p>
+                    <p><span class="material-icons">restaurant</span>obiad</p>
+                    <p><span class="material-icons">coffee</span>kawa i herbata</p>
+                    <p><span class="material-icons">local_parking</span>bezpłatny parking</p>
+                    <h3>Cena: 700 zł</h3>
+                    <h4>140zł za osobę</h4>
+                    <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
+                </div>
+            </div>
         </div>
         <TheMeetingFooter class="footer" id="contact" />
     </div>
@@ -112,7 +147,7 @@ export default {
 
 <style lang="scss" scoped>
 .rzemien-meeting-view-wrapper{
-    padding: 7rem 0 0 0;
+    padding: 5rem 0 0 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -136,13 +171,19 @@ export default {
     .date-and-place-image-wrapper{
         padding: 0 4rem;
         display: flex;
-        gap: 3rem;
+        gap: 2rem;
         padding-top: 5rem;
+        .meeting-image-wrapper{
+            padding-top: 3.5rem;
+        }
 
         .date-and-place-description-wrapper{
             display: flex;
             flex-direction: column;
-            gap: 2rem;
+            gap: 3rem;
+            h1{
+                font-size: 2.1rem;
+            }
             .date-and-place-wrapper{
                 display: flex;
                 gap: 8rem;
@@ -159,33 +200,34 @@ export default {
                 }
             }
             .meeting-description-wrapper{
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            align-items: center;
-            justify-content: center;
-            p{
-                font-family: 'Poppins', sans-serif;
-                color: #0B3954;
-                font-size: 1.5rem;
-                max-width: 50rem;
-                text-align: left;
-            }
-
-            .description-buttons{
                 display: flex;
+                flex-direction: column;
+                gap: 2rem;
                 align-items: center;
                 justify-content: center;
-                gap: 2rem;
+                p{
+                    font-family: 'Poppins', sans-serif;
+                    color: #000000;
+                    font-size: 1.2rem;
+                    max-width: 50rem;
+                    text-align: left;
+                    gap: 1rem;
+                }
 
-                .more-info-button{
-                    background-color: #ffffff;
-                    border: 2px solid #0B3954;
-                    border-radius: 8px;
-                    color: #0B3954;
+                .description-buttons{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 2rem;
+
+                    .more-info-button{
+                        background-color: #ffffff;
+                        border: 2px solid #0B3954;
+                        border-radius: 8px;
+                        color: #0B3954;
+                    }
                 }
             }
-        }
         }
     }
 
@@ -193,7 +235,8 @@ export default {
         color: #0B3954;
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
-        font-size: 3rem;
+        font-size: 2rem;
+        text-align: left;
     }
 
     .leaders-description-wrapper{
@@ -228,24 +271,49 @@ export default {
         align-items: center;
         justify-content: center;
         padding-bottom: 5rem;
-    }
-
-    .ticket-content-wrapper{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        h3{
+            padding-bottom: 0;
+        }
         p{
+            color: #0B3954;
             font-family: 'Poppins', sans-serif;
             font-size: 1.2rem;
-            color: #0B3954;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: .5rem;
         }
-        h3{
-            padding: 2rem 0;
+    }
+    .video-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 2rem;
+        img{
+            aspect-ratio: 1/1;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        .video-text{
+            padding: 5rem;
+            h4{
+                font-family: 'Poppins', sans-serif;
+                font-size: 2rem;
+                color: #0B3954;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            p{
+                font-family: 'Poppins', sans-serif;
+                font-size: 1.2rem;
+                color: #0B3954;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
     }
 
@@ -258,7 +326,10 @@ export default {
         width: 100%;
         padding-bottom: 2rem;
         width: 100%;
-
+        h3{
+            color: #ffffff;
+            font-size: 2.5rem;
+        }
         .conference-info{
             display: flex;
             gap: 10rem;
@@ -268,39 +339,114 @@ export default {
                 gap: 1rem;
                 align-items: flex-start;
                 justify-content: center;
+                h2{
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 3rem;
+                    font-weight: 400;
+                    color: #ffffff;
+                }
+                .location-wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    align-items: flex-start;
+                    justify-content: center;
+                    border: 2px solid #FFFFFF;
+                    border-radius: 8px;
+                    padding: .5rem .7rem;
+                    p{
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 1rem;
+                        color: #ffffff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: .5rem;
+                    }
+                }
             }
         }
-        h3{
-            color: #ffffff;
-            font-size: 2.5rem;
+    }
+    .tickets-wrapper{
+        padding: 2rem 0;
+        .ticket-heading{
+            h2{
+                color: #0B3954;
+                font-family: 'Poppins', sans-serif;
+                font-size: 2rem;
+                padding-bottom: 3rem;
+            }
         }
-        h2{
-            font-family: 'Poppins', sans-serif;
-            font-size: 3rem;
-            font-weight: 400;
-            color: #ffffff;
-        }
-        p{
-            font-family: 'Poppins', sans-serif;
-            font-size: 1rem;
-            color: #ffffff;
+        .ticket-choice{
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: .5rem;
+            gap: 5rem;
+            .single-ticket{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 3rem;
+                border: 1px solid #0B3954;
+                border-radius: 8px;
+                p{
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 1.2rem;
+                    color: #0B3954;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: .5rem;
+                }
+                h3{
+                    padding: 2rem 0;
+                    font-size: 1.5rem;
+                }
+            }
+            .ticket-package{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 3rem;
+                border: 1px solid #0B3954;
+                border-radius: 8px;
+                p{
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 1rem;
+                    color: #0B3954;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: .5rem;
+                }
+                h3{
+                    padding: 2rem 0;
+                    font-size: 1.5rem;
+                    color: #0B3954;
+                }
+            }
         }
     }
 
-    .additional-info-wrapper{
-        font-family: 'Poppins', sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        p{
-            color: #0B3954;
-        }
-    }
+    // .additional-info-wrapper{
+    //     font-family: 'Poppins', sans-serif;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     justify-content: center;
+    //     .additional-info-text{
+    //         display: flex;
+    //         flex-direction: column;
+    //         gap: 3rem;
+    //         p{
+    //         color: #0B3954;
+    //         }
+    //     }
+    //     .acommodation-photo{
+    //     }
+    // }
     .footer{
         height: 10rem;
         width: 100vw;

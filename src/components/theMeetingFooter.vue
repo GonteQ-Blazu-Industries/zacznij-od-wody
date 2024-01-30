@@ -27,6 +27,8 @@
     .footer-contact-info{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         gap: 0.6rem;
         a{
             text-decoration: none;

@@ -1,6 +1,6 @@
 <template>
     <div class="prelegent-description-wrapper">
-        <img :src="image" alt="zdjęcie prelegenta">
+        <img v-if="image && image.trim()" :src="imagePath" alt="zdjęcie prelegenta">
         <div class="prelegent-info-wrapper">
             <h3>{{ name }}</h3>
             <p>{{ description }}</p>
@@ -11,17 +11,50 @@
 <script>
 export default {
     props: ['image', 'name', 'description'],
+    data() {
+        return {
+            imagePath: null,
+        };
+    },
+    async mounted() {
+        await this.loadImage();
+    },
+    watch: {
+        image: 'loadImage',
+    },
+    methods: {
+        async loadImage() {
+            if (!this.image || !this.image.trim()) {
+                this.imagePath = null;
+                return;
+            }
+            try {
+                const imageModule = await import(`@/assets/${this.image}`);
+                this.imagePath = imageModule.default;
+            } catch (error) {
+                console.error(`Błąd ładowania obrazu: ${error}`);
+                this.imagePath = null;
+            }
+        },
+    },
 };
 </script>
 
-<style land="sccs" scoped>
-.prelegent-description-wrapper{
+<style lang="scss" scoped>
+.prelegent-description-wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     width: 320px;
-    .prelegent-info-wrapper{
+    img{
+        aspect-ratio: 1/1;
+        height: 320px;
+        object-fit: cover;
+    }
+
+    .prelegent-info-wrapper {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -29,11 +62,13 @@ export default {
         font-family: 'Poppins', sans-serif;
         color: #0B3954;
         gap: 1rem;
-        h3{
+
+        h3 {
             font-weight: 700;
             font-size: 1.2rem;
         }
-        p{
+
+        p {
             text-align: left;
             font-size: 1rem;
             font-weight: 200;

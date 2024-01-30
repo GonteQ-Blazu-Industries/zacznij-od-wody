@@ -229,11 +229,16 @@ export default {
             input{
                 padding: 5px;
                 height: 30px;
+                border: 1px solid #0B3954;
+                border-radius: 8px;
+
             }
             textarea{
                 padding: 5px;
                 font-family: 'Poppins', sans-serif;
                 resize: none;
+                border: 1px solid #0B3954;
+                border-radius: 8px;
             }
         }
         .button-wrapper{

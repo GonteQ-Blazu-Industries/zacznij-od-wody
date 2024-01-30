@@ -86,7 +86,7 @@ const routes = [
     },
   },
   {
-    path: '/dziękujemy-za-zakup-biletu',
+    path: '/dziekujemy-za-zakup-biletu',
     name: 'TicketBought',
     component: TicketBought,
     meta: {

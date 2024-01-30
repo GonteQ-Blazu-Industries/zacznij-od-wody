@@ -8,7 +8,8 @@
             <a class="the-meeting-navbar-item" href="#program-info"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Program</a>
             <a class="the-meeting-navbar-item" href="#date-and-place"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Data i miejsce</a>
             <a class="the-meeting-navbar-item" href="#contact"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Kontakt</a>
-            <li class="the-meeting-navbar-item buy-ticket" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet</li>
+            <a class="the-meeting-navbar-item-buy" href="#buy-ticket"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Kup bilet</a>
+            <!-- <li class="the-meeting-navbar-item buy-ticket" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet</li> -->
         </ul>
     </div>
 </template>
@@ -41,10 +42,11 @@
                 cursor: pointer;
             }
         }
-        .buy-ticket{
+        .the-meeting-navbar-item-buy{
             color: white;
             background-color: #0B3954;
             border-radius: 5px;
+            padding: .5rem 1rem;
 
             &:hover{
                 background-color: #0B3954;
