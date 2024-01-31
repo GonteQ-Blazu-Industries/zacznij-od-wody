@@ -68,8 +68,8 @@
         <div class="video-wrapper">
             <div class="video-text">
                 <h2>Zapraszamy!</h2>
-                <p>Kilku z naszych prelegentów miało możliwość nagrać dla Was zaproszenie na naszą konferencję</p>
-                <p>Zobacz co mają ci do przekazania</p>
+                <p style="padding-bottom: .7rem;">Kilku z naszych prelegentów miało możliwość nagrać dla Was zaproszenie na naszą konferencję &#128522;</p>
+                <p>Zobacz co mają ci do przekazania!</p>
             </div>
             <div class="videos">
                 <div class="youtube-video">
@@ -406,6 +406,8 @@ export default {
         @media only screen and (max-width: 720px) {
             flex-direction: column;
             padding: 0;
+            align-items: center;
+            justify-content: center;
         }
 
         .video-text{
@@ -415,6 +417,8 @@ export default {
             flex-direction: column;
             @media only screen and (max-width: 720px) {
                 padding: .2rem;
+                align-items: center;
+                justify-content: center;
             }
             h2{
                 font-family: 'Poppins', sans-serif;
@@ -558,6 +562,10 @@ export default {
             align-items: center;
             justify-content: center;
             gap: 5rem;
+            @media only screen and (max-width: 720px) {
+                flex-direction: column;
+                gap: 1rem;
+            }
             .contact-info-cards-wrapper{
             display: flex;
             flex-direction: column;
