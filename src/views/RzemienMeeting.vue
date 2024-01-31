@@ -356,7 +356,7 @@ export default {
         font-weight: 600;
         padding: 4rem 0 2rem 0;
         @media only screen and (max-width: 720px) {
-            font-size: 1rem;
+            font-size: 1.5rem;
             padding: 0;
         }
     }
@@ -423,7 +423,8 @@ export default {
                 align-items: center;
                 justify-content: center;
                 @media only screen and (max-width: 720px) {
-                    font-size: .9rem;
+                    font-size: 1.5rem;
+                    padding-bottom: .5rem;
                 }
             }
             p{
@@ -434,7 +435,7 @@ export default {
                 align-items: center;
                 justify-content: center;
                 @media only screen and (max-width: 720px) {
-                    font-size: .9rem;
+                    font-size: 1rem;
                 }
             }
         }
@@ -457,14 +458,15 @@ export default {
         width: 100%;
         padding-bottom: 2rem;
         @media only screen and (max-width: 720px) {
-            padding-bottom: .5rem;
-            padding-top: .5rem;
+            padding-bottom: .7rem;
+            padding-top: .7rem;
         }
         h2{
             color: #FFFFFF;
             font-size: 2.5rem;
             @media only screen and (max-width: 720px) {
-                font-size: 1rem;
+                font-size: 1.4rem;
+                padding-bottom: .5rem;
             }
         }
         .conference-info{
@@ -497,7 +499,7 @@ export default {
                     font-weight: 400;
                     color: #FFFFFF;
                     @media only screen and (max-width: 720px) {
-                        font-size: 1rem;
+                        font-size: 1.2rem;
                     }
                 }
                 .location-wrapper{
@@ -523,7 +525,7 @@ export default {
                         justify-content: center;
                         gap: .5rem;
                         @media only screen and (max-width: 720px) {
-                            font-size: .7rem;
+                            font-size: .9rem;
                         }
                     }
                 }
@@ -602,8 +604,8 @@ export default {
                 font-size: 2rem;
                 padding-bottom: 3rem;
                 @media only screen and (max-width: 720px) {
-                    font-size: 1rem;
-                    padding-bottom: .5rem;
+                    font-size: 1.5rem;
+                    padding-bottom: .7rem;
                 }
             }
         }
