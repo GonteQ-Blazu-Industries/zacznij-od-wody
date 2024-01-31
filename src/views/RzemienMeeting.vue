@@ -47,22 +47,22 @@
         </div>
         <div class="program-info-wrapper">
             <h2 id="program-info">Program konferencji</h2>
-            <p><span class="material-icons">schedule</span>11:00-18:30</p>
-            <TimeTitleCard time="11:00" title="11:00-11:15 | Rozpoczęcie i powitanie" leader="" reversed="true"/>
+            <p><span class="material-icons">schedule</span>11:00 - 18:30</p>
+            <TimeTitleCard time="11:00" title="11:00 - 11:15 | Rozpoczęcie i powitanie" leader="" reversed="true"/>
             <TimeTitleCard time="" title="4 Kroki do zdrowia" leader="Tatiana Kożuszna"/>
             <TimeTitleCard time="11:40" title="Dieta zgodna z porami roku" leader="Joanna Marszałek"/>
             <TimeTitleCard time="12:05" title="Dobre tłuszcze oraz zagrożenia związane z ich niedoborami" leader="Bożena Rząsa"/>
-            <TimeTitleCard time="12:25" title="12:25-12:40 | Przerwa kawowa" reversed="true"/>
-            <TimeTitleCard time="12:40" title="Emocje i ich wpływ na nasze ciało + ćwiczenia" leader="dr Małgorzata Rakowska"/>
-            <TimeTitleCard time="14:10" title="14:10-15:10 | Obiad" reversed="true"/>
+            <TimeTitleCard time="12:30" title="12:30 - 12:45 | Przerwa kawowa" reversed="true"/>
+            <TimeTitleCard time="12:45" title="Emocje i ich wpływ na nasze ciało + ćwiczenia" leader="dr Małgorzata Rakowska"/>
+            <TimeTitleCard time="14:10" title="14:15 - 15:15 | Obiad" reversed="true"/>
             <TimeTitleCard time="15:15" title="Odżywcze produkty Coral Club" leader="Irena Prochoń-Dziewońska"/>
             <TimeTitleCard time="15:40" title="Efekty zdrowotne" leader="prowadzi Ewelina Szymańska"/>
             <TimeTitleCard time="16:05" title="Dlaczego Coral Club" leader="Rafał Woźniak"/>
             <TimeTitleCard time="16:30" title="Edyfikacja - mocne wejście" leader="Lidia Starzyk-Hudyka"/>
-            <TimeTitleCard time="16:55" title="16:55-17:10 | Przerwa kawowa" reversed="true"/>
-            <TimeTitleCard time="17:05" title="Wyróznienia i historie sukcesu" leader="prowadzi Janina Machniak-Rozborska"/>
-            <TimeTitleCard time="17:30" title="Produkty za darmo? Jest na to sposób" leader="Paweł Bilski"/>
-            <TimeTitleCard time="17:55" title="Perspektywy na przyszłość" leader="Andrzej Kożuszny"/>
+            <TimeTitleCard time="16:55" title="16:55-  17:10 | Przerwa kawowa" reversed="true"/>
+            <TimeTitleCard time="17:10" title="Wyróznienia i historie sukcesu" leader="prowadzi Janina Machniak-Rozborska"/>
+            <TimeTitleCard time="17:35" title="Produkty za darmo? Jest na to sposób" leader="Paweł Bilski"/>
+            <TimeTitleCard time="18:00" title="Perspektywy na przyszłość" leader="Andrzej Kożuszny"/>
             <TimeTitleCard time="18:30" title="18:30 | Zakończenie" reversed="true"/>
         </div>
         <div class="video-wrapper">
@@ -113,24 +113,19 @@
                                 <a href="tel:+48509714295"><span class="material-icons">call</span> +48 509 714 295</a>
                                 <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> pabil@interia.pl</a>
                             </div>
-                            <div class="contact-info">
-                                <h4>Tatiana Kożuszna</h4>
-                                <a href="tel:+606765215"><span class="material-icons">call</span> +48 606 765 215</a>
-                                <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> TBD</a>
-                            </div>
                         </div>
                     </div>
                     <div class="contact-info-cards-wrapper">
                         <h4>W sprawie noclegu</h4>
                         <div class="conference-contact-cards">
                             <div class="contact-info">
-                                <h4>Julia Kożuszna</h4>
-                                <a href="tel:+48509714295"><span class="material-icons">call</span>TDB</a>
-                                <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> TBD</a>
+                                <h4>Biuro JAWJA</h4>
+                                <a href="tel:+48537425477"><span class="material-icons">call</span>+48 537 425 477</a>
+                                <a href="mailto:biuro@jawjarzemien.pl"><span class="material-icons">mail</span>biuro@jawjarzemien.pl</a>
                             </div>
                         </div>
                     </div>
-                    <img src="../assets/Nocleg.jpg" alt="" width="300">
+                    <img src="../assets/Nocleg.jpg" alt="" width="370">
                 </div>
             </div>
         </div>
@@ -434,12 +429,12 @@ export default {
             p{
                 font-family: 'Poppins', sans-serif;
                 font-size: 1.2rem;
-                color: #0B3954;
+                color: #000000;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 @media only screen and (max-width: 720px) {
-                    font-size: .7rem;
+                    font-size: .9rem;
                 }
             }
         }
@@ -541,7 +536,7 @@ export default {
             padding-bottom: 1rem;
         }
         p{
-            color: #0B3954;
+            color: #000000;
             font-family: 'Poppins', sans-serif;
             font-size: 1rem ;
         }
