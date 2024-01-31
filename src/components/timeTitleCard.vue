@@ -1,13 +1,13 @@
 <template>
     <div class="time-title-card-wrapper" :class="{'reversed': reversed}">
-        <h3>{{ time }} | {{ title }}</h3>
+        <h3>{{ title }}</h3>
         <h4 v-if="leader">{{ leader }}</h4>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['time', 'title', 'leader', 'reversed'],
+    props: ['title', 'leader', 'reversed'],
 };
 </script>
 

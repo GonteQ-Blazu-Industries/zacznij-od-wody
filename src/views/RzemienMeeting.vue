@@ -36,32 +36,34 @@
                 <PrelegentDescription image="Joanna-Marszalek.jpg" name="Joanna Marszałek" description="Żona i mama trójki dzieci (czwarte w drodze). Z zawodu pielegniarka. Jej największą wartością jest rodzina i zdrowie. Pasjonuje się naturalnymi metodami leczenia oraz medycyną chinską. Uwielbia pracę z ludzmi, zdrowe jedzenie oraz podróże." />
                 <PrelegentDescription image="Bozena-Rzasa.jpg" name="Bożena Rząsa" description="Promotor zdrowia, od ponad 30 lat krzewi kulturę zdrowego odżywiania. Miłośniczka naturalnego stylu życia. Dzięki wiedzy makrobiotycznej pomaga ludziom przywracać dobry stan zdrowia." />
                 <PrelegentDescription image="Irena-Prochon-Dziewonska.jpg" name="Irena Prochoń-Dziewońska" description="Z domu wyniosła umiłowanie do natury. Chętnie dzieli się wiedzą, jaką zdobywała od najmłodszych lat od ojca zielarza i którą zdobywa nadal dzięki wspaniałym znawcom tego tematu w CoralClub." />
-                <PrelegentDescription image="Ewelina-Szymanska.jpg" name="Ewelina Szymańska" description="" />
-                <PrelegentDescription image="Janina-Machniak-Rozborska.jpg" name="Janina Machniak-Rozborska" description="Mama, kobieta z ogromną radością i pokojem serca, wytrwała i nieustępliwa. Dzięki łatwości nawiązywania kontaktów dociera do wielu osób, którym przekazuje cenne informacje dotyczące poprawy zdrowia i jakości życia." />
-                <PrelegentDescription image="Pawel-Bilski.webp" name="Paweł Bilski" description="Przedsiębiorca, rolnik, ekspert od nawadniania organizmu. Pasjonat zdrowego stylu życia. Otwarty na rozwój. Lubi inspirować ludzi i dzielić się z nimi wiedzą, tak by każdy mógł wziąć odpowiedzialność za zdrowie w swoje ręce. " />
+                <PrelegentDescription image="Ewelina-Szymanska.jpg" name="Ewelina Szymańska" description="Mama, żona, kobieta sumienna, cierpliwa i wytrwała. Na codzień prowadzi sklep ze zdrową żywnością. Wykorzystując koncepcję Coral Club pomaga wielu osobom wrócic do zdrowia." />
+                <PrelegentDescription image="Janina-Machniak-Rozborska.jpg" name="Janina Machniak-Rozborska" description="Kobieta z ogromną radością i pokojem serca, wytrwała i nieustępliwa. Dzięki łatwości nawiązywania kontaktów dociera do wielu osób, którym przekazuje cenne informacje dotyczące poprawy zdrowia i jakości życia." />
+                <PrelegentDescription image="Pawel-Bilski.webp" name="Paweł Bilski" description="Przedsiębiorca, ekspert od nawadniania organizmu, pasjonat zdrowego stylu życia. Otwarty na rozwój. Lubi inspirować ludzi i dzielić się z nimi wiedzą, tak by każdy mógł wziąć odpowiedzialność za zdrowie w swoje ręce. " />
                 <PrelegentDescription image="Andrzej-Kozuszny.webp" name="Andrzej Kożuszny" description="Ponad 15 lat temu zapoczątkował działalność Coral Club w Polsce, zakładając pierwsze biuro regionalne. Odniósł spektakularny sukces. Obecnie dzieli się swoim doświadczeniem i angażuje w rozwój partnerów biznesowych." />
-                <PrelegentDescription image="Rafal-Wozniak.webp" name="Rafał Woźniak" description="Od 7 lat kieruje polskim Coral Club. Ekspert od nowoczesnej przedsiębiorczości i współpracy z partnerami biznesowymi. Na co dzień wspomaga procesy biznesowe na rynku polskim i europejskim." />
                 <PrelegentDescription image="Lidia-Starzyk-Hudyka.jpg" name="Lidia Starzyk-Hudyka" description='Mama, przedsiębiorczyni kochająca życie i pozytywnych ludzi. Od 30 lat działa w branży beauty. Otwarta na rozwój, uznaje zasadę że "W życiu masz tyle, na ile się odważysz". ' />
+                <PrelegentDescription image="Rafal-Wozniak.webp" name="Rafał Woźniak" description="Od 7 lat kieruje polskim Coral Club. Ekspert od nowoczesnej przedsiębiorczości i współpracy z partnerami biznesowymi. Na co dzień wspomaga procesy biznesowe na rynku polskim i europejskim." />
                 <PrelegentDescription image="Justyna-Mucha.jpg" name="Justyna Mucha - PROWADZĄCA" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
             </div>
         </div>
         <div class="program-info-wrapper">
             <h2 id="program-info">Program konferencji</h2>
-            <p><span class="material-icons">schedule</span>11:00-18:00</p>
-            <TimeTitleCard time="11:00" title="Rozpoczęcie i powitanie" leader="Justyna Mucha" reversed="true"/>
-            <TimeTitleCard time="11:15" title="4 Kroki do zdrowia" leader="Tatiana Kożuszna"/>
-            <TimeTitleCard time="11:45" title="Dieta zgodna z porami roku" leader="Joanna Marszałek"/>
-            <TimeTitleCard time="12:15" title="Dobre tłuszcze oraz zagrożenia związane z ich niedoborami" leader="Bożena Rząsa"/>
-            <TimeTitleCard time="12:45" title="Odżywcze produkty Coral Club" leader="Irena Prochoń-Dziewońska"/>
-            <TimeTitleCard time="13:15" title="Efekty zdrowotne" leader="prowadzi Ewelina Szymańska"/>
-            <TimeTitleCard time="13:45" title="Obiad" reversed="true"/>
-            <TimeTitleCard time="15:00" title="Emocje i ich wpływ na nasze ciało" leader="dr Małgorzata Rakowska"/>
-            <TimeTitleCard time="16:00" title="Dlaczego Coral Club" leader="Rafał Woźniak"/>
-            <TimeTitleCard time="16:20" title="Edyfikacja - mocne wejście" leader="Lidia Starzyk-Hudyka"/>
-            <TimeTitleCard time="16:40" title="Wyróznienia i historie sukcesu" leader="prowadzi Janina Machniak-Rozborska"/>
-            <TimeTitleCard time="17:10" title="Produkty za darmo? Jest na to sposób" leader="Paweł Bilski"/>
-            <TimeTitleCard time="17:30" title="Perspektywy na przyszłość" leader="Andrzej Kożuszny"/>
-            <TimeTitleCard time="18:00" title="Zakończenie" reversed="true"/>
+            <p><span class="material-icons">schedule</span>11:00-18:30</p>
+            <TimeTitleCard time="11:00" title="11:00-11:15 | Rozpoczęcie i powitanie" leader="" reversed="true"/>
+            <TimeTitleCard time="" title="4 Kroki do zdrowia" leader="Tatiana Kożuszna"/>
+            <TimeTitleCard time="11:40" title="Dieta zgodna z porami roku" leader="Joanna Marszałek"/>
+            <TimeTitleCard time="12:05" title="Dobre tłuszcze oraz zagrożenia związane z ich niedoborami" leader="Bożena Rząsa"/>
+            <TimeTitleCard time="12:25" title="12:25-12:40 | Przerwa kawowa" reversed="true"/>
+            <TimeTitleCard time="12:40" title="Emocje i ich wpływ na nasze ciało + ćwiczenia" leader="dr Małgorzata Rakowska"/>
+            <TimeTitleCard time="14:10" title="14:10-15:10 | Obiad" reversed="true"/>
+            <TimeTitleCard time="15:15" title="Odżywcze produkty Coral Club" leader="Irena Prochoń-Dziewońska"/>
+            <TimeTitleCard time="15:40" title="Efekty zdrowotne" leader="prowadzi Ewelina Szymańska"/>
+            <TimeTitleCard time="16:05" title="Dlaczego Coral Club" leader="Rafał Woźniak"/>
+            <TimeTitleCard time="16:30" title="Edyfikacja - mocne wejście" leader="Lidia Starzyk-Hudyka"/>
+            <TimeTitleCard time="16:55" title="16:55-17:10 | Przerwa kawowa" reversed="true"/>
+            <TimeTitleCard time="17:05" title="Wyróznienia i historie sukcesu" leader="prowadzi Janina Machniak-Rozborska"/>
+            <TimeTitleCard time="17:30" title="Produkty za darmo? Jest na to sposób" leader="Paweł Bilski"/>
+            <TimeTitleCard time="17:55" title="Perspektywy na przyszłość" leader="Andrzej Kożuszny"/>
+            <TimeTitleCard time="18:30" title="18:30 | Zakończenie" reversed="true"/>
         </div>
         <div class="video-wrapper">
             <div class="video-text">
@@ -69,8 +71,16 @@
                 <p>Kilku z naszych prelegentów miało możliwość nagrać dla Was zaproszenie na naszą konferencję</p>
                 <p>Zobacz co mają ci do przekazania</p>
             </div>
-            <div class="youtube-video">
-                <iframe width="170" height="320" src="https://www.youtube.com/embed/vrg2qGPalms?si=g1iwRHA9oQtWrhR6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="videos">
+                <div class="youtube-video">
+                    <iframe width="250" height="130" src="https://www.youtube.com/embed/I1VdO5Yt1Us?si=DKtnIp9sDZ1n8ac0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="youtube-video">
+                    <iframe width="250" height="130" src="https://www.youtube.com/embed/vrg2qGPalms?si=g1iwRHA9oQtWrhR6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="youtube-video">
+                    <iframe width="250" height="130" src="https://www.youtube.com/embed/vrg2qGPalms?si=g1iwRHA9oQtWrhR6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
         <div class="date-and-place-info-wrapper" id="date-and-place">
@@ -91,21 +101,37 @@
         </div>
         <div class="additional-info-wrapper">
             <h2>Dodatkowe informacje</h2>
+            <p>Ze względu na to, że podczas jednego z wykładów bedziemy wykonywać ćwiczenia fizyczne, zalecany jest wygodny, niekrępujący ruchów strój &#128522;</p>
             <div class="contact-info-wrapper">
                 <h3>Dane do kontaktu</h3>
-            <div class="contact-info-cards-wrapper">
-                <div class="contact-info">
-                    <h4>Paweł Bilski</h4>
-                    <a href="tel:+48509714295"><span class="material-icons">call</span> +48 509 714 295</a>
-                    <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> pabil@interia.pl</a>
-                </div>
-                <div class="contact-info">
-                    <h4>Tatiana Kożuszna</h4>
-                    <a href="tel:+48509714295"><span class="material-icons">call</span> +48 509 714 295</a>
-                    <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> pabil@interia.pl</a>
+                <div class="contact-info-inner-wrapper">
+                    <div class="contact-info-cards-wrapper">
+                        <h4>W sprawie konferencji</h4>
+                        <div class="conference-contact-cards">
+                            <div class="contact-info">
+                                <h4>Paweł Bilski</h4>
+                                <a href="tel:+48509714295"><span class="material-icons">call</span> +48 509 714 295</a>
+                                <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> pabil@interia.pl</a>
+                            </div>
+                            <div class="contact-info">
+                                <h4>Tatiana Kożuszna</h4>
+                                <a href="tel:+48509714295"><span class="material-icons">call</span> +48 509 714 295</a>
+                                <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> pabil@interia.pl</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info-cards-wrapper">
+                        <h4>W sprawie noclegu</h4>
+                        <div class="conference-contact-cards">
+                            <div class="contact-info">
+                                <h4>Julia Kożuszna</h4>
+                                <a href="tel:+48509714295"><span class="material-icons">call</span>TDB</a>
+                                <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> TBD</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
         <div class="tickets-wrapper" id="buy-ticket">
             <div class="ticket-heading">
@@ -119,7 +145,7 @@
                     <p><span class="material-icons">restaurant</span>obiad</p>
                     <p><span class="material-icons">coffee</span>kawa i herbata</p>
                     <p><span class="material-icons">local_parking</span>bezpłatny parking</p>
-                    <h3>Cena: 150 zł*</h3>
+                    <h3>Cena: 150 zł</h3>
                     <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
                 </div>
                 <div class="ticket-package">
@@ -131,13 +157,13 @@
                     <p><span class="material-icons">local_parking</span>bezpłatny parking</p>
                     <h3 style="text-align: end;">Cena:</h3>
                     <h3><s style="font-size: .9rem;">750zł</s> 675zł</h3>
-                    <p>135 zł za osobę*</p>
-                    <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
+                    <p>135 zł za osobę</p>
+                    <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyPacket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
                 </div>
             </div>
-            <div class="ticket-additional-info">
-                <p>*Cena za jedną osobę dorosłą. Za każde dziecko do lat 10 proszę doliczyć kwotę za sam posiłek w wysokości 50 zł.</p>
-            </div>
+            <!-- <div class="ticket-additional-info">
+                <p><sup>*</sup>Cena za jedną osobę dorosłą. Za każde dziecko do lat 10 proszę doliczyć kwotę za sam posiłek w wysokości 50 zł.</p>
+            </div> -->
         </div>
         <TheMeetingFooter class="footer" id="contact" />
     </div>
@@ -371,17 +397,19 @@ export default {
     }
     .video-wrapper{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         width: 100%;
         padding: 2rem;
+        gap: 5rem;
         @media only screen and (max-width: 720px) {
             flex-direction: column;
             padding: 0;
         }
 
         .video-text{
-            padding: 5rem;
+            padding: 2rem 5rem;
+            width: 50%;
             display: flex;
             flex-direction: column;
             @media only screen and (max-width: 720px) {
@@ -409,6 +437,14 @@ export default {
                     font-size: .7rem;
                 }
             }
+        }
+        .videos {
+            max-width:550px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
         }
     }
 
@@ -495,8 +531,14 @@ export default {
         }
     }
     .additional-info-wrapper{
+        font-family: 'Poppins', sans-serif;
         h2{
-            padding-bottom: 0;
+            padding-bottom: 1rem;
+        }
+        p{
+            color: #0B3954;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem ;
         }
         .contact-info-wrapper{
         padding: 2rem 0;
@@ -505,15 +547,24 @@ export default {
         font-size: 1rem;
         display: flex;
         flex-direction: column;
-        text-align: left;
+        text-align: center;
+        gap: 2rem;
         h3{
             padding-bottom: 1rem;
         }
-        .contact-info-cards-wrapper{
+        .contact-info-inner-wrapper{
             display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5rem;
+            .contact-info-cards-wrapper{
+            display: flex;
+            flex-direction: column;
             gap: 3rem;
-        }
-            .contact-info{
+            .conference-contact-cards{
+                display: flex;
+                gap: 2rem;
+                .contact-info{
                 color: #0B3954;
                 font-family: 'Poppins', sans-serif;
                 font-size: 1rem;
@@ -523,13 +574,16 @@ export default {
                 }
                 a{
                     text-decoration: none;
-                    color: #0B3954;
+                    color: #000000;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     gap: .5rem;
                 }
             }
+            }
+        }
+        }
         }
     }
     .tickets-wrapper{

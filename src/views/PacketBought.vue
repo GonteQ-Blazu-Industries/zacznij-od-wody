@@ -1,13 +1,13 @@
 <template>
     <div class="enrollment-confirmation-wrapper">
-        <h1>DZIĘKUJEMY ZA ZAKUP BILETU!</h1>
+        <h1>DZIĘKUJEMY ZA ZAKUP PAKIETU 5 BILETÓW!</h1>
         <div class="transfer-info-wrapper">
             <h2>Dane do przelewu</h2>
             <p class="hover" title="Klikni, aby skopiować numer konta" @click="bankNumberClicked">Numer rachunku bankowego: <strong>10 1750 0012 0000 0000 3894 9691</strong></p>
             <p v-if="displayBankNumberCopyInfo">Skopiowano numer rachunku bankowego do schowka</p>
             <p class="hover" title="Kliknij, aby skopiować nazwę firmy" @click="companyNameClicked">Nazwa firmy: <strong>JAWJA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ</strong></p>
             <p v-if="displayCompanyNameCopyInfo">Skopiowano nazwę firmy do schowka</p>
-            <p>Cena: <strong>150zł</strong></p>
+            <p>Cena: <strong>675zł</strong></p>
             <h3>Po zaksięgowaniu wpłaty otrzymasz od nas potwierdzenie drogą mailową</h3>
         </div>
         <button @click="backToConference">WRÓĆ NA STRONĘ WYDARZENIA</button>

@@ -3,7 +3,7 @@
         <nav>
             <TheMeetingNavbar />
         </nav>
-        <h1>Kup bilet</h1>
+        <h1>Kup pakiet 5 biletów</h1>
         <h2>Dane</h2>
         <form>
             <div class="input-wrapper">
@@ -33,7 +33,7 @@
             </div>
             <p class="form-error" v-if="emailOrPhoneTaken">{{ emailOrPhoneTaken }}</p>
             <div class="button-wrapper">
-                <button @click="buyTicket">Kup bilet</button>
+                <button @click="buyTicket">Kup pakiet</button>
             </div>
         </form>
         <TheMeetingFooter class="footer" id="contact" />
@@ -168,9 +168,9 @@ export default {
                 lastName: lastName.value.trim(),
                 phone: phone.value.trim(),
                 message: message.value.trim(),
-                packet: false,
+                packet: true,
             }).then(() => {
-                router.push({ name: 'TicketBought' });
+                router.push({ name: 'PacketBought' });
             }).catch((err) => {
                 console.log(err.response.data.msg);
                 emailOrPhoneTaken.value = err.response.data.msg;

@@ -12,6 +12,8 @@ import PrivacyPolicy from '../views/PrivacyPolicyView.vue';
 import RzemienMeeting from '../views/RzemienMeeting.vue';
 import RzemienBuyTicket from '../views/RzemienBuyTicket.vue';
 import TicketBought from '../views/TicketBought.vue';
+import RzemienBuyPacket from '../views/RzemienBuyPacket.vue';
+import PacketBought from '../views/PacketBought.vue';
 // import NewsletterView from '../views/NewsletterView.vue';
 
 const routes = [
@@ -89,6 +91,26 @@ const routes = [
     path: '/dziekujemy-za-zakup-biletu',
     name: 'TicketBought',
     component: TicketBought,
+    meta: {
+      hideArrowDown: true,
+      hideNavbar: true,
+      hideFooter: true,
+    },
+  },
+  {
+    path: '/konferencja-rzemien-kup-pakiet',
+    name: 'RzemienBuyPacket',
+    component: RzemienBuyPacket,
+    meta: {
+      hideArrowDown: true,
+      hideNavbar: true,
+      hideFooter: true,
+    },
+  },
+  {
+    path: '/dziekujemy-za-zakup-pakietu',
+    name: 'PacketBought',
+    component: PacketBought,
     meta: {
       hideArrowDown: true,
       hideNavbar: true,
