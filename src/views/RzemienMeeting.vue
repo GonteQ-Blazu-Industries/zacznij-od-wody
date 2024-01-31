@@ -691,6 +691,7 @@ export default {
                 h4{
                     padding: 0rem 0;
                     font-size: 1.2rem;
+                    font-family: 'Poppins', sans-serif;
                     color: #FFFFFF;
                     @media only screen and (max-width: 720px) {
                         padding: .5rem 0;
