@@ -19,7 +19,8 @@
                 </p>
                 <div class="description-buttons">
                     <button class="more-info-button" href="#leaders-description"  v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">Dowiedz się więcej<span class="material-icons">expand_more</span></button>
-                    <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
+                    <button class="buy-ticket-button" href="#buy-ticket"  v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">Kup bilet<span class="material-icons">confirmation_number</span></button>
+                    <!-- <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button> -->
                 </div>
             </div>
            </div>
@@ -28,7 +29,7 @@
            </div>
         </div>
         <div class="leaders-description-wrapper" id="leaders-description">
-            <h3>Nasi prelegenci</h3>
+            <h2>Nasi prelegenci</h2>
             <div class="prelegents-wrapper">
                 <PrelegentDescription image="Malgorzata-Rakowska.webp" name=" dr Małgorzta Rakowska" description='Fizjoterapeutka i terapeutka manualna. Od 20 lat wspiera pacjentów w pozbywaniu się bólu. Łączy pracę ciała i emocji. Jej misją jest poszerzanie świadomości ciała, tak aby każdy potrafił dbać o mięśnie, emocje i myśli. Autorka książki "Codzienność bez bólu". Prowadzi Instytut na Polance.' />
                 <PrelegentDescription image="Tatiana-Kozuszna.webp" name="Tatiana Kożuszna" description="Od kilkunastu lat lekarz z misją edukacji dla utrzymania zdrowia. Wspiera tysiące osób w Polsce i na całym świecie. Systematycznie prowadzi spotkania Akademii Zdrowia w różnych miastach Polski. Współpracuje z lekarzami na całym świecie i prowadzi własne badania naukowe." />
@@ -36,16 +37,16 @@
                 <PrelegentDescription image="Bozena-Rzasa.jpg" name="Bożena Rząsa" description="Promotor zdrowia, od ponad 30 lat krzewi kulturę zdrowego odżywiania. Miłośniczka naturalnego stylu życia. Dzięki wiedzy makrobiotycznej pomaga ludziom przywracać dobry stan zdrowia." />
                 <PrelegentDescription image="Irena-Prochon-Dziewonska.jpg" name="Irena Prochoń-Dziewońska" description="Z domu wyniosła umiłowanie do natury. Chętnie dzieli się wiedzą, jaką zdobywała od najmłodszych lat od ojca zielarza i którą zdobywa nadal dzięki wspaniałym znawcom tego tematu w CoralClub." />
                 <PrelegentDescription image="Ewelina-Szymanska.jpg" name="Ewelina Szymańska" description="" />
-                <PrelegentDescription image="Justyna-Mucha.jpg" name="Justyna Mucha" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
-                <PrelegentDescription image="Rafal-Wozniak.webp" name="Rafał Woźniak" description="Od 7 lat kieruje polskim Coral Club. Ekspert od nowoczesnej przedsiębiorczości i współpracy z partnerami biznesowymi. Na co dzień wspomaga procesy biznesowe na rynku polskim i europejskim." />
-                <PrelegentDescription image="Lidia-Starzyk-Hudyka.jpg" name="Lidia Starzyk-Hudyka" description='Mama, przedsiębiorczyni kochająca życie i pozytywnych ludzi. Od 30 lat działa w branży beauty. Otwarta na rozwój, uznaje zasadę że "W życiu masz tyle, na ile się odważysz". ' />
                 <PrelegentDescription image="Janina-Machniak-Rozborska.jpg" name="Janina Machniak-Rozborska" description="Mama, kobieta z ogromną radością i pokojem serca, wytrwała i nieustępliwa. Dzięki łatwości nawiązywania kontaktów dociera do wielu osób, którym przekazuje cenne informacje dotyczące poprawy zdrowia i jakości życia." />
                 <PrelegentDescription image="Pawel-Bilski.webp" name="Paweł Bilski" description="Przedsiębiorca, rolnik, ekspert od nawadniania organizmu. Pasjonat zdrowego stylu życia. Otwarty na rozwój. Lubi inspirować ludzi i dzielić się z nimi wiedzą, tak by każdy mógł wziąć odpowiedzialność za zdrowie w swoje ręce. " />
                 <PrelegentDescription image="Andrzej-Kozuszny.webp" name="Andrzej Kożuszny" description="Ponad 15 lat temu zapoczątkował działalność Coral Club w Polsce, zakładając pierwsze biuro regionalne. Odniósł spektakularny sukces. Obecnie dzieli się swoim doświadczeniem i angażuje w rozwój partnerów biznesowych." />
+                <PrelegentDescription image="Rafal-Wozniak.webp" name="Rafał Woźniak" description="Od 7 lat kieruje polskim Coral Club. Ekspert od nowoczesnej przedsiębiorczości i współpracy z partnerami biznesowymi. Na co dzień wspomaga procesy biznesowe na rynku polskim i europejskim." />
+                <PrelegentDescription image="Lidia-Starzyk-Hudyka.jpg" name="Lidia Starzyk-Hudyka" description='Mama, przedsiębiorczyni kochająca życie i pozytywnych ludzi. Od 30 lat działa w branży beauty. Otwarta na rozwój, uznaje zasadę że "W życiu masz tyle, na ile się odważysz". ' />
+                <PrelegentDescription image="Justyna-Mucha.jpg" name="Justyna Mucha - PROWADZĄCA" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
             </div>
         </div>
         <div class="program-info-wrapper">
-            <h3 id="program-info">Program konferencji</h3>
+            <h2 id="program-info">Program konferencji</h2>
             <p><span class="material-icons">schedule</span>11:00-18:00</p>
             <TimeTitleCard time="11:00" title="Rozpoczęcie i powitanie" leader="Justyna Mucha" reversed="true"/>
             <TimeTitleCard time="11:15" title="4 Kroki do zdrowia" leader="Tatiana Kożuszna"/>
@@ -64,7 +65,7 @@
         </div>
         <div class="video-wrapper">
             <div class="video-text">
-                <h4>Zapraszamy!</h4>
+                <h2>Zapraszamy!</h2>
                 <p>Kilku z naszych prelegentów miało możliwość nagrać dla Was zaproszenie na naszą konferencję</p>
                 <p>Zobacz co mają ci do przekazania</p>
             </div>
@@ -73,7 +74,7 @@
             </div>
         </div>
         <div class="date-and-place-info-wrapper" id="date-and-place">
-            <h3>Konferencja odbędzie się:</h3>
+            <h2>Konferencja odbędzie się:</h2>
             <div class="conference-info">
                <div class="conference-info-text">
                 <h2>17.02.2024</h2>
@@ -88,17 +89,10 @@
                </div>
             </div>
         </div>
-        <!-- <div class="additional-info-wrapper">
-            <h3>Dodatkowe informacje</h3>
-            <div class="additional-info-text">
-                <p>W ośrodku jest możliwość noclegu</p>
-            </div>
-            <div class="acommodation-photo">
-                <img src="../assets/Nocleg.jpg" alt="zdjęcie poglądowe" height="350" width="500">
-            </div>
-        </div> -->
-        <div class="contact-info-wrapper">
-            <h3>Dane do kontaktu</h3>
+        <div class="additional-info-wrapper">
+            <h2>Dodatkowe informacje</h2>
+            <div class="contact-info-wrapper">
+                <h3>Dane do kontaktu</h3>
             <div class="contact-info-cards-wrapper">
                 <div class="contact-info">
                     <h4>Paweł Bilski</h4>
@@ -112,32 +106,37 @@
                 </div>
             </div>
         </div>
+        </div>
         <div class="tickets-wrapper" id="buy-ticket">
             <div class="ticket-heading">
                 <h2>Wybierz swój bilet</h2>
             </div>
             <div class="ticket-choice">
                 <div class="single-ticket">
-                    <h2>Jeden bilet</h2>
-                    <h3>Co zawiera bilet:</h3>
+                    <h3>Jeden bilet</h3>
+                    <h4>Co zawiera bilet:</h4>
                     <p><span class="material-icons">groups</span>udział w konferencji</p>
                     <p><span class="material-icons">restaurant</span>obiad</p>
                     <p><span class="material-icons">coffee</span>kawa i herbata</p>
                     <p><span class="material-icons">local_parking</span>bezpłatny parking</p>
-                    <h3>Cena: 150 zł</h3>
+                    <h3>Cena: 150 zł*</h3>
                     <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
                 </div>
                 <div class="ticket-package">
-                    <h2>Pakiet 5 biletów</h2>
-                    <h3>Co zawiera bilet:</h3>
+                    <h3>Pakiet 5 biletów</h3>
+                    <h4>Co zawiera bilet:</h4>
                     <p><span class="material-icons">groups</span>udział w konferencji</p>
                     <p><span class="material-icons">restaurant</span>obiad</p>
                     <p><span class="material-icons">coffee</span>kawa i herbata</p>
                     <p><span class="material-icons">local_parking</span>bezpłatny parking</p>
                     <h3 style="text-align: end;">Cena:</h3>
-                    <h3><s style="font-size: .9rem;">750zł</s> 700zł</h3>
+                    <h3><s style="font-size: .9rem;">750zł</s> 675zł</h3>
+                    <p>135 zł za osobę*</p>
                     <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
                 </div>
+            </div>
+            <div class="ticket-additional-info">
+                <p>*Cena za jedną osobę dorosłą. Za każde dziecko do lat 10 proszę doliczyć kwotę za sam posiłek w wysokości 50 zł.</p>
             </div>
         </div>
         <TheMeetingFooter class="footer" id="contact" />
@@ -328,7 +327,7 @@ export default {
         }
     }
 
-    h3{
+    h2{
         color: #0B3954;
         font-family: 'Poppins', sans-serif;
         font-size: 2rem;
@@ -354,7 +353,7 @@ export default {
             padding-bottom: .5rem;
             padding-top: .5rem;
         }
-        h3{
+        h2{
             padding-bottom: 0;
         }
         p{
@@ -388,7 +387,7 @@ export default {
             @media only screen and (max-width: 720px) {
                 padding: .2rem;
             }
-            h4{
+            h2{
                 font-family: 'Poppins', sans-serif;
                 font-size: 2rem;
                 color: #0B3954;
@@ -425,7 +424,7 @@ export default {
             padding-bottom: .5rem;
             padding-top: .5rem;
         }
-        h3{
+        h2{
             color: #FFFFFF;
             font-size: 2.5rem;
             @media only screen and (max-width: 720px) {
@@ -495,8 +494,21 @@ export default {
             }
         }
     }
-    .contact-info-wrapper{
+    .additional-info-wrapper{
+        h2{
+            padding-bottom: 0;
+        }
+        .contact-info-wrapper{
         padding: 2rem 0;
+        color: #0B3954;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        h3{
+            padding-bottom: 1rem;
+        }
         .contact-info-cards-wrapper{
             display: flex;
             gap: 3rem;
@@ -505,11 +517,9 @@ export default {
                 color: #0B3954;
                 font-family: 'Poppins', sans-serif;
                 font-size: 1rem;
-                display: flex;
-                flex-direction: column;
                 gap: .7rem;
                 h4{
-                    padding-bottom: .5rem;
+                    padding-bottom: 0.5rem;
                 }
                 a{
                     text-decoration: none;
@@ -520,6 +530,7 @@ export default {
                     gap: .5rem;
                 }
             }
+        }
     }
     .tickets-wrapper{
         padding: 2rem 0;
@@ -555,10 +566,11 @@ export default {
                 padding: 3rem;
                 border: 1px solid #0B3954;
                 border-radius: 8px;
+                gap: 1rem;
                 @media only screen and (max-width: 720px) {
                     padding: .5rem;
                 }
-                h2{
+                h3{
                     color: #0B3954;
                     font-family: 'Poppins', sans-serif;
                     font-size: 1.5rem;
@@ -568,7 +580,7 @@ export default {
                 }
                 p{
                     font-family: 'Poppins', sans-serif;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                     color: #0B3954;
                     display: flex;
                     align-items: center;
@@ -578,9 +590,11 @@ export default {
                         font-size: .7rem;
                     }
                 }
-                h3{
-                    padding: 2rem 0;
+                h4{
+                    padding: 1rem 0;
                     font-size: 1.2rem;
+                    color: #0B3954;
+                    font-family: 'Poppins', sans-serif;
                     @media only screen and (max-width: 720px) {
                         font-size: .9rem;
                         padding: .5rem 0;
@@ -600,7 +614,7 @@ export default {
                 @media only screen and (max-width: 720px) {
                     padding: .5rem;
                 }
-                h2{
+                h3{
                     color: #FFFFFF;
                     font-family: 'Poppins', sans-serif;
                     font-size: 1.5rem;
@@ -620,7 +634,7 @@ export default {
                         font-size: .7rem;
                     }
                 }
-                h3{
+                h4{
                     padding: 0rem 0;
                     font-size: 1.2rem;
                     color: #FFFFFF;
@@ -640,6 +654,14 @@ export default {
                         color: #0B3954;
                     }
                 }
+            }
+        }
+        .ticket-additional-info{
+            padding-top: 2rem;
+            p{
+                color: #000000;
+                font-family: 'Poppins', sans-serif;
+                font-size: .9rem;
             }
         }
     }
