@@ -103,7 +103,7 @@
             <h2>Dodatkowe informacje</h2>
             <p>Ze względu na to, że podczas jednego z wykładów bedziemy wykonywać ćwiczenia fizyczne, zalecany jest wygodny, niekrępujący ruchów strój &#128522;</p>
             <div class="contact-info-wrapper">
-                <h3>Dane do kontaktu</h3>
+                <h3 id="contact-info">Dane do kontaktu</h3>
                 <div class="contact-info-inner-wrapper">
                     <div class="contact-info-cards-wrapper">
                         <h4>W sprawie konferencji</h4>
@@ -115,8 +115,8 @@
                             </div>
                             <div class="contact-info">
                                 <h4>Tatiana Kożuszna</h4>
-                                <a href="tel:+48509714295"><span class="material-icons">call</span> +48 509 714 295</a>
-                                <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> pabil@interia.pl</a>
+                                <a href="tel:+606765215"><span class="material-icons">call</span> +48 606 765 215</a>
+                                <a href="mailto:pabil@interia.pl"><span class="material-icons">mail</span> TBD</a>
                             </div>
                         </div>
                     </div>
@@ -130,6 +130,7 @@
                             </div>
                         </div>
                     </div>
+                    <img src="../assets/Nocleg.jpg" alt="" width="250">
                 </div>
             </div>
         </div>
@@ -560,7 +561,7 @@ export default {
             .contact-info-cards-wrapper{
             display: flex;
             flex-direction: column;
-            gap: 3rem;
+            gap: 1.5rem;
             .conference-contact-cards{
                 display: flex;
                 gap: 2rem;
