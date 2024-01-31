@@ -130,7 +130,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="../assets/Nocleg.jpg" alt="" width="250">
+                    <img src="../assets/Nocleg.jpg" alt="" width="300">
                 </div>
             </div>
         </div>
