@@ -12,7 +12,7 @@
             <!-- <li class="the-meeting-navbar-item buy-ticket" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet</li> -->
         </ul>
         <div class="mobile-menu-icon-wrapper" @click="mobileMenuActive = !mobileMenuActive">
-            <a class="the-meeting-navbar-item-buy" href="#buy-ticket"  v-smooth-scroll="{duration: 1000, offset: -100, updateHistory: false,}">Kup bilet</a>
+            <a class="the-meeting-navbar-item-buy" href="#buy-ticket"  v-smooth-scroll="{duration: 1000, offset: -120, updateHistory: false,}">Kup bilet</a>
         </div>
     </div>
 </template>

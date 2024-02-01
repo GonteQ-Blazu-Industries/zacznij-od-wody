@@ -34,23 +34,22 @@
                 <div class="health-benefits">
                     <h3>Zdrowie</h3>
                     <ul>
-                        <li>Poznasz konkretne sposoby jak radzić sobie ze stresem.</li>
                         <li>Spojrzysz na swoje zdrowie z szerszej perspektywy.</li>
-                        <li>Spojrzysz na swoje zdrowie z szerszej perspektywy.</li>
-                        <li>Nauczysz się instrukcji obsługi ciała, aby utrzymać przewlekłe zdrowie.</li>
-                        <li>Przekonasz się, że zadbanie o piękno i fizyczną sprawność może być proste!</li>
-                        <li>Dostaniesz przepis na odporność, aby przez cały rok być zdrowym.</li>
+                        <li>Poznasz proste i skuteczne sposoby uzupełniania niedoborów w diecie.</li>
+                        <li>Nauczysz się co i kiedy należy jeść oraz jaką rolę w diecie odgrywają tłuszcze.</li>
+                        <li>Dowiesz się jak emocje wpływają na ciało i jak uwolnić się od ich negatywnych skutków.</li>
+                        <li>Przekonasz się, że możliwe jest życie bez bólu.</li>
+
                     </ul>
                 </div>
                 <div class="growth-benefits">
                     <h3>Rozwój</h3>
                     <ul>
-                        <li>Poznasz konkretne sposoby jak radzić sobie ze stresem.</li>
-                        <li>Spojrzysz na swoje zdrowie z szerszej perspektywy.</li>
-                        <li>Spojrzysz na swoje zdrowie z szerszej perspektywy.</li>
-                        <li>Nauczysz się instrukcji obsługi ciała, aby utrzymać przewlekłe zdrowie.</li>
-                        <li>Przekonasz się, że zadbanie o piękno i fizyczną sprawność może być proste!</li>
-                        <li>Dostaniesz przepis na odporność, aby przez cały rok być zdrowym.</li>
+                        <li>Otworzysz się na nowe możliwości wzrostu i rozwoju.</li>
+                        <li>Dowiesz się jak dbać o zdrowie nie nadwyrężając budżetu domowego.</li>
+                        <li>Odkryjesz zalety partnerstwa biznesowego z Coral Club.</li>
+                        <li>Jak przedstawiać, edyfikować tych, którzy dla ciebie pracują.</li>
+                        <li>Otrzymasz dużo motywacji i gotowych wskazówek.</li>
                     </ul>
                 </div>
             </div>
@@ -223,7 +222,6 @@ export default {
     width: 100vw;
     @media only screen and (max-width: 720px) {
         padding: 0;
-        max-width: 320px;
     }
 
     nav{
@@ -362,11 +360,25 @@ export default {
             gap: 5rem;
             padding: 2rem 10rem;
             text-align: left;
+            line-height: 2rem;
+            align-items: center;
+            justify-content: center;
+            @media only screen and (max-width: 720px) {
+                flex-direction: column;
+                padding: 1.5rem .7rem;
+                width: 100%;
+                gap: 1rem;
+            }
         }
         .health-benefits{
             padding: 3rem 2rem;
             border: 1.5px solid #E0E1DD;
             border-radius: 8px;
+            max-width: 40%;
+            @media only screen and (max-width: 720px) {
+                max-width: 100%;
+                padding: .1rem 2rem;
+            }
             h3{
                 text-align: center;
                 padding-bottom: 1.2rem;
@@ -376,6 +388,11 @@ export default {
             padding: 3rem 2rem;
             border: 1.5px solid #E0E1DD;
             border-radius: 8px;
+            max-width: 40%;
+            @media only screen and (max-width: 720px) {
+                max-width: 100%;
+                padding: .1rem 2rem;
+            }
             h3{
             text-align: center;
             padding-bottom: 1.2rem;
@@ -807,6 +824,7 @@ export default {
         width: 100vw;
         @media only screen and (max-width: 720px) {
             height: 5rem;
+            width: 100%;
         }
     }
 }
