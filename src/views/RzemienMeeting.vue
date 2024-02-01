@@ -18,7 +18,7 @@
                     Zapraszamy na inspirującą konferencję, która połączy dwie kluczowe sfery życia - pozytywne myślenie i prawidłowe odżywianie. Odkryj, w jaki sposób te dwa elementy mogą wspólnie tworzyć fundamenty zdrowego i szczęśliwego życia. Czekamy na Ciebie!
                 </p>
                 <div class="description-buttons">
-                    <button class="more-info-button" href="#leaders-description"  v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">Dowiedz się więcej<span class="material-icons">expand_more</span></button>
+                    <button class="more-info-button" href="#benefits-info"  v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">Dowiedz się więcej<span class="material-icons">expand_more</span></button>
                     <button class="buy-ticket-button" href="#buy-ticket"  v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">Kup bilet<span class="material-icons">confirmation_number</span></button>
                     <!-- <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button> -->
                 </div>
@@ -28,11 +28,38 @@
             <img src="@/assets/zdrowe-jedzenie.jpg" alt="zdjęcie poglądowe" height="350" width="500">
            </div>
         </div>
+        <div class="benefits-for-participants-wrapper" id="benefits-info">
+            <h2>Dlaczego warto wziąć udział?</h2>
+            <div class="benefits-info">
+                <div class="health-benefits">
+                    <h3>Zdrowie</h3>
+                    <ul>
+                        <li>Poznasz konkretne sposoby jak radzić sobie ze stresem.</li>
+                        <li>Spojrzysz na swoje zdrowie z szerszej perspektywy.</li>
+                        <li>Spojrzysz na swoje zdrowie z szerszej perspektywy.</li>
+                        <li>Nauczysz się instrukcji obsługi ciała, aby utrzymać przewlekłe zdrowie.</li>
+                        <li>Przekonasz się, że zadbanie o piękno i fizyczną sprawność może być proste!</li>
+                        <li>Dostaniesz przepis na odporność, aby przez cały rok być zdrowym.</li>
+                    </ul>
+                </div>
+                <div class="growth-benefits">
+                    <h3>Rozwój</h3>
+                    <ul>
+                        <li>Poznasz konkretne sposoby jak radzić sobie ze stresem.</li>
+                        <li>Spojrzysz na swoje zdrowie z szerszej perspektywy.</li>
+                        <li>Spojrzysz na swoje zdrowie z szerszej perspektywy.</li>
+                        <li>Nauczysz się instrukcji obsługi ciała, aby utrzymać przewlekłe zdrowie.</li>
+                        <li>Przekonasz się, że zadbanie o piękno i fizyczną sprawność może być proste!</li>
+                        <li>Dostaniesz przepis na odporność, aby przez cały rok być zdrowym.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="leaders-description-wrapper" id="leaders-description">
             <h2>Nasi prelegenci</h2>
             <div class="prelegents-wrapper">
                 <PrelegentDescription image="Malgorzata-Rakowska.webp" name=" dr Małgorzta Rakowska" description='Fizjoterapeutka i terapeutka manualna. Od 20 lat wspiera pacjentów w pozbywaniu się bólu. Łączy pracę ciała i emocji. Jej misją jest poszerzanie świadomości ciała, tak aby każdy potrafił dbać o mięśnie, emocje i myśli. Autorka książki "Codzienność bez bólu". Prowadzi Instytut na Polance.' />
-                <PrelegentDescription image="Tatiana-Kozuszna.webp" name="Tatiana Kożuszna" description="Od kilkunastu lat lekarz z misją edukacji dla utrzymania zdrowia. Wspiera tysiące osób w Polsce i na całym świecie. Systematycznie prowadzi spotkania Akademii Zdrowia w różnych miastach Polski. Współpracuje z lekarzami na całym świecie i prowadzi własne badania naukowe." />
+                <PrelegentDescription image="Tatiana-Kozuszna.webp" name="dr Tatiana Kożuszna" description="Od kilkunastu lat lekarz z misją edukacji dla utrzymania zdrowia. Wspiera tysiące osób w Polsce i na całym świecie. Systematycznie prowadzi spotkania Akademii Zdrowia w różnych miastach Polski. Współpracuje z lekarzami na całym świecie i prowadzi własne badania naukowe." />
                 <PrelegentDescription image="Joanna-Marszalek.jpg" name="Joanna Marszałek" description="Żona i mama trójki dzieci (czwarte w drodze). Z zawodu pielegniarka. Jej największą wartością jest rodzina i zdrowie. Pasjonuje się naturalnymi metodami leczenia oraz medycyną chinską. Uwielbia pracę z ludzmi, zdrowe jedzenie oraz podróże." />
                 <PrelegentDescription image="Bozena-Rzasa.jpg" name="Bożena Rząsa" description="Promotor zdrowia, od ponad 30 lat krzewi kulturę zdrowego odżywiania. Miłośniczka naturalnego stylu życia. Dzięki wiedzy makrobiotycznej pomaga ludziom przywracać dobry stan zdrowia." />
                 <PrelegentDescription image="Irena-Prochon-Dziewonska.jpg" name="Irena Prochoń-Dziewońska" description="Z domu wyniosła umiłowanie do natury. Chętnie dzieli się wiedzą, jaką zdobywała od najmłodszych lat od ojca zielarza i którą zdobywa nadal dzięki wspaniałym znawcom tego tematu w CoralClub." />
@@ -49,7 +76,7 @@
             <h2 id="program-info">Program konferencji</h2>
             <p><span class="material-icons">schedule</span>11:00 - 18:30</p>
             <TimeTitleCard time="11:00" title="11:00 - 11:15 | Rozpoczęcie i powitanie" leader="" reversed="true"/>
-            <TimeTitleCard time="" title="4 Kroki do zdrowia" leader="Tatiana Kożuszna"/>
+            <TimeTitleCard time="" title="4 Kroki do zdrowia" leader=" dr Tatiana Kożuszna"/>
             <TimeTitleCard time="11:40" title="Dieta zgodna z porami roku" leader="Joanna Marszałek"/>
             <TimeTitleCard time="12:05" title="Dobre tłuszcze oraz zagrożenia związane z ich niedoborami" leader="Bożena Rząsa"/>
             <TimeTitleCard time="12:30" title="12:30 - 12:45 | Przerwa kawowa" reversed="true"/>
@@ -79,7 +106,7 @@
                     <iframe width="250" height="130" src="https://www.youtube.com/embed/vrg2qGPalms?si=g1iwRHA9oQtWrhR6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="youtube-video">
-                    <iframe width="250" height="130" src="https://www.youtube.com/embed/vrg2qGPalms?si=g1iwRHA9oQtWrhR6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="250" height="130" src="https://www.youtube.com/embed/iK62wRlnbb4?si=c_53xLR_Riw15gWT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -323,7 +350,38 @@ export default {
             font-size: 1.2rem;
         }
     }
-
+    .benefits-for-participants-wrapper{
+        font-family: 'Poppins', sans-serif;
+        color: #0B3954;
+        text-align: center;
+        font-size: 1.2rem;
+        padding-top: 2rem;
+        font-weight: 100;
+        .benefits-info{
+            display: flex;
+            gap: 5rem;
+            padding: 2rem 10rem;
+            text-align: left;
+        }
+        .health-benefits{
+            padding: 3rem 2rem;
+            border: 1.5px solid #E0E1DD;
+            border-radius: 8px;
+            h3{
+                text-align: center;
+                padding-bottom: 1.2rem;
+            }
+        }
+        .growth-benefits{
+            padding: 3rem 2rem;
+            border: 1.5px solid #E0E1DD;
+            border-radius: 8px;
+            h3{
+            text-align: center;
+            padding-bottom: 1.2rem;
+            }
+        }        
+    }
     .leaders-description-wrapper{
         display: flex;
         flex-direction: column;
