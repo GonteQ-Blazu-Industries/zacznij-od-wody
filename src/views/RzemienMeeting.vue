@@ -47,7 +47,7 @@
                         <li>Otworzysz się na nowe możliwości wzrostu i rozwoju.</li>
                         <li>Dowiesz się jak dbać o zdrowie nie nadwyrężając budżetu domowego.</li>
                         <li>Odkryjesz zalety partnerstwa biznesowego z Coral Club.</li>
-                        <li>Jak przedstawiać, edyfikować tych, którzy dla ciebie pracują.</li>
+                        <li>Jak przedstawiać ekspertów i liderów firmy.</li>
                         <li>Otrzymasz dużo motywacji i gotowych wskazówek.</li>
                     </ul>
                 </div>
