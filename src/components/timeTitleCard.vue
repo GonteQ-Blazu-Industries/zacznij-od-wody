@@ -34,6 +34,7 @@ export default {
         font-weight: 300;
         @media only screen and (max-width: 720px) {
             font-size: 1rem;
+            font-weight: 400;
         }
     }
     h4{

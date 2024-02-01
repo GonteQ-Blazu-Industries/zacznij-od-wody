@@ -39,7 +39,6 @@
                         <li>Nauczysz się co i kiedy należy jeść oraz jaką rolę w diecie odgrywają tłuszcze.</li>
                         <li>Dowiesz się jak emocje wpływają na ciało i jak uwolnić się od ich negatywnych skutków.</li>
                         <li>Przekonasz się, że możliwe jest życie bez bólu.</li>
-
                     </ul>
                 </div>
                 <div class="growth-benefits">
@@ -274,6 +273,7 @@ export default {
                 font-size: 2.1rem;
                 @media only screen and (max-width: 720px) {
                     font-size: 1.2rem;
+                    text-align: center;
                 }
             }
             .date-and-place-wrapper{
@@ -313,6 +313,7 @@ export default {
                         font-size: 0.9rem;
                         max-width: 80vw;
                         gap: .5rem;
+                        text-align: center;
                     }
                 }
 
@@ -383,6 +384,11 @@ export default {
                 text-align: center;
                 padding-bottom: 1.2rem;
             }
+            ul{
+                li{
+                    font-weight: 400;
+                }
+            }
         }
         .growth-benefits{
             padding: 3rem 2rem;
@@ -397,7 +403,12 @@ export default {
             text-align: center;
             padding-bottom: 1.2rem;
             }
-        }        
+            ul{
+                li{
+                    font-weight: 400;
+                }
+            }
+        }
     }
     .leaders-description-wrapper{
         display: flex;
