@@ -14,6 +14,8 @@ import RzemienBuyTicket from '../views/RzemienBuyTicket.vue';
 import TicketBought from '../views/TicketBought.vue';
 import RzemienBuyPacket from '../views/RzemienBuyPacket.vue';
 import PacketBought from '../views/PacketBought.vue';
+import Login from '../views/Login.vue';
+import Dashboard from '../views/Dashboard.vue';
 // import NewsletterView from '../views/NewsletterView.vue';
 
 const routes = [
@@ -111,6 +113,26 @@ const routes = [
     path: '/dziekujemy-za-zakup-pakietu',
     name: 'PacketBought',
     component: PacketBought,
+    meta: {
+      hideArrowDown: true,
+      hideNavbar: true,
+      hideFooter: true,
+    },
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login,
+    meta: {
+      hideArrowDown: true,
+      hideNavbar: true,
+      hideFooter: true,
+    },
+  },
+  {
+    path: '/dashboard',
+    name: 'Dashboard',
+    component: Dashboard,
     meta: {
       hideArrowDown: true,
       hideNavbar: true,
