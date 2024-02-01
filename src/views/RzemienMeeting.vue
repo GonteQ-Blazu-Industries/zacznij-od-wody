@@ -47,7 +47,7 @@
                         <li>Otworzysz się na nowe możliwości wzrostu i rozwoju.</li>
                         <li>Dowiesz się jak dbać o zdrowie nie nadwyrężając budżetu domowego.</li>
                         <li>Odkryjesz zalety partnerstwa biznesowego z Coral Club.</li>
-                        <li>Jak przedstawiać ekspertów i liderów firmy.</li>
+                        <li>Nauczysz się jak przedstawiać ekspertów i liderów firmy.</li>
                         <li>Otrzymasz dużo motywacji i gotowych wskazówek.</li>
                     </ul>
                 </div>
@@ -376,6 +376,7 @@ export default {
             border: 1.5px solid #E0E1DD;
             border-radius: 8px;
             max-width: 40%;
+            height: 500px;
             @media only screen and (max-width: 720px) {
                 max-width: 100%;
                 padding: .1rem 2rem;
@@ -395,6 +396,7 @@ export default {
             border: 1.5px solid #E0E1DD;
             border-radius: 8px;
             max-width: 40%;
+            height: 500px;
             @media only screen and (max-width: 720px) {
                 max-width: 100%;
                 padding: .1rem 2rem;
