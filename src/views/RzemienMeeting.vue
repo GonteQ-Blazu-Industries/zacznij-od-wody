@@ -126,7 +126,8 @@
         </div>
         <div class="additional-info-wrapper">
             <h2>Dodatkowe informacje</h2>
-            <p>Ze względu na to, że podczas jednego z wykładów bedziemy wykonywać ćwiczenia fizyczne, zalecany jest wygodny, niekrępujący ruchów strój &#128522;</p>
+            <p>Ze względu na to, że podczas jednego z wykładów bedziemy wykonywać ćwiczenia fizyczne, zalecany jest wygodny, niekrępujący ruchów strój.</p>
+            <p>Mile widziana mata do ćwiczeń  &#128522;</p>
             <div class="contact-info-wrapper">
                 <h3 id="contact-info">Dane do kontaktu</h3>
                 <div class="contact-info-inner-wrapper">
@@ -165,28 +166,31 @@
                     <p><span class="material-icons">groups</span>udział w konferencji</p>
                     <p><span class="material-icons">restaurant</span>obiad</p>
                     <p><span class="material-icons">coffee</span>kawa i herbata</p>
+                    <p><span class="material-icons">cookie</span>podwieczorek</p>
                     <p><span class="material-icons">local_parking</span>bezpłatny parking</p>
                     <h3>Cena: 150 zł</h3>
                     <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
                 </div>
                 <div class="ticket-package">
-                    <h3>Pakiet 5 biletów</h3>
+                    <h3>Pakiet 5 biletów<sup>*</sup></h3>
                     <h4>Co zawiera bilet:</h4>
                     <p><span class="material-icons">groups</span>udział w konferencji</p>
                     <p><span class="material-icons">restaurant</span>obiad</p>
                     <p><span class="material-icons">coffee</span>kawa i herbata</p>
+                    <p><span class="material-icons">cookie</span>podwieczorek</p>
                     <p><span class="material-icons">local_parking</span>bezpłatny parking</p>
+
                     <h3 style="text-align: end;">Cena:</h3>
                     <h3><s style="font-size: .9rem;">750zł</s> 675zł</h3>
                     <p>135 zł za osobę</p>
                     <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyPacket' })">Kup bilet<span class="material-icons">confirmation_number</span></button>
                 </div>
             </div>
-            <!-- <div class="ticket-additional-info">
-                <p><sup>*</sup>Cena za jedną osobę dorosłą. Za każde dziecko do lat 10 proszę doliczyć kwotę za sam posiłek w wysokości 50 zł.</p>
-            </div> -->
+            <div class="ticket-additional-info">
+                <p><sup>*</sup>Przy wyborze pakietu 5 biletów prosimy o wpisanie w wiadomości dodatkowej imion i nazwisk osób, dla których pakiet jest kupowany.</p>
+            </div>
         </div>
-        <TheMeetingFooter class="footer" id="contact" />
+        <TheMeetingFooter class="footer" />
     </div>
 </template>
 
