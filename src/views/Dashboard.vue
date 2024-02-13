@@ -7,6 +7,7 @@
             <table v-if="!loading && enrollments.length >0" >
                 <thead>
                     <tr>
+                        <th>lp.</th>
                         <th>Imię</th>
                         <th>Nazwisko</th>
                         <th>E-mail</th>
@@ -19,7 +20,8 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="enrollment in enrollments" :key="enrollment.id">
+                    <tr v-for="(enrollment, index) in enrollments" :key="enrollment.id">
+                        <td>{{ index+1 }}</td>
                         <td>{{ enrollment.firstName }}</td>
                         <td>{{ enrollment.lastName }}</td>
                         <td>{{ enrollment.email }}</td>
@@ -114,7 +116,6 @@ export default {
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: calc(100% - 9rem);
         padding: 0 5rem;
         table {
             width: 100%;
