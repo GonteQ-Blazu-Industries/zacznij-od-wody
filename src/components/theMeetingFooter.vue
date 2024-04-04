@@ -44,6 +44,7 @@
     }
     .footer-copyright-info{
         p{
+            font-family: 'Poppins', sans-serif;
             @media only screen and (max-width: 720px) {
                 font-size: .7rem;
             }

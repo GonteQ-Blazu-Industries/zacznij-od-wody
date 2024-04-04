@@ -19,7 +19,7 @@
                 </p>
                 <div class="description-buttons">
                     <button class="more-info-button" href="#benefits-info"  v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">Dowiedz się więcej<span class="material-icons">expand_more</span></button>
-                    <button class="buy-ticket-button" href="#buy-ticket"  v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">Kup bilet<span class="material-icons">confirmation_number</span></button>
+                    <!-- <button class="buy-ticket-button" href="#buy-ticket"  v-smooth-scroll="{duration: 1000, offset: -20, updateHistory: false,}">Kup bilet<span class="material-icons">confirmation_number</span></button> -->
                     <!-- <button class="buy-ticket-button" @click="$router.push({ name: 'RzemienBuyTicket' })">Kup bilet<span class="material-icons">confirmation_number</span></button> -->
                 </div>
             </div>
@@ -88,7 +88,7 @@
             <TimeTitleCard time="17:10" title="Wyróznienia i historie sukcesu" leader="prowadzi Janina Machniak-Rozborska"/>
             <TimeTitleCard time="17:35" title="Produkty za darmo? Jest na to sposób" leader="Paweł Bilski"/>
             <TimeTitleCard time="18:00" title="Perspektywy na przyszłość" leader="Andrzej Kożuszny"/>
-            <TimeTitleCard time="18:30" title="18:30 | Zakończenie" reversed="true"/>
+            <TimeTitleCard time="18:30" title="18:30 | Podwieczorek" reversed="true"/>
         </div>
         <div class="video-wrapper">
             <div class="video-text">
@@ -156,7 +156,7 @@
             </div>
         </div>
         <div class="tickets-wrapper" id="buy-ticket">
-            <div class="ticket-heading">
+            <!-- <div class="ticket-heading">
                 <h2>Wybierz swój bilet</h2>
             </div>
             <div class="ticket-choice">
@@ -188,7 +188,8 @@
             </div>
             <div class="ticket-additional-info">
                 <p><sup>*</sup>Przy wyborze pakietu 5 biletów prosimy o wpisanie w wiadomości dodatkowej imion i nazwisk osób, dla których pakiet jest kupowany.</p>
-            </div>
+            </div> -->
+            <h2>Sprzedaż biletów została zakończona</h2>
         </div>
         <TheMeetingFooter class="footer" />
     </div>
