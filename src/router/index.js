@@ -9,11 +9,11 @@ import WaterParameters from '../views/WaterParameters.vue';
 import CleanWater from '../views/CleanWater.vue';
 import EmailThanks from '../views/emailThanks.vue';
 import PrivacyPolicy from '../views/PrivacyPolicyView.vue';
-import RzemienMeeting from '../views/RzemienMeeting.vue';
-// import RzemienBuyTicket from '../views/RzemienBuyTicket.vue';
-// import TicketBought from '../views/TicketBought.vue';
-// import RzemienBuyPacket from '../views/RzemienBuyPacket.vue';
-// import PacketBought from '../views/PacketBought.vue';
+import RzemienMeeting from '../views/RzemienMeetingNew.vue';
+import RzemienBuyTicket from '../views/RzemienBuyTicketNew.vue';
+import TicketBought from '../views/TicketBoughtNew.vue';
+import RzemienBuyPacket from '../views/RzemienBuyPacketNew.vue';
+import PacketBought from '../views/PacketBoughtNew.vue';
 import Login from '../views/Login.vue';
 import Dashboard from '../views/Dashboard.vue';
 // import NewsletterView from '../views/NewsletterView.vue';
@@ -79,46 +79,46 @@ const routes = [
       hideFooter: true,
     },
   },
-  // {
-  //   path: '/konferencja-rzemien-kup-bilet',
-  //   name: 'RzemienBuyTicket',
-  //   component: RzemienBuyTicket,
-  //   meta: {
-  //     hideArrowDown: true,
-  //     hideNavbar: true,
-  //     hideFooter: true,
-  //   },
-  // },
-  // {
-  //   path: '/dziekujemy-za-zakup-biletu',
-  //   name: 'TicketBought',
-  //   component: TicketBought,
-  //   meta: {
-  //     hideArrowDown: true,
-  //     hideNavbar: true,
-  //     hideFooter: true,
-  //   },
-  // },
-  // {
-  //   path: '/konferencja-rzemien-kup-pakiet',
-  //   name: 'RzemienBuyPacket',
-  //   component: RzemienBuyPacket,
-  //   meta: {
-  //     hideArrowDown: true,
-  //     hideNavbar: true,
-  //     hideFooter: true,
-  //   },
-  // },
-  // {
-  //   path: '/dziekujemy-za-zakup-pakietu',
-  //   name: 'PacketBought',
-  //   component: PacketBought,
-  //   meta: {
-  //     hideArrowDown: true,
-  //     hideNavbar: true,
-  //     hideFooter: true,
-  //   },
-  // },
+  {
+    path: '/konferencja-rzemien-kup-bilet',
+    name: 'RzemienBuyTicket',
+    component: RzemienBuyTicket,
+    meta: {
+      hideArrowDown: true,
+      hideNavbar: true,
+      hideFooter: true,
+    },
+  },
+  {
+    path: '/dziekujemy-za-zakup-biletu',
+    name: 'TicketBought',
+    component: TicketBought,
+    meta: {
+      hideArrowDown: true,
+      hideNavbar: true,
+      hideFooter: true,
+    },
+  },
+  {
+    path: '/konferencja-rzemien-kup-pakiet',
+    name: 'RzemienBuyPacket',
+    component: RzemienBuyPacket,
+    meta: {
+      hideArrowDown: true,
+      hideNavbar: true,
+      hideFooter: true,
+    },
+  },
+  {
+    path: '/dziekujemy-za-zakup-pakietu',
+    name: 'PacketBought',
+    component: PacketBought,
+    meta: {
+      hideArrowDown: true,
+      hideNavbar: true,
+      hideFooter: true,
+    },
+  },
   {
     path: '/login',
     name: 'Login',
