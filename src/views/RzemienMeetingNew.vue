@@ -67,6 +67,7 @@
                 <PrelegentDescription image="Ewelina-Szymanska.jpg" name="Ewelina Szymańska" description="Mama, żona, kobieta sumienna, cierpliwa i wytrwała. Na codzień prowadzi sklep ze zdrową żywnością. Wykorzystując koncepcję Coral Club pomaga wielu osobom wrócic do zdrowia." />
                 <PrelegentDescription image="Justyna-Mucha.jpg" name="Justyna Mucha" description="Łączy naukę i empatię w swojej pracy jako diagnosta laboratoryjny, dietetyk kliniczny i pedagog. Jej serce bije w rytmie medycyny naturalnej, gdzie zdrowie jest harmonią między ciałem a naturą." />
                 <PrelegentDescription image="Nadia-Slaszczowa.jpg" name="Nadia Slaszczowa" description="Brylantowy dyrektor Coral Club, od dwóch lat mieszka w Polsce. Współpracuje z ludźmi z wielu krajów. W swojej pracy umiejętnie wykorzystuje social media aby dotrzeć z koncepcją 4 Kroków do Zdrowia do jak największej liczy osób." />
+                <PrelegentDescription image="Ola-Zietek.jpg" name="Aleksandra Ziętek" description="Diagnosta laboratoryjny - mikrobiolog. Pasjonuje się medycyną naturalną, ciągle poszukuje nowych informacji i udokumentowanych badań naukowych w tej dziedzinie. Z wielką przyjemnością niesie pomoc innym." />
                 <PrelegentDescription image="Jola-Dziurko.jpg" name="Jolanta Dziurko - PROWADZĄCA" description="Pielęgniarka z wieloletnim stażem. Propagatorka koncepcji 4 Kroków do Zdrowia i współorganizatorka Maratonów Zdrowia. Interesuje się wpływem emocji na ciało, stawia na naukę oraz rozwój osobisty by zdrowo i pięknie żyć. " />
             </div>
         </div>
@@ -79,6 +80,7 @@
             <TimeTitleCard time="" title="Wiosną zadbaj o swój układ ruchu." leader="dr Tatiana Kożuszna"/>
             <TimeTitleCard time="" title="11:45 - 12:00 | Przerwa kawowa" reversed="true"/>
             <TimeTitleCard time="" title="Badania obrazowe tęczówki oka jako wczesna profilaktyka zdrowia" leader="dr Andrzej Święcicki"/>
+            <TimeTitleCard time="" title="Mikrobiom człowieka - czyli witaminy w DŻUNGLI!" leader="Aleksandra Ziętek"/>
             <TimeTitleCard time="" title="Produkty - narzędzia do poprawy zdrowia i rozwoju" leader="Lidia Starzyk-Hudyka"/>
             <TimeTitleCard time="" title="Efekty zdrowotne" leader="prowadzi Ewelina Szymańska"/>
             <TimeTitleCard time="" title="14:00 - 15:00 | Obiad" reversed="true"/>
@@ -98,7 +100,7 @@
             </div>
             <div class="videos">
                 <div class="youtube-video">
-                    <!--<iframe width="250" height="130" src="https://youtube.com/embed/9vNafOSZTAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+                    <iframe width="250" height="130" src="https://youtube.com/embed/5ckFqT--PSM?si=gtNhqu2VlBbre3WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="youtube-video">
                     <iframe width="250" height="130" src="https://www.youtube.com/embed/4jAFCi1aWg8?si=daTeHfpRiELOE2QW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
