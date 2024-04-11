@@ -189,9 +189,9 @@
                 </div>
             </div>
             <div class="ticket-additional-info">
-                <div class="points-notice">
+                <!-- <div class="points-notice">
                     <p><strong>Warunkiem uczestnictwa w konferencji jest obrót osobisty 50 pkt. w kwietniu.</strong></p>
-                </div>
+                </div> -->
                 <p><sup>*</sup>Przy wyborze pakietu biletów prosimy o wpisanie w wiadomości dodatkowej imion i nazwisk osób ze swojej struktury, dla których pakiet jest kupowany.</p>
             </div>
         </div>
